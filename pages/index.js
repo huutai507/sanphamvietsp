@@ -47,7 +47,7 @@ export default function Home() {
           <input
             className="input-search"
             type="text"
-            placeholder="Enter product code in reel, example: C3"
+            placeholder="Enter product code in reel, example: 3"
             onChange={inputHandler}
             value={inputSearch}
           />
@@ -128,14 +128,17 @@ export default function Home() {
               </div>
               <div className="product-item">
                 <a
-                  href="https://5860094j32mu73fcsbtmv6w6vo.hop.clickbank.net/?tid=DIETHT"
+                  href="https://s.click.aliexpress.com/e/_A4qfcP"
                   target="_blank"
                   className="afflink"
                 >
-                  <img src="./diet.png" className="imglink" />
+                  <img
+                    src="//ae01.alicdn.com/kf/Hf2eb9cf6e1624c14b7027532f2e47bb5G.jpg_350x350.jpg"
+                    className="imglink"
+                  />
                 </a>
                 <div className="product-text">
-                  <p>The Smoothie Diet</p>
+                  <p>Cheap Pet Shop</p>
                 </div>
               </div>
               {listProduct.map((item, index) => (
