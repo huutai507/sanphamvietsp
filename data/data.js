@@ -117,6 +117,12 @@ export const productList = [
 ];
 export const toolList = [
   {
+    name: "26",
+    afflink: "https://s.click.aliexpress.com/e/_ABIx2B",
+    imglink:
+      "//ae01.alicdn.com/kf/H51ba0fee97af4df6a301fc20c6697a92V.jpg_350x350.jpg"
+  },
+  {
     name: "25",
     afflink: "https://s.click.aliexpress.com/e/_AWyIPV",
     imglink:
