@@ -8,6 +8,11 @@ export const productList = [
 ];
 export const toolList = [
   {
+    name: "2",
+    afflink: "https://amzn.to/37ZBRX7",
+    imglink: "https://m.media-amazon.com/images/I/41uQA886rAL._SL350_.jpg"
+  },
+  {
     name: "1",
     afflink: "https://amzn.to/3wzIF88",
     imglink: "https://m.media-amazon.com/images/I/41VMwL3YysL._SL350_.jpg"
