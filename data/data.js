@@ -1,5 +1,10 @@
 export const productList = [
   {
+    name: "2",
+    afflink: "https://amzn.to/3wMary8",
+    imglink: "https://m.media-amazon.com/images/I/51rbj8CCfpL._SL350_.jpg"
+  },
+  {
     name: "1",
     afflink: "https://amzn.to/3IPgwMD",
     imglink: "https://m.media-amazon.com/images/I/51mnwut4YAL._SL350_.jpg"
