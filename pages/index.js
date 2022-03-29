@@ -93,20 +93,6 @@ export default function Home() {
           </div>
         ) : (
           <div>
-            <div className="invite-friends">
-              <p>
-                Knock, knock! An AliExpress coupon gift is waiting for you.
-                Access my unique link to enjoy US $8.00 off the items from all
-                over the world!
-              </p>
-              <a
-                href="https://a.aliexpress.com/_ms6YXDW"
-                target="_blank"
-                className="install-app"
-              >
-                Register Now
-              </a>
-            </div>
             <InfiniteScroll
               dataLength={listProduct.length}
               next={fetchMoreData}
@@ -124,21 +110,6 @@ export default function Home() {
                 </a>
                 <div className="product-text">
                   <p>Eliminate Bad Behavior Your Dog's</p>
-                </div>
-              </div>
-              <div className="product-item">
-                <a
-                  href="https://s.click.aliexpress.com/e/_A4qfcP"
-                  target="_blank"
-                  className="afflink"
-                >
-                  <img
-                    src="//ae01.alicdn.com/kf/Hf2eb9cf6e1624c14b7027532f2e47bb5G.jpg_350x350.jpg"
-                    className="imglink"
-                  />
-                </a>
-                <div className="product-text">
-                  <p>Cheap Pet Shop</p>
                 </div>
               </div>
               {listProduct.map((item, index) => (

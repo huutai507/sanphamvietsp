@@ -1,9 +1,8 @@
 export const productList = [
   {
     name: "1",
-    afflink: "",
-    imglink:
-      "//ae01.alicdn.com/kf/H67b630ad317b48b0a2b7940a6305b2c2k.jpg_350x350.jpg"
+    afflink: "https://amzn.to/3IPgwMD",
+    imglink: "https://m.media-amazon.com/images/I/51mnwut4YAL._SL350_.jpg"
   }
 ];
 export const toolList = [
