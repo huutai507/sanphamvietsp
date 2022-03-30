@@ -12,6 +12,11 @@ export const naturalhuta = [
 ];
 export const amazongallerytrending = [
   {
+    name: "21",
+    afflink: "https://amzn.to/3tSzxK7",
+    imglink: "https://m.media-amazon.com/images/I/31FzVpfJwKS._SL350_.jpg"
+  },
+  {
     name: "20",
     afflink: "https://amzn.to/3tPrFsu",
     imglink: "https://m.media-amazon.com/images/I/41s03Vu4aqL._SL350_.jpg"
