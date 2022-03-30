@@ -125,6 +125,11 @@ export const amazongallerytrending = [
 
 export const woodworkingsogood = [
   {
+    name: "23",
+    afflink: "https://amzn.to/3iUIqfz",
+    imglink: "https://m.media-amazon.com/images/I/41ujLi546rS._SL350_.jpg"
+  },
+  {
     name: "22",
     afflink: "https://amzn.to/3tRFbw3",
     imglink: "https://m.media-amazon.com/images/I/31urKXkWF1L._SL350_.jpg"
