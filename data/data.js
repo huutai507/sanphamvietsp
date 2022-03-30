@@ -115,9 +115,34 @@ export const amazongallerytrending = [
 
 export const woodworkingsogood = [
   {
-    name: "16",
+    name: "21",
     afflink: "https://amzn.to/3iKTuMm",
     imglink: "https://m.media-amazon.com/images/I/51ELIjj+OwL._SL350_.jpg"
+  },
+  {
+    name: "20",
+    afflink: "https://amzn.to/3tPrFsu",
+    imglink: "https://m.media-amazon.com/images/I/41s03Vu4aqL._SL350_.jpg"
+  },
+  {
+    name: "19",
+    afflink: "https://amzn.to/3IVXUuI",
+    imglink: "https://m.media-amazon.com/images/I/41fT4x9ejYL._SL350_.jpg"
+  },
+  {
+    name: "18",
+    afflink: "https://amzn.to/3j2qArr",
+    imglink: "https://m.media-amazon.com/images/I/41PTh+s+1cL._SL350_.jpg"
+  },
+  {
+    name: "17",
+    afflink: "https://amzn.to/3NuYClN",
+    imglink: "https://m.media-amazon.com/images/I/31AGgWNTcAL._SL350_.jpg"
+  },
+  {
+    name: "16",
+    afflink: "https://amzn.to/3wMgm6g",
+    imglink: "https://m.media-amazon.com/images/I/41pDa-sVJKL._SL350_.jpg"
   },
   {
     name: "15",
