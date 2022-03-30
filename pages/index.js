@@ -3,11 +3,11 @@ import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import InfiniteScroll from "react-infinite-scroll-component";
-import { productList } from "../data/data";
+import { naturalhuta } from "../data/data";
 
 export default function Home() {
   const [inputSearch, setInputSearch] = useState("");
-  const [listProduct, setListProduct] = useState(productList);
+  const [listProduct, setListProduct] = useState(naturalhuta);
 
   const inputHandler = (e) => {
     let lowerCase = e.target.value.toLowerCase();
@@ -18,7 +18,7 @@ export default function Home() {
     setInputSearch("");
   };
 
-  const filterData = productList.filter((item, index) => {
+  const filterData = naturalhuta.filter((item, index) => {
     if (inputSearch === "" && index) {
       return item;
     } else if (inputSearch !== "") {
@@ -27,11 +27,11 @@ export default function Home() {
   });
 
   const fetchMoreData = () => {
-    setListProduct(productList.slice(0, listProduct.length + 10));
+    setListProduct(naturalhuta.slice(0, listProduct.length + 10));
   };
 
   useEffect(() => {
-    setListProduct(productList.slice(0, 10));
+    setListProduct(naturalhuta.slice(0, 10));
   }, []);
 
   return (
@@ -96,7 +96,7 @@ export default function Home() {
             <InfiniteScroll
               dataLength={listProduct.length}
               next={fetchMoreData}
-              hasMore={listProduct.length == productList.length ? false : true}
+              hasMore={listProduct.length == naturalhuta.length ? false : true}
               loader={<div class="dashed-loading"></div>}
               className="product-list"
             >

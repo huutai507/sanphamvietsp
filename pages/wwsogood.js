@@ -3,11 +3,11 @@ import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import InfiniteScroll from "react-infinite-scroll-component";
-import { amazongallerytrending } from "../data/data";
+import { woodworkingsogood } from "../data/data";
 
 export default function Home() {
   const [inputSearch, setInputSearch] = useState("");
-  const [listProduct, setListProduct] = useState(amazongallerytrending);
+  const [listProduct, setListProduct] = useState(woodworkingsogood);
 
   const inputHandler = (e) => {
     let lowerCase = e.target.value.toLowerCase();
@@ -18,7 +18,7 @@ export default function Home() {
     setInputSearch("");
   };
 
-  const filterData = amazongallerytrending.filter((item, index) => {
+  const filterData = woodworkingsogood.filter((item, index) => {
     if (inputSearch === "" && index) {
       return item;
     } else if (inputSearch !== "") {
@@ -27,11 +27,11 @@ export default function Home() {
   });
 
   const fetchMoreData = () => {
-    setListProduct(amazongallerytrending.slice(0, listProduct.length + 10));
+    setListProduct(woodworkingsogood.slice(0, listProduct.length + 10));
   };
 
   useEffect(() => {
-    setListProduct(amazongallerytrending.slice(0, 10));
+    setListProduct(woodworkingsogood.slice(0, 10));
   }, []);
 
   return (
@@ -97,9 +97,7 @@ export default function Home() {
               dataLength={listProduct.length}
               next={fetchMoreData}
               hasMore={
-                listProduct.length == amazongallerytrending.length
-                  ? false
-                  : true
+                listProduct.length == woodworkingsogood.length ? false : true
               }
               loader={<div class="dashed-loading"></div>}
               className="product-list"
