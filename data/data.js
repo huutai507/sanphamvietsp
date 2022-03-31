@@ -17,6 +17,11 @@ export const naturalhuta = [
 ];
 export const amazongallerytrending = [
   {
+    name: "25",
+    afflink: "https://amzn.to/3qQjNoT",
+    imglink: "https://m.media-amazon.com/images/I/31ja92T6nGS._SL350_.jpg"
+  },
+  {
     name: "24",
     afflink: "https://amzn.to/3JX48vm",
     imglink: "https://m.media-amazon.com/images/I/31R5LiEnz+L._SL350_.jpg"
@@ -139,6 +144,11 @@ export const amazongallerytrending = [
 ];
 
 export const woodworkingsogood = [
+  {
+    name: "24",
+    afflink: "https://amzn.to/3qQjNoT",
+    imglink: "https://m.media-amazon.com/images/I/31ja92T6nGS._SL350_.jpg"
+  },
   {
     name: "23",
     afflink: "https://amzn.to/3iUIqfz",
