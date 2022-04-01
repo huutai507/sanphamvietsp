@@ -1,5 +1,10 @@
 export const naturalhuta = [
   {
+    name: "4",
+    afflink: "https://amzn.to/3Nz3LJX",
+    imglink: "https://m.media-amazon.com/images/I/41tICh3nJbL._SL350_.jpg"
+  },
+  {
     name: "3",
     afflink: "https://amzn.to/3wMgm6g",
     imglink: "https://m.media-amazon.com/images/I/41pDa-sVJKL._SL350_.jpg"
