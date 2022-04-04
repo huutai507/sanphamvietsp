@@ -1,5 +1,12 @@
 export const naturalhuta = [
   {
+    name: "2",
+    afflink:
+      "https://www.lazyshib.shop/products/perfume-atomizer-portable-liquid-container",
+    imglink:
+      "https://img.btdmp.com/10312/10312716/products/0x540@1648993054bc4846ad69.jpeg"
+  },
+  {
     name: "1",
     afflink:
       "https://www.lazyshib.shop/collections/pets/products/usb-rechargeable-rgb-led-color-changing-light-up-pet-dog-collar-flashing-glow-glowing-luminous-night-dog-collars?variant=1000008332552424",
@@ -8,6 +15,13 @@ export const naturalhuta = [
   }
 ];
 export const amazongallerytrending = [
+  {
+    name: "2",
+    afflink:
+      "https://www.lazyshib.shop/products/perfume-atomizer-portable-liquid-container",
+    imglink:
+      "https://img.btdmp.com/10312/10312716/products/0x540@1648993054bc4846ad69.jpeg"
+  },
   {
     name: "1",
     afflink:
