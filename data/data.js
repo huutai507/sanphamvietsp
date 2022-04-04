@@ -11,7 +11,7 @@ export const amazongallerytrending = [
     afflink:
       "https://www.lazyshib.shop/products/3-in-1-extension-plug-180-degree-rotation-adjustable-mini-electrical-adapter",
     imglink:
-      "//ae01.alicdn.com/kf/HTB1YzbpJ9zqK1RjSZFHq6z3CpXaa.jpg_350x350.jpg"
+      "https://img.btdmp.com/10312/10312716/products/0x540@1648990282c5f2dd99f3.png"
   }
 ];
 
@@ -21,6 +21,6 @@ export const woodworkingsogood = [
     afflink:
       "https://www.lazyshib.shop/products/3-in-1-extension-plug-180-degree-rotation-adjustable-mini-electrical-adapter",
     imglink:
-      "//ae01.alicdn.com/kf/HTB1YzbpJ9zqK1RjSZFHq6z3CpXaa.jpg_350x350.jpg"
+      "https://img.btdmp.com/10312/10312716/products/0x540@1648990282c5f2dd99f3.png"
   }
 ];
