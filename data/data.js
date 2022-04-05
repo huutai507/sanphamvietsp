@@ -16,6 +16,13 @@ export const naturalhuta = [
 ];
 export const amazongallerytrending = [
   {
+    name: "5",
+    afflink:
+      "https://www.lazyshib.shop/products/contour-gauge-line-copier-ruler-cutting-template-construction-woodworking-measuring",
+    imglink:
+      "https://img.btdmp.com/10312/10312716/products/0x540@1648882866fcd5f64b8f.png"
+  },
+  {
     name: "4",
     afflink: "https://www.lazyshib.shop/products/orbeez-car",
     imglink:
@@ -45,6 +52,13 @@ export const amazongallerytrending = [
 ];
 
 export const woodworkingsogood = [
+  {
+    name: "3",
+    afflink:
+      "https://www.lazyshib.shop/products/contour-gauge-line-copier-ruler-cutting-template-construction-woodworking-measuring",
+    imglink:
+      "https://img.btdmp.com/10312/10312716/products/0x540@1648882866fcd5f64b8f.png"
+  },
   {
     name: "2",
     afflink:
