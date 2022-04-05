@@ -16,6 +16,12 @@ export const naturalhuta = [
 ];
 export const amazongallerytrending = [
   {
+    name: "4",
+    afflink: "https://www.lazyshib.shop/products/orbeez-car",
+    imglink:
+      "https://img.btdmp.com/10312/10312716/products/0x540@16491258062ab7a083e9.jpeg"
+  },
+  {
     name: "3",
     afflink:
       "https://www.lazyshib.shop/collections/home-garden/products/powerful-stain-removal-foam-cleaner",
