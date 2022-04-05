@@ -16,6 +16,13 @@ export const naturalhuta = [
 ];
 export const amazongallerytrending = [
   {
+    name: "3",
+    afflink:
+      "https://www.lazyshib.shop/collections/home-garden/products/powerful-stain-removal-foam-cleaner",
+    imglink:
+      "https://img.btdmp.com/10312/10312716/products/0x540@1648881175c20052f2cf.png"
+  },
+  {
     name: "2",
     afflink:
       "https://www.lazyshib.shop/products/perfume-atomizer-portable-liquid-container",
@@ -32,6 +39,13 @@ export const amazongallerytrending = [
 ];
 
 export const woodworkingsogood = [
+  {
+    name: "2",
+    afflink:
+      "https://www.lazyshib.shop/collections/home-garden/products/powerful-stain-removal-foam-cleaner",
+    imglink:
+      "https://img.btdmp.com/10312/10312716/products/0x540@1648881175c20052f2cf.png"
+  },
   {
     name: "1",
     afflink:
