@@ -9,7 +9,7 @@ export const naturalhuta = [
   {
     name: "16",
     afflink:
-      "https://www.lazyshib.shop/collections/pets/products/smart-sensing-interactive-cat-toys-automatic-electronic-snake",
+      "https://www.lazyshib.shop/collections/pets/products/smart-sensing-interactive-cat-toys-automatic-electronic-snake-1",
     imglink:
       "https://img.btdmp.com/10312/10312716/products/0x540@1648989085cf6a8161ff.gif"
   },
@@ -114,6 +114,13 @@ export const naturalhuta = [
 ];
 export const amazongallerytrending = [
   {
+    name: "6",
+    afflink:
+      "https://www.lazyshib.shop/products/raised-base-mobile-roller-bracket-wheel-bathroom?variant=1000008398479777",
+    imglink:
+      "https://img.btdmp.com/10312/10312716/products/0x540@16492245143458460d8d.jpeg"
+  },
+  {
     name: "5",
     afflink:
       "https://www.lazyshib.shop/products/contour-gauge-line-copier-ruler-cutting-template-construction-woodworking-measuring",
@@ -150,6 +157,13 @@ export const amazongallerytrending = [
 ];
 
 export const woodworkingsogood = [
+  {
+    name: "4",
+    afflink:
+      "https://www.lazyshib.shop/products/raised-base-mobile-roller-bracket-wheel-bathroom?variant=1000008398479777",
+    imglink:
+      "https://img.btdmp.com/10312/10312716/products/0x540@16492245143458460d8d.jpeg"
+  },
   {
     name: "3",
     afflink:
