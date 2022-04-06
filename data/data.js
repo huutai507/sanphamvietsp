@@ -114,6 +114,13 @@ export const naturalhuta = [
 ];
 export const amazongallerytrending = [
   {
+    name: "7",
+    afflink:
+      "https://www.lazyshib.shop/collections/home-garden/products/intelligent-automatic-electric-portable-water-pump-dispenser",
+    imglink:
+      "https://img.btdmp.com/10312/10312716/products/0x540@1648880851f768b5010b.jpeg"
+  },
+  {
     name: "6",
     afflink:
       "https://www.lazyshib.shop/products/raised-base-mobile-roller-bracket-wheel-bathroom?variant=1000008398479777",
@@ -157,6 +164,13 @@ export const amazongallerytrending = [
 ];
 
 export const woodworkingsogood = [
+  {
+    name: "5",
+    afflink:
+      "https://www.lazyshib.shop/collections/home-garden/products/intelligent-automatic-electric-portable-water-pump-dispenser",
+    imglink:
+      "https://img.btdmp.com/10312/10312716/products/0x540@1648880851f768b5010b.jpeg"
+  },
   {
     name: "4",
     afflink:
