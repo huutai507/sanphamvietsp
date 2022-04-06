@@ -114,6 +114,13 @@ export const naturalhuta = [
 ];
 export const amazongallerytrending = [
   {
+    name: "8",
+    afflink:
+      "https://www.lazyshib.shop/products/720-rotation-universal-splash-filter-water-outlet-faucet-2",
+    imglink:
+      "https://img.btdmp.com/10312/10312716/products/0x540@1649228675985189c25a.jpeg"
+  },
+  {
     name: "7",
     afflink:
       "https://www.lazyshib.shop/collections/home-garden/products/intelligent-automatic-electric-portable-water-pump-dispenser",
@@ -164,6 +171,13 @@ export const amazongallerytrending = [
 ];
 
 export const woodworkingsogood = [
+  {
+    name: "6",
+    afflink:
+      "https://www.lazyshib.shop/products/720-rotation-universal-splash-filter-water-outlet-faucet-2",
+    imglink:
+      "https://img.btdmp.com/10312/10312716/products/0x540@1649228675985189c25a.jpeg"
+  },
   {
     name: "5",
     afflink:
