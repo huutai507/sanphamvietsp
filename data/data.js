@@ -114,6 +114,13 @@ export const naturalhuta = [
 ];
 export const amazongallerytrending = [
   {
+    name: "9",
+    afflink:
+      "https://www.lazyshib.shop/collections/babies-kids/products/electric-baby-nail-trimmer-kids-scissors-infant-nail-care-safe-nail-clipper-cutter-for-newbron-nail-trimmer-manicure",
+    imglink:
+      "https://img.btdmp.com/10312/10312716/products/0x540@16492126017c8b271b79.jpeg"
+  },
+  {
     name: "8",
     afflink:
       "https://www.lazyshib.shop/products/720-rotation-universal-splash-filter-water-outlet-faucet-2",
