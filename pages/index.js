@@ -77,10 +77,13 @@ export default function Home() {
               <div className='product-item' key={index}>
                 <a href={item.afflink} target='_blank' className='afflink'>
                   <img src={item.imglink} className='imglink' />
+                  <div className='product-text'>
+                    <p>
+                      Product code: <span className='code'>{item.name}</span>
+                    </p>
+                    <p className='title'>Buy it on Amazon</p>
+                  </div>
                 </a>
-                <div className='product-text'>
-                  <p>{item.name}</p>
-                </div>
               </div>
             ))}
             <div>{!filterData.length ? <p>No matching results. Please search again</p> : <p></p>}</div>
