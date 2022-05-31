@@ -61,6 +61,7 @@ input {
   width: calc(50% - 0.5rem);
   margin-top: 1rem;
   padding-top: 1rem;
+  cursor: pointer;
 }
 
 .product-text {
