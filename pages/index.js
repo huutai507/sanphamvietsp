@@ -95,8 +95,8 @@ export default function Home() {
               className='product-list'
             >
               {listProduct.map((item, index) => (
-                <a href={item.afflink} target='_blank' className='afflink'>
-                  <div className='product-item' key={index}>
+                <div className='product-item' key={index}>
+                  <a href={item.afflink} target='_blank' className='afflink'>
                     <img src={item.imglink} className='imglink' />
                     <div className='product-text'>
                       <p>
@@ -104,8 +104,8 @@ export default function Home() {
                       </p>
                       <p className='title'>Buy it on Amazon</p>
                     </div>
-                  </div>
-                </a>
+                  </a>
+                </div>
               ))}
             </InfiniteScroll>
           </div>
