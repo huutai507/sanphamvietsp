@@ -1,5 +1,20 @@
 export const data = [
   {
+    name: '8',
+    afflink: 'https://amzn.to/3ad8Ece',
+    imglink: 'https://m.media-amazon.com/images/I/31ja92T6nGS._SL350_.jpg'
+  },
+  {
+    name: '7',
+    afflink: 'https://amzn.to/3ablIij',
+    imglink: 'https://m.media-amazon.com/images/I/41-cQQiaTqL._SL350_.jpg'
+  },
+  {
+    name: '6',
+    afflink: 'https://amzn.to/3x3Ui5G',
+    imglink: 'https://m.media-amazon.com/images/I/410UV7Np-PL._SL350_.jpg'
+  },
+  {
     name: '5',
     afflink: 'https://amzn.to/3aiTQck',
     imglink: 'https://m.media-amazon.com/images/I/41mR0kmYytL._SL350_.jpg'
