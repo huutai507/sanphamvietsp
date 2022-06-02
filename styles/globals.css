@@ -104,6 +104,7 @@ input {
   padding-bottom: 5px;
   cursor: pointer;
 }
+
 .imglink {
   border-radius: 1rem;
   width: 140px;
@@ -139,6 +140,10 @@ input {
   color: #fff;
   font-weight: 600;
   padding: 16px 10px;
+}
+
+.alilink {
+  margin-top: 10px;
 }
 
 .alilink p {
