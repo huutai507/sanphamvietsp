@@ -75,15 +75,22 @@ export default function Home() {
           <div className='product-list'>
             {filterData.map((item, index) => (
               <div className='product-item' key={index}>
-                <a href={item.afflink} target='_blank' className='afflink'>
-                  <img src={item.imglink} className='imglink' />
-                  <div className='product-text'>
-                    <p>
-                      Product code: <span className='code'>{item.name}</span>
-                    </p>
-                    <p className='title'>Buy it on Amazon</p>
-                  </div>
-                </a>
+                <img src={item.imglink} className='imglink' />
+                <div className='product-text'>
+                  <p>
+                    Product code: <span className='code'>{item.name}</span>
+                  </p>
+                  {item.afflink && (
+                    <a href={item.afflink} target='_blank' className='afflink'>
+                      <p className='title'>Buy it on Amazon</p>
+                    </a>
+                  )}
+                  {item.alilink && (
+                    <a href={item.alilink} target='_blank' className='alilink'>
+                      <p className='title'>Buy it on AliExpress</p>
+                    </a>
+                  )}
+                </div>
               </div>
             ))}
             <div>{!filterData.length ? <p>No matching results. Please search again</p> : <p></p>}</div>
@@ -94,20 +101,27 @@ export default function Home() {
               dataLength={listProduct.length}
               next={fetchMoreData}
               hasMore={listProduct.length == data.length ? false : true}
-              loader={<div class='dashed-loading'></div>}
+              loader={<div className='dashed-loading'></div>}
               className='product-list'
             >
               {listProduct.map((item, index) => (
                 <div className='product-item' key={index}>
-                  <a href={item.afflink} target='_blank' className='afflink'>
-                    <img src={item.imglink} className='imglink' />
-                    <div className='product-text'>
-                      <p>
-                        Product code: <span className='code'>{item.name}</span>
-                      </p>
-                      <p className='title'>Buy it on Amazon</p>
-                    </div>
-                  </a>
+                  <img src={item.imglink} className='imglink' />
+                  <div className='product-text'>
+                    <p>
+                      Product code: <span className='code'>{item.name}</span>
+                    </p>
+                    {item.afflink && (
+                      <a href={item.afflink} target='_blank' className='afflink'>
+                        <p className='title'>Buy it on Amazon</p>
+                      </a>
+                    )}
+                    {item.alilink && (
+                      <a href={item.alilink} target='_blank' className='alilink'>
+                        <p className='title'>Buy it on AliExpress</p>
+                      </a>
+                    )}
+                  </div>
                 </div>
               ))}
             </InfiniteScroll>
