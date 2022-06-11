@@ -75,22 +75,15 @@ export default function Home() {
           <div className='product-list'>
             {filterData.map((item, index) => (
               <div className='product-item' key={index}>
-                <img src={item.imglink} className='imglink' />
-                <div className='product-text'>
-                  <p>
-                    Product code: <span className='code'>{item.name}</span>
-                  </p>
-                  {item.afflink && (
-                    <a href={item.afflink} target='_blank' className='afflink'>
-                      <p className='title'>Buy it on Amazon</p>
-                    </a>
-                  )}
-                  {item.alilink && (
-                    <a href={item.alilink} target='_blank' className='alilink'>
-                      <p className='title'>Buy it on AliExpress</p>
-                    </a>
-                  )}
-                </div>
+                <a href={item.afflink} target='_blank'>
+                  <img src={item.imglink} className='imglink' />
+                  <div className='product-text'>
+                    <p>
+                      Product code: <span className='code'>{item.name}</span>
+                    </p>
+                    <p className='custom-button'>Buy now</p>
+                  </div>
+                </a>
               </div>
             ))}
             <div>{!filterData.length ? <p>No matching results. Please search again</p> : <p></p>}</div>
