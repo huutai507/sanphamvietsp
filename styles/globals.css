@@ -67,7 +67,7 @@ input {
 .product-text {
   display: flex;
   flex-direction: column;
-  font-size: 14px;
+  font-size: 18px;
   align-items: center;
   padding: 0 0.5rem;
   line-height: 16px;
@@ -79,7 +79,7 @@ input {
 }
 
 .product-text p {
-  margin-top: 5px;
+  padding: 16px 0;
 }
 
 .clear-input {
@@ -106,6 +106,8 @@ input {
 }
 
 .imglink {
+  display: block;
+  margin: 0 auto;
   border-radius: 1rem;
   width: 140px;
   height: 140px;
@@ -153,6 +155,15 @@ input {
   color: #fff;
   font-weight: 600;
   padding: 16px 10px;
+}
+.custom-button {
+  text-transform: uppercase;
+  background-color: #ff4747;
+  text-align: center;
+  color: #fff;
+  font-weight: 600;
+  padding: 16px 0;
+  width: 100%;
 }
 
 .code {

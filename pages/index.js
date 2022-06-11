@@ -112,6 +112,7 @@ export default function Home() {
                       <p>
                         Product code: <span className='code'>{item.name}</span>
                       </p>
+                      <p className='custom-button'>Buy it</p>
                     </div>
                   </a>
                 </div>
