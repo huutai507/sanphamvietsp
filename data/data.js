@@ -31,8 +31,10 @@ export const data = [
   },
   {
     name: '5',
-    afflink: 'https://howdoibuythis.com/collections/most-wanted/products/sliding-bin?ref=Zpb0wsX2',
-    imglink: 'https://cdn.shopify.com/s/files/1/0559/6525/3702/products/sliding-bin-193096_1200x1200.jpg?v=1644850127'
+    afflink:
+      'https://howdoibuythis.com/collections/most-wanted/products/720-degrees-universal-splash-filter-faucet?ref=Zpb0wsX2',
+    imglink:
+      'https://cdn.shopify.com/s/files/1/0559/6525/3702/products/720-degrees-universal-splash-filter-faucet-428454_1200x1200.jpg?v=1644853911'
   },
   {
     name: '4',
