@@ -43,7 +43,7 @@ input {
   height: 1.5rem;
 }
 .container-list {
-  padding-top: 4.5rem;
+  padding-top: 7.5rem;
 }
 
 .product-list {
@@ -94,6 +94,14 @@ input {
 
 .input-content {
   position: relative;
+  height: 5rem;
+  margin: 0 auto;
+  text-align: center;
+}
+.content-title {
+  font-size: 18px;
+  margin-bottom: 0.5rem;
+  font-weight: 400;
 }
 
 .afflink {
@@ -127,7 +135,8 @@ input {
 }
 .input-search {
   width: 250px;
-  font-size: 11px;
+  height: 3rem;
+  font-size: 16px;
 }
 
 ::placeholder {

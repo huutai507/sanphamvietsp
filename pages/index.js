@@ -42,12 +42,14 @@ export default function Home() {
         <link rel='icon' href='/favicon.ico' />
       </Head>
       <div className='search-bar'>
-        <img src='/logo.png' alt='' className='logo' />
         <div className='input-content'>
+          <div className='content-title'>
+            <p>Enter product code in reels at below</p>
+          </div>
           <input
             className='input-search'
             type='text'
-            placeholder='Enter product code in reels, example: 3'
+            placeholder='Example: 3'
             onChange={inputHandler}
             value={inputSearch}
           />
@@ -81,7 +83,7 @@ export default function Home() {
                     <p>
                       Product code: <span className='code'>{item.name}</span>
                     </p>
-                    <p className='custom-button'>Buy now</p>
+                    <p className='custom-button'>Buy now on Amazon</p>
                   </div>
                 </a>
               </div>
