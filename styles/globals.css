@@ -85,12 +85,12 @@ input {
 
 .clear-input {
   position: absolute;
-  width: 1.5rem;
-  height: 1.5rem;
-  right: 0;
+  width: 2rem;
+  height: 2rem;
+  /* right: 0; */
   top: 50%;
-  transform: translateY(-50%);
-  right: 5px;
+  transform: translateY(-12%);
+  right: 30px;
 }
 
 .input-content {
