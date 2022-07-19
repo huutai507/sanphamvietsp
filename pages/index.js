@@ -52,6 +52,7 @@ export default function Home() {
             placeholder='Example: 3'
             onChange={inputHandler}
             value={inputSearch}
+            autoFocus
           />
           {inputSearch && (
             <span className='clear-input' onClick={clearInput}>
