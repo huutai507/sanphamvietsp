@@ -1,5 +1,10 @@
 export const data = [
   {
+    name: '8',
+    afflink: 'https://amzn.to/3cw9mCN',
+    imglink: 'https://m.media-amazon.com/images/I/51vtWqfYcZL._SL350_.jpg'
+  },
+  {
     name: '7',
     afflink: 'https://amzn.to/3PnLKhY',
     imglink: 'https://m.media-amazon.com/images/I/41CkeKYPFCL._SL350_.jpg'
