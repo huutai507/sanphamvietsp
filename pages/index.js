@@ -93,7 +93,7 @@ export default function Home() {
           </div>
         ) : (
           <div>
-            <a href='https://bit.ly/coolgadgetsamazon' className='banner' target='_blank'>
+            <a href='https://rebrand.ly/coolgadgetsamazon' className='banner' target='_blank'>
               <img src='/ads.png' className='banner' />
             </a>
             <InfiniteScroll
