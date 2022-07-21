@@ -59,7 +59,7 @@ input {
   background-color: white;
   padding: 0.5rem;
   border-radius: 1rem;
-  width: calc(50% - 0.5rem);
+  width: 100%;
   margin-top: 1rem;
   padding-top: 1rem;
   cursor: pointer;
@@ -80,7 +80,7 @@ input {
 }
 
 .product-text p {
-  padding: 16px 0;
+  padding: 8px 0;
 }
 
 .clear-input {
@@ -166,16 +166,17 @@ input {
   font-weight: 600;
   padding: 16px 10px;
 }
+
 .custom-button {
-  text-transform: uppercase;
   background-color: #ffa41c;
   text-align: center;
   color: #fff;
-  font-weight: 600;
-  padding: 16px 0;
+  font-weight: 500;
   width: 100%;
-  border-radius: 1rem;
+  padding: 8px 0;
+  border-radius: 5px;
   line-height: 1.2;
+  margin-bottom: 8px;
 }
 
 .code {
@@ -186,4 +187,26 @@ input {
 .disabled {
   opacity: 0.3;
   pointer-events: none;
+}
+
+.north-america,
+.europe {
+  width: 100%;
+  text-align: left;
+  margin-bottom: 8px;
+  opacity: 0.8;
+}
+.europe {
+  margin-top: 8px;
+}
+
+.banner {
+  width: 100%;
+  border-radius: 5px;
+  display: block;
+}
+
+.banner img {
+  width: 435px;
+  margin: 0 auto;
 }
