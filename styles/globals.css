@@ -206,11 +206,9 @@ input {
 .europe {
   width: 100%;
   text-align: left;
+  margin-top: 8px;
   margin-bottom: 8px;
   opacity: 0.8;
-}
-.europe {
-  margin-top: 8px;
 }
 
 .banner {
