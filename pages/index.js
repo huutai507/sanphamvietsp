@@ -98,36 +98,36 @@ export default function Home() {
                   </a>
                   <h4 className='north-america'>AMERICA</h4>
                   <a href={item.usalink} target='_blank' className='custom-button'>
-                    USA - View Prices on Amazon
+                    USA ‣ View Prices on Amazon
                   </a>
                   <a href={replaceArea(item.usalink, 'amazon.ca')} target='_blank' className='custom-button'>
-                    Canada > View Prices on Amazon
+                    Canada ‣ View Prices on Amazon
                   </a>
                   <a href={replaceArea(item.usalink, 'amazon.com.br')} target='_blank' className='custom-button'>
-                    Brazil > View Prices on Amazon
+                    Brazil ‣ View Prices on Amazon
                   </a>
                   <a href='https://rebrand.ly/21daydietsmoothie' target='_blank' className='custom-button weightloss'>
                     The Smoothie Diet: 21 Day Rapid Weight Loss Program
                   </a>
                   <h4 className='europe'>EUROPE</h4>
                   <a href={replaceArea(item.usalink, 'amazon.co.uk')} target='_blank' className='custom-button'>
-                    UK > View Prices on Amazon
+                    UK ‣ View Prices on Amazon
                   </a>
                   <a href={replaceArea(item.usalink, 'amazon.de')} target='_blank' className='custom-button'>
-                    DE > Preise auf Amazon Ansehen
+                    DE ‣ Preise auf Amazon Ansehen
                   </a>
                   <a href={replaceArea(item.usalink, 'amazon.it')} target='_blank' className='custom-button'>
-                    ITALIA > Visualizza i Prezzi su Amazon
+                    ITALIA ‣ Visualizza i Prezzi su Amazon
                   </a>
                   <a href={replaceArea(item.usalink, 'amazon.fr')} target='_blank' className='custom-button'>
-                    FRANCE > Voir Les Prix sur Amazon
+                    FRANCE ‣ Voir Les Prix sur Amazon
                   </a>
                   <a href={replaceArea(item.usalink, 'amazon.es')} target='_blank' className='custom-button'>
                     ESPAÑA ‣ Ver Precios en Amazon
                   </a>
                   <h4 className='europe'>ASIA</h4>
                   <a href={replaceArea(item.usalink, 'amazon.in')} target='_blank' className='custom-button'>
-                    INDIA > अमेज़न पर कीमतें देखें
+                    INDIA ‣ अमेज़न पर कीमतें देखें
                   </a>
                 </div>
               </div>
@@ -162,36 +162,36 @@ export default function Home() {
                     </a>
                     <h4 className='north-america'>AMERICA</h4>
                     <a href={item.usalink} target='_blank' className='custom-button'>
-                      USA - View Prices on Amazon
+                      USA ‣ View Prices on Amazon
                     </a>
                     <a href={replaceArea(item.usalink, 'amazon.ca')} target='_blank' className='custom-button'>
-                      Canada > View Prices on Amazon
+                      Canada ‣ View Prices on Amazon
                     </a>
                     <a href={replaceArea(item.usalink, 'amazon.com.br')} target='_blank' className='custom-button'>
-                      Brazil > View Prices on Amazon
+                      Brazil ‣ View Prices on Amazon
                     </a>
                     <a href='https://rebrand.ly/21daydietsmoothie' target='_blank' className='custom-button weightloss'>
                       The Smoothie Diet: 21 Day Rapid Weight Loss Program
                     </a>
                     <h4 className='europe'>EUROPE</h4>
                     <a href={replaceArea(item.usalink, 'amazon.co.uk')} target='_blank' className='custom-button'>
-                      UK > View Prices on Amazon
+                      UK ‣ View Prices on Amazon
                     </a>
                     <a href={replaceArea(item.usalink, 'amazon.de')} target='_blank' className='custom-button'>
-                      DE > Preise auf Amazon Ansehen
+                      DE ‣ Preise auf Amazon Ansehen
                     </a>
                     <a href={replaceArea(item.usalink, 'amazon.it')} target='_blank' className='custom-button'>
-                      ITALIA > Visualizza i Prezzi su Amazon
+                      ITALIA ‣ Visualizza i Prezzi su Amazon
                     </a>
                     <a href={replaceArea(item.usalink, 'amazon.fr')} target='_blank' className='custom-button'>
-                      FRANCE > Voir Les Prix sur Amazon
+                      FRANCE ‣ Voir Les Prix sur Amazon
                     </a>
                     <a href={replaceArea(item.usalink, 'amazon.es')} target='_blank' className='custom-button'>
                       ESPAÑA ‣ Ver Precios en Amazon
                     </a>
                     <h4 className='europe'>ASIA</h4>
                     <a href={replaceArea(item.usalink, 'amazon.in')} target='_blank' className='custom-button'>
-                      INDIA > अमेज़न पर कीमतें देखें
+                      INDIA ‣ अमेज़न पर कीमतें देखें
                     </a>
                   </div>
                 </div>
