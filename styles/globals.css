@@ -80,7 +80,8 @@ input {
 }
 
 .product-text p {
-  padding: 8px 0;
+  font-size: 25px;
+  padding: 16px 0;
 }
 
 .clear-input {
@@ -118,8 +119,8 @@ input {
   display: block;
   margin: 0 auto;
   border-radius: 1rem;
-  width: 140px;
-  height: 140px;
+  width: 250px;
+  height: 250px;
   object-fit: contain;
   cursor: pointer;
 }
@@ -168,7 +169,7 @@ input {
 }
 
 .custom-button {
-  background-color: #ffa41c;
+  background-color: #cf404d;
   text-align: center;
   color: #fff;
   font-weight: 500;
@@ -179,9 +180,20 @@ input {
   margin-bottom: 8px;
 }
 
+.custom-button:hover {
+  opacity: 0.8;
+}
+
+.custom-button.check {
+  background-color: #ff9800e3;
+}
+.custom-button.weightloss {
+  background-color: #4caf50;
+}
+
 .code {
   font-weight: 600;
-  font-size: 18px;
+  font-size: 40px;
 }
 
 .disabled {

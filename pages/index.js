@@ -25,6 +25,9 @@ export default function Home() {
       return item.name.toLowerCase().includes(inputSearch);
     }
   });
+  const replaceArea = (string, area) => {
+    return string.replace('amazon.com', area);
+  };
 
   const fetchMoreData = () => {
     setListProduct(data.slice(0, listProduct.length + 10));
@@ -76,26 +79,63 @@ export default function Home() {
       <div className='container-list'>
         {inputSearch ? (
           <div className='product-list'>
-            {filterData.map((item, index) => (
+            {filterData.reverse().map((item, index) => (
               <div className='product-item' key={index}>
-                <a href={item.globallink} target='_blank'>
-                  <img src={item.imglink} className='imglink' />
-                  <div className='product-text'>
-                    <p>
-                      Product code: <span className='code'>{item.name}</span>
-                    </p>
-                    <p className='custom-button'>Buy now on Amazon</p>
-                  </div>
-                </a>
+                <img src={item.imglink} className='imglink' />
+                <div className='product-text'>
+                  <p>
+                    Product code: <span className='code'>{item.name}</span>
+                  </p>
+                  <h4 className='north-america'>GLOBAL</h4>
+                  <a href={item.usalink} target='_blank' className='custom-button'>
+                    View Prices on Amazon
+                  </a>
+                  <a href='https://rebrand.ly/weightlossexipure' target='_blank' className='custom-button check'>
+                    Donald J. Trump Golden Check
+                  </a>
+                  <a href='https://rebrand.ly/goldencheck' target='_blank' className='custom-button weightloss'>
+                    The TROPICAL SECRET For Healthy Weight Loss
+                  </a>
+                  <h4 className='north-america'>AMERICA</h4>
+                  <a href={item.usalink} target='_blank' className='custom-button'>
+                    USA - View Prices on Amazon
+                  </a>
+                  <a href={replaceArea(item.usalink, 'amazon.ca')} target='_blank' className='custom-button'>
+                    Canada > View Prices on Amazon
+                  </a>
+                  <a href={replaceArea(item.usalink, 'amazon.com.br')} target='_blank' className='custom-button'>
+                    Brazil > View Prices on Amazon
+                  </a>
+                  <a href='https://rebrand.ly/21daydietsmoothie' target='_blank' className='custom-button weightloss'>
+                    The Smoothie Diet: 21 Day Rapid Weight Loss Program
+                  </a>
+                  <h4 className='europe'>EUROPE</h4>
+                  <a href={replaceArea(item.usalink, 'amazon.co.uk')} target='_blank' className='custom-button'>
+                    UK > View Prices on Amazon
+                  </a>
+                  <a href={replaceArea(item.usalink, 'amazon.de')} target='_blank' className='custom-button'>
+                    DE > Preise auf Amazon Ansehen
+                  </a>
+                  <a href={replaceArea(item.usalink, 'amazon.it')} target='_blank' className='custom-button'>
+                    ITALIA > Visualizza i Prezzi su Amazon
+                  </a>
+                  <a href={replaceArea(item.usalink, 'amazon.fr')} target='_blank' className='custom-button'>
+                    FRANCE > Voir Les Prix sur Amazon
+                  </a>
+                  <a href={replaceArea(item.usalink, 'amazon.es')} target='_blank' className='custom-button'>
+                    ESPAÑA ‣ Ver Precios en Amazon
+                  </a>
+                  <h4 className='europe'>ASIA</h4>
+                  <a href={replaceArea(item.usalink, 'amazon.in')} target='_blank' className='custom-button'>
+                    INDIA > अमेज़न पर कीमतें देखें
+                  </a>
+                </div>
               </div>
             ))}
             <div>{!filterData.length ? <p>No matching results. Please search again</p> : <p></p>}</div>
           </div>
         ) : (
           <div>
-            <a href='https://rebrand.ly/coolgadgetsamazon' className='banner' target='_blank'>
-              <img src='/ads.png' className='banner' />
-            </a>
             <InfiniteScroll
               dataLength={listProduct.length}
               next={fetchMoreData}
@@ -110,30 +150,49 @@ export default function Home() {
                     <p>
                       Product code: <span className='code'>{item.name}</span>
                     </p>
-                    {item.globallink && (
-                      <a href={item.globallink} target='_blank' className='custom-button'>
-                        View Prices on Amazon
-                      </a>
-                    )}
-                    {item.usalink && <h4 className='north-america'>NORTH AMERICA</h4>}
-
-                    {item.usalink && (
-                      <a href={item.usalink} target='_blank' className='custom-button'>
-                        USA - View Prices on Amazon
-                      </a>
-                    )}
-
-                    {item.canada && (
-                      <a href={item.canada} target='_blank' className='custom-button'>
-                        Canada > View Prices on Amazon
-                      </a>
-                    )}
-                    {item.uk && <h4 className='europe'>EUROPE</h4>}
-                    {item.uk && (
-                      <a href={item.uk} target='_blank' className='custom-button'>
-                        Canada > View Prices on Amazon
-                      </a>
-                    )}
+                    <h4 className='north-america'>GLOBAL</h4>
+                    <a href={item.usalink} target='_blank' className='custom-button'>
+                      View Prices on Amazon
+                    </a>
+                    <a href='https://rebrand.ly/weightlossexipure' target='_blank' className='custom-button check'>
+                      Donald J. Trump Golden Check
+                    </a>
+                    <a href='https://rebrand.ly/goldencheck' target='_blank' className='custom-button weightloss'>
+                      The TROPICAL SECRET For Healthy Weight Loss
+                    </a>
+                    <h4 className='north-america'>AMERICA</h4>
+                    <a href={item.usalink} target='_blank' className='custom-button'>
+                      USA - View Prices on Amazon
+                    </a>
+                    <a href={replaceArea(item.usalink, 'amazon.ca')} target='_blank' className='custom-button'>
+                      Canada > View Prices on Amazon
+                    </a>
+                    <a href={replaceArea(item.usalink, 'amazon.com.br')} target='_blank' className='custom-button'>
+                      Brazil > View Prices on Amazon
+                    </a>
+                    <a href='https://rebrand.ly/21daydietsmoothie' target='_blank' className='custom-button weightloss'>
+                      The Smoothie Diet: 21 Day Rapid Weight Loss Program
+                    </a>
+                    <h4 className='europe'>EUROPE</h4>
+                    <a href={replaceArea(item.usalink, 'amazon.co.uk')} target='_blank' className='custom-button'>
+                      UK > View Prices on Amazon
+                    </a>
+                    <a href={replaceArea(item.usalink, 'amazon.de')} target='_blank' className='custom-button'>
+                      DE > Preise auf Amazon Ansehen
+                    </a>
+                    <a href={replaceArea(item.usalink, 'amazon.it')} target='_blank' className='custom-button'>
+                      ITALIA > Visualizza i Prezzi su Amazon
+                    </a>
+                    <a href={replaceArea(item.usalink, 'amazon.fr')} target='_blank' className='custom-button'>
+                      FRANCE > Voir Les Prix sur Amazon
+                    </a>
+                    <a href={replaceArea(item.usalink, 'amazon.es')} target='_blank' className='custom-button'>
+                      ESPAÑA ‣ Ver Precios en Amazon
+                    </a>
+                    <h4 className='europe'>ASIA</h4>
+                    <a href={replaceArea(item.usalink, 'amazon.in')} target='_blank' className='custom-button'>
+                      INDIA > अमेज़न पर कीमतें देखें
+                    </a>
                   </div>
                 </div>
               ))}
