@@ -91,7 +91,7 @@ export default function Home() {
                     View Prices on Amazon
                   </a>
                   <a href='https://rebrand.ly/weightlossexipure' target='_blank' className='custom-button check'>
-                    Donald J. Trump Golden Checks - Best Gift For a Patriot!
+                    Donald Trump Golden Checks <br /> Best Gift For a Patriot!
                   </a>
                   <a href='https://rebrand.ly/goldencheck' target='_blank' className='custom-button weightloss'>
                     The TROPICAL SECRET For Healthy Weight Loss
