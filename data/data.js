@@ -1,5 +1,23 @@
 export const data = [
   {
+    name: '13',
+    usalink:
+      'https://www.amazon.com/s?k=usb+rechargeable+aa+batteries&linkCode=ll2&tag=naturalhuta-20&linkId=67fd8c219da50633f2023efdb9c942ce&language=en_US&ref_=as_li_ss_tl',
+    imglink: 'https://m.media-amazon.com/images/I/41+i6VEpd7L._SL350_.jpg'
+  },
+  {
+    name: '12',
+    usalink:
+      'https://www.amazon.com/s?k=EZ+Bites+Relief&i=hpc&crid=4TQE4W5GLJ4E&sprefix=ez+bites+relief%2Chpc%2C347&linkCode=ll2&tag=naturalhuta-20&linkId=154325fb89dd3a4bd8568cdf0d025073&language=en_US&ref_=as_li_ss_tl',
+    imglink: 'https://m.media-amazon.com/images/I/31R6wSmdlPS._SL350_.jpg'
+  },
+  {
+    name: '11',
+    usalink:
+      'https://www.amazon.com/s?k=table+with+ice+bucket&linkCode=ll2&tag=naturalhuta-20&linkId=1a664f7824f0f9a3dc104ac1377417ca&language=en_US&ref_=as_li_ss_tl',
+    imglink: 'https://m.media-amazon.com/images/I/41rZ8-2VX2S._SL350_.jpg'
+  },
+  {
     name: '10',
     usalink:
       'https://www.amazon.com/XGIMI-Elfin-Projector-Portable-Supported/dp/B098WT6DW2?crid=1OSNW3VZ8SJY4&keywords=xgimi+projector&qid=1658317981&sprefix=xgi%2Caps%2C333&sr=8-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUExTjBXVk5FTzVKM1Q1JmVuY3J5cHRlZElkPUEwOTUyMzI3MkxMR1hRWVpZNjBFUyZlbmNyeXB0ZWRBZElkPUEwMzExMDYyMUM5RTlTQTBFVTUxSiZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU%3D&linkCode=ll1&tag=naturalhuta-20&linkId=9293ba7b89e961be919674325a078b63&language=en_US&ref_=as_li_ss_tl',
