@@ -106,9 +106,6 @@ export default function Home() {
                   <a href={replaceArea(item.usalink, 'amazon.com.br')} target='_blank' className='custom-button'>
                     Brazil ‣ View Prices on Amazon
                   </a>
-                  <a href='https://rebrand.ly/21daydietsmoothie' target='_blank' className='custom-button weightloss'>
-                    The Smoothie Diet: 21 Day Rapid Weight Loss Program
-                  </a>
                   <h4 className='europe'>EUROPE</h4>
                   <a href={replaceArea(item.usalink, 'amazon.co.uk')} target='_blank' className='custom-button'>
                     UK ‣ View Prices on Amazon
@@ -169,9 +166,6 @@ export default function Home() {
                     </a>
                     <a href={replaceArea(item.usalink, 'amazon.com.br')} target='_blank' className='custom-button'>
                       Brazil ‣ View Prices on Amazon
-                    </a>
-                    <a href='https://rebrand.ly/21daydietsmoothie' target='_blank' className='custom-button weightloss'>
-                      The Smoothie Diet: 21 Day Rapid Weight Loss Program
                     </a>
                     <h4 className='europe'>EUROPE</h4>
                     <a href={replaceArea(item.usalink, 'amazon.co.uk')} target='_blank' className='custom-button'>
