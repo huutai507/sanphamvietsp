@@ -192,6 +192,10 @@ input {
   background-color: #4caf50;
 }
 
+.custom-button.plushies {
+  background-color: #2196f3;
+}
+
 .code {
   font-weight: 600;
   font-size: 40px;
