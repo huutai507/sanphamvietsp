@@ -84,6 +84,7 @@ export default function Home() {
               <div className='product-item' key={index}>
                 <img src={item.imglink} className='imglink' />
                 <div className='product-text'>
+                  {item.sameproduct && <h6 className='mt-5'>Same Products</h6>}
                   <p>
                     Product code: <span className='code'>{item.name}</span>
                   </p>
@@ -148,6 +149,7 @@ export default function Home() {
                 <div className='product-item' key={index}>
                   <img src={item.imglink} className='imglink' />
                   <div className='product-text'>
+                    {item.sameproduct && <h6 className='mt-5'>Same Products</h6>}
                     <p>
                       Product code: <span className='code'>{item.name}</span>
                     </p>
