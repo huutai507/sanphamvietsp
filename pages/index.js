@@ -157,7 +157,7 @@ export default function Home() {
                     <a href='https://rebrand.ly/goldencheck' target='_blank' className='custom-button weightloss'>
                       The TROPICAL SECRET For Healthy Weight Loss
                     </a>
-                    <a href='https://rebrand.ly/goldencheck' target='_blank' className='custom-button plushies'>
+                    <a href='https://rebrand.ly/plushies' target='_blank' className='custom-button plushies'>
                       Kawaii Plushies - DISCOUNT 20% TODAY!!!
                     </a>
                     <a href={replaceArea(item.usalink, 'amazon.ca')} target='_blank' className='custom-button'>
