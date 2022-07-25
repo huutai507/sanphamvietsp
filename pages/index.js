@@ -86,19 +86,18 @@ export default function Home() {
                   <p>
                     Product code: <span className='code'>{item.name}</span>
                   </p>
-                  <h4 className='north-america'>GLOBAL</h4>
+                  <h4 className='north-america'>AMERICA</h4>
                   <a href={item.usalink} target='_blank' className='custom-button'>
-                    View Prices on Amazon
+                    USA ‣ View Prices on Amazon
                   </a>
                   <a href='https://rebrand.ly/weightlossexipure' target='_blank' className='custom-button check'>
-                    Donald Trump Golden Checks <br /> Best Gift For a Patriot!
+                    Donald Trump Golden Check <br /> Best Gift For a Patriot!
                   </a>
                   <a href='https://rebrand.ly/goldencheck' target='_blank' className='custom-button weightloss'>
                     The TROPICAL SECRET For Healthy Weight Loss
                   </a>
-                  <h4 className='north-america'>AMERICA</h4>
-                  <a href={item.usalink} target='_blank' className='custom-button'>
-                    USA ‣ View Prices on Amazon
+                  <a href='https://rebrand.ly/plushies' target='_blank' className='custom-button plushies'>
+                    Kawaii Plushies - DISCOUNT 20% TODAY!!!
                   </a>
                   <a href={replaceArea(item.usalink, 'amazon.ca')} target='_blank' className='custom-button'>
                     Canada ‣ View Prices on Amazon
@@ -125,6 +124,10 @@ export default function Home() {
                   <h4 className='europe'>ASIA</h4>
                   <a href={replaceArea(item.usalink, 'amazon.in')} target='_blank' className='custom-button'>
                     INDIA ‣ अमेज़न पर कीमतें देखें
+                  </a>
+                  <h4 className='north-america'>GLOBAL</h4>
+                  <a href={item.usalink} target='_blank' className='custom-button'>
+                    View Prices on Amazon
                   </a>
                 </div>
               </div>
