@@ -97,7 +97,7 @@ export default function Home() {
                     The TROPICAL SECRET For Healthy Weight Loss
                   </a>
                   <a href='https://rebrand.ly/plushies' target='_blank' className='custom-button plushies'>
-                    Kawaii Plushies - DISCOUNT 20% TODAY!!!
+                    Kawaii Plushies <br /> DISCOUNT 20% TODAY!!!
                   </a>
                   <a href={replaceArea(item.usalink, 'amazon.ca')} target='_blank' className='custom-button'>
                     Canada ‣ View Prices on Amazon
@@ -161,7 +161,7 @@ export default function Home() {
                       The TROPICAL SECRET For Healthy Weight Loss
                     </a>
                     <a href='https://rebrand.ly/plushies' target='_blank' className='custom-button plushies'>
-                      Kawaii Plushies - DISCOUNT 20% TODAY!!!
+                      Kawaii Plushies <br /> DISCOUNT 20% TODAY!!!
                     </a>
                     <a href={replaceArea(item.usalink, 'amazon.ca')} target='_blank' className='custom-button'>
                       Canada ‣ View Prices on Amazon
