@@ -3,6 +3,7 @@ import Head from 'next/head';
 import Image from 'next/image';
 import styles from '../styles/Home.module.css';
 import InfiniteScroll from 'react-infinite-scroll-component';
+import axios from 'axios';
 import { data } from '../data/data';
 
 export default function Home() {

@@ -24,6 +24,8 @@ input {
   border: none;
   padding: 0.5rem 1rem;
   border-radius: 999px;
+  -webkit-appearance: none;
+  -webkit-box-shadow: 0 2px 5px 1px rgb(64 60 67 / 16%);
   box-shadow: 0 2px 5px 1px rgb(64 60 67 / 16%);
 }
 
