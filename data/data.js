@@ -1,5 +1,11 @@
 export const data = [
   {
+    name: '14',
+    usalink:
+      'https://www.amazon.com/s?k=boxing+reflex+trainer&sprefix=boxing+reflex+tr%2Caps%2C433&linkCode=ll2&tag=naturalhuta-20&linkId=8415c23807fd6957dc8cb247f12c8b4b&language=en_US&ref_=as_li_ss_tl',
+    imglink: 'https://m.media-amazon.com/images/I/31zZleUkvqL._SL350_.jpg'
+  },
+  {
     name: '13',
     usalink:
       'https://www.amazon.com/s?k=usb+rechargeable+aa+batteries&linkCode=ll2&tag=naturalhuta-20&linkId=67fd8c219da50633f2023efdb9c942ce&language=en_US&ref_=as_li_ss_tl',
