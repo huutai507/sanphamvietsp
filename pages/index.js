@@ -38,6 +38,10 @@ export default function Home() {
     setListProduct(data.slice(0, 10));
   }, []);
 
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [inputSearch]);
+
   return (
     <div className={styles.container}>
       <Head>
@@ -92,14 +96,14 @@ export default function Home() {
                   <a href={item.usalink} target='_blank' className='custom-button'>
                     USA ‣ View Prices on Amazon
                   </a>
-                  <a href='https://rebrand.ly/weightlossexipure' target='_blank' className='custom-button check'>
+                  <a href='https://rebrand.ly/goldencheck' target='_blank' className='custom-button check'>
                     Donald Trump Golden Check <br /> Best Gift For a Patriot!
                   </a>
-                  <a href='https://rebrand.ly/goldencheck' target='_blank' className='custom-button weightloss'>
+                  <a href='https://rebrand.ly/weightlossexipure' target='_blank' className='custom-button weightloss'>
                     The TROPICAL SECRET For Healthy Weight Loss
                   </a>
-                  <a href='https://rebrand.ly/plushies' target='_blank' className='custom-button plushies'>
-                    Kawaii Plushies <br /> DISCOUNT 20% TODAY!!!
+                  <a href='https://rebrand.ly/Petstorene' target='_blank' className='custom-button plushies'>
+                    Pet Store - Free Shipping Today
                   </a>
                   <a href={replaceArea(item.usalink, 'amazon.ca')} target='_blank' className='custom-button'>
                     Canada ‣ View Prices on Amazon
@@ -157,14 +161,14 @@ export default function Home() {
                     <a href={item.usalink} target='_blank' className='custom-button'>
                       USA ‣ View Prices on Amazon
                     </a>
-                    <a href='https://rebrand.ly/weightlossexipure' target='_blank' className='custom-button check'>
+                    <a href='https://rebrand.ly/goldencheck' target='_blank' className='custom-button check'>
                       Donald Trump Golden Check <br /> Best Gift For a Patriot!
                     </a>
-                    <a href='https://rebrand.ly/goldencheck' target='_blank' className='custom-button weightloss'>
+                    <a href='https://rebrand.ly/weightlossexipure' target='_blank' className='custom-button weightloss'>
                       The TROPICAL SECRET For Healthy Weight Loss
                     </a>
-                    <a href='https://rebrand.ly/plushies' target='_blank' className='custom-button plushies'>
-                      Kawaii Plushies <br /> DISCOUNT 20% TODAY!!!
+                    <a href='https://rebrand.ly/Petstorene' target='_blank' className='custom-button plushies'>
+                      Pet Store - Free Shipping Today
                     </a>
                     <a href={replaceArea(item.usalink, 'amazon.ca')} target='_blank' className='custom-button'>
                       Canada ‣ View Prices on Amazon
