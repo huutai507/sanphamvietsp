@@ -1,5 +1,24 @@
 export const data = [
   {
+    name: '19',
+    usalink:
+      'https://www.amazon.com/s?k=cupboard+kitchen+storage&crid=1DCFO4J6HRP7Y&sprefix=cupboard+kitchen+st%2Caps%2C330&linkCode=ll2&tag=naturalhuta-20&linkId=e9dd27aa117fa8c34855b319ab7c0537&language=en_US&ref_=as_li_ss_tl',
+    imglink: 'https://m.media-amazon.com/images/I/31AolKk3bUL._SL350_.jpg',
+    sameproduct: true
+  },
+  {
+    name: '18',
+    usalink:
+      'https://www.amazon.com/Complete-Collapsible-Bunk-Elevate-Finland/dp/B071L36M73?crid=1XARYH8YU8TK3&keywords=Completely+Collapsible+Foldable+Bunk+Bed+Italy%2C+Frame+Only&qid=1658795021&sprefix=completely+collapsible+foldable+bunk+bed%2Caps%2C287&sr=8-3&linkCode=ll1&tag=naturalhuta-20&linkId=bcd11d5330030c4d2c7e66791a6b8e2f&language=en_US&ref_=as_li_ss_tl',
+    imglink: 'https://m.media-amazon.com/images/I/41-051tjv1L._SL350_.jpg'
+  },
+  {
+    name: '17',
+    usalink:
+      'https://www.amazon.com/ikuby-Super-Sturdy-Carport-Large-Car-Shelter-Size/dp/B078V22Q1M?crid=15KYQNGYRB0B4&keywords=windproof+carport+for&qid=1658794628&s=hi&sprefix=windproof+carport+%2Ctools%2C642&sr=1-6&linkCode=ll1&tag=naturalhuta-20&linkId=df6c47d3edb896d139101b545d943839&language=en_US&ref_=as_li_ss_tl',
+    imglink: 'https://m.media-amazon.com/images/I/51OdXqwyv9L._SL350_.jpg'
+  },
+  {
     name: '16',
     usalink:
       'https://www.amazon.com/gp/product/B09LCJY3RM?smid=A1NLYUIZ2G28WE&psc=1&linkCode=ll1&tag=naturalhuta-20&linkId=52495c0be972fe26ea2b46d2883132e2&language=en_US&ref_=as_li_ss_tl',
