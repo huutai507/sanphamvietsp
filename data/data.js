@@ -1,5 +1,11 @@
 export const data = [
   {
+    name: '16',
+    usalink:
+      'https://www.amazon.com/gp/product/B09LCJY3RM?smid=A1NLYUIZ2G28WE&psc=1&linkCode=ll1&tag=naturalhuta-20&linkId=52495c0be972fe26ea2b46d2883132e2&language=en_US&ref_=as_li_ss_tl',
+    imglink: 'https://m.media-amazon.com/images/I/31LTyxfH+SS._SL350_.jpg'
+  },
+  {
     name: '15',
     usalink:
       'https://www.amazon.com/s?k=multi-function+kitchen+sink+faucet&s=review-rank&crid=3A2IKXBZHFJZG&qid=1658760473&sprefix=multi-function+kitchen+sink+faucet%2Caps%2C300&ds=v1%3AqpGSyf00Yntdbh0VI8pTgOd3C%2B%2BPVGXsyqzVeT0wLSE&linkCode=ll2&tag=naturalhuta-20&linkId=c141d3a5dff15ed58f9179f93c963b0b&language=en_US&ref_=as_li_ss_tl',
