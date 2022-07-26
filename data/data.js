@@ -1,5 +1,11 @@
 export const data = [
   {
+    name: '20',
+    usalink:
+      'https://www.amazon.com/dp/B07T4JPRGD?pd_rd_i=B07T4JPRGD&pf_rd_p=0e085ce4-a814-4f4b-b24c-1b9dbfa919e0&pf_rd_r=PVSXYMTZ2N0G95ZMAG2V&pd_rd_wg=dIldx&pd_rd_w=q9CaB&pd_rd_r=4031889f-9e45-43b2-95f4-4b56571d2a1d&linkCode=ll1&tag=naturalhuta-20&linkId=b69bd0cddada24bd082329f3c4b8fa7f&language=en_US&ref_=as_li_ss_tl',
+    imglink: 'https://m.media-amazon.com/images/I/31pjxVxs-YL._SL350_.jpg'
+  },
+  {
     name: '19',
     usalink:
       'https://www.amazon.com/s?k=cupboard+kitchen+storage&crid=1DCFO4J6HRP7Y&sprefix=cupboard+kitchen+st%2Caps%2C330&linkCode=ll2&tag=naturalhuta-20&linkId=e9dd27aa117fa8c34855b319ab7c0537&language=en_US&ref_=as_li_ss_tl',
