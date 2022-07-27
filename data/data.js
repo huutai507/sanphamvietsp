@@ -1,11 +1,16 @@
 export const data = [
   {
+    name: '23',
+    usalink:
+      'https://www.amazon.com/gp/product/B07P9Q2821?smid=A14LJJP4CRQWYW&psc=1&linkCode=ll1&tag=naturalhuta-20&linkId=8325139c5a67de6d04c6a5d6a8418ae0&language=en_US&ref_=as_li_ss_tl',
+    imglink: 'https://m.media-amazon.com/images/I/41mR0kmYytL._SL350_.jpg'
+  },
+  {
     name: '22',
     usalink:
       'https://www.amazon.com/gp/product/B09MVZSBB7?smid=ATVPDKIKX0DER&th=1&linkCode=ll1&tag=naturalhuta-20&linkId=45b75db4809b8c889f683c1849abf5d5&language=en_US&ref_=as_li_ss_tl',
     imglink: 'https://m.media-amazon.com/images/I/31NTE+hhduL._SL350_.jpg'
   },
-
   {
     name: '21',
     usalink:

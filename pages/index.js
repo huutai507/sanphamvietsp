@@ -96,6 +96,13 @@ export default function Home() {
                   <a href={item.usalink} target='_blank' className='custom-button'>
                     USA ‣ View Prices on Amazon
                   </a>
+                  <a
+                    href='https://www.alenascarlets.com/collections/phonecase'
+                    target='_blank'
+                    className='custom-button plushies'
+                  >
+                    Phone Case You Must Have
+                  </a>
                   <a href='https://rebrand.ly/goldencheck' target='_blank' className='custom-button check'>
                     Donald Trump Golden Check <br /> Best Gift For a Patriot!
                   </a>
@@ -157,6 +164,13 @@ export default function Home() {
                     <h4 className='north-america'>AMERICA</h4>
                     <a href={item.usalink} target='_blank' className='custom-button'>
                       USA ‣ View Prices on Amazon
+                    </a>
+                    <a
+                      href='https://www.alenascarlets.com/collections/phonecase'
+                      target='_blank'
+                      className='custom-button plushies'
+                    >
+                      Phone Case You Must Have
                     </a>
                     <a href='https://rebrand.ly/goldencheck' target='_blank' className='custom-button check'>
                       Donald Trump Golden Check <br /> Best Gift For a Patriot!
