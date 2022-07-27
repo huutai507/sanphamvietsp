@@ -95,9 +95,6 @@ export default function Home() {
                   <a href='https://rebrand.ly/weightlossexipure' target='_blank' className='custom-button weightloss'>
                     The TROPICAL SECRET For Healthy Weight Loss
                   </a>
-                  <a href='https://rebrand.ly/Petstorene' target='_blank' className='custom-button plushies'>
-                    Pet Store - Free Shipping Today
-                  </a>
                   <a href={replaceArea(item.usalink, 'amazon.ca')} target='_blank' className='custom-button'>
                     Canada ‣ View Prices on Amazon
                   </a>
@@ -160,9 +157,7 @@ export default function Home() {
                     <a href='https://rebrand.ly/weightlossexipure' target='_blank' className='custom-button weightloss'>
                       The TROPICAL SECRET For Healthy Weight Loss
                     </a>
-                    <a href='https://rebrand.ly/Petstorene' target='_blank' className='custom-button plushies'>
-                      Pet Store - Free Shipping Today
-                    </a>
+
                     <a href={replaceArea(item.usalink, 'amazon.ca')} target='_blank' className='custom-button'>
                       Canada ‣ View Prices on Amazon
                     </a>
