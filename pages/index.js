@@ -54,7 +54,14 @@ export default function Home() {
           <div className='content-title'>
             <p>Enter product code in reels at below</p>
           </div>
-          <input className='input-search' type='text' onChange={inputHandler} value={inputSearch} autoFocus />
+          <input
+            className='input-search'
+            type='text'
+            placeholder='Enter code here'
+            onChange={inputHandler}
+            value={inputSearch}
+            autoFocus
+          />
           {inputSearch && (
             <span className='clear-input' onClick={clearInput}>
               <svg
