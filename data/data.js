@@ -1,16 +1,11 @@
 export const data = [
   {
-    name: '23',
+    name: '22',
     usalink:
       'https://www.amazon.com/gp/product/B09MVZSBB7?smid=ATVPDKIKX0DER&th=1&linkCode=ll1&tag=naturalhuta-20&linkId=45b75db4809b8c889f683c1849abf5d5&language=en_US&ref_=as_li_ss_tl',
     imglink: 'https://m.media-amazon.com/images/I/31NTE+hhduL._SL350_.jpg'
   },
-  {
-    name: '22',
-    usalink:
-      'https://www.amazon.com/s?k=UnnFiko+Liquid+Glitter+Case+Compatible+with+iPhone&crid=1QCQNT4VN4JSV&sprefix=unnfiko+liquid+glitter+case+compatible+with+iphone%2Caps%2C315&linkCode=ll2&tag=naturalhuta-20&linkId=59d5317c907819ccea76d154b818e803&language=en_US&ref_=as_li_ss_tl',
-    imglink: 'https://m.media-amazon.com/images/I/513r6kM167L._SL350_.jpg'
-  },
+
   {
     name: '21',
     usalink:
