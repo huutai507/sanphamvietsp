@@ -96,19 +96,6 @@ export default function Home() {
                   <a href={item.usalink} target='_blank' className='custom-button'>
                     USA ‣ View Prices on Amazon
                   </a>
-                  <a
-                    href='https://www.alenascarlets.com/collections/phonecase'
-                    target='_blank'
-                    className='custom-button plushies'
-                  >
-                    Phone Case You Must Have
-                  </a>
-                  <a href='https://rebrand.ly/goldencheck' target='_blank' className='custom-button check'>
-                    Donald Trump Golden Check <br /> Best Gift For a Patriot!
-                  </a>
-                  <a href='https://rebrand.ly/weightlossexipure' target='_blank' className='custom-button weightloss'>
-                    The TROPICAL SECRET For Healthy Weight Loss
-                  </a>
                   <a href={replaceArea(item.usalink, 'amazon.ca')} target='_blank' className='custom-button'>
                     Canada ‣ View Prices on Amazon
                   </a>
@@ -165,20 +152,6 @@ export default function Home() {
                     <a href={item.usalink} target='_blank' className='custom-button'>
                       USA ‣ View Prices on Amazon
                     </a>
-                    <a
-                      href='https://www.alenascarlets.com/collections/phonecase'
-                      target='_blank'
-                      className='custom-button plushies'
-                    >
-                      Phone Case You Must Have
-                    </a>
-                    <a href='https://rebrand.ly/goldencheck' target='_blank' className='custom-button check'>
-                      Donald Trump Golden Check <br /> Best Gift For a Patriot!
-                    </a>
-                    <a href='https://rebrand.ly/weightlossexipure' target='_blank' className='custom-button weightloss'>
-                      The TROPICAL SECRET For Healthy Weight Loss
-                    </a>
-
                     <a href={replaceArea(item.usalink, 'amazon.ca')} target='_blank' className='custom-button'>
                       Canada ‣ View Prices on Amazon
                     </a>
