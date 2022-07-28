@@ -1,5 +1,11 @@
 export const data = [
   {
+    name: '24',
+    usalink:
+      'https://www.amazon.com/HengTianMei-Precision-Screwdriver-Professional-Magnetic/dp/B0921NTGDJ?crid=3E102O7B1UY6C&keywords=128+in+1+Precision+Screwdriver&qid=1658970236&sprefix=128+in+1+precision+screwdriver%2Caps%2C342&sr=8-5&linkCode=ll1&tag=naturalhuta-20&linkId=26f78505159bd23c67c0c4a733d48903&language=en_US&ref_=as_li_ss_tl',
+    imglink: 'https://m.media-amazon.com/images/I/51IRfAgQ2GL._SL350_.jpg'
+  },
+  {
     name: '23',
     usalink:
       'https://www.amazon.com/gp/product/B07P9Q2821?smid=A14LJJP4CRQWYW&psc=1&linkCode=ll1&tag=naturalhuta-20&linkId=8325139c5a67de6d04c6a5d6a8418ae0&language=en_US&ref_=as_li_ss_tl',
