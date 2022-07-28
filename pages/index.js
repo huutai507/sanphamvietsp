@@ -52,12 +52,12 @@ export default function Home() {
       <div className='search-bar'>
         <div className='input-content'>
           <div className='content-title'>
-            <p>Enter product code in reels at below</p>
+            <p>Enter product code in the search box</p>
           </div>
           <input
             className='input-search'
             type='text'
-            placeholder='Enter code here'
+            placeholder='Enter code here, example: 3'
             onChange={inputHandler}
             value={inputSearch}
             autoFocus
