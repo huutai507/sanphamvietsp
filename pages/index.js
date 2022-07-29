@@ -98,7 +98,11 @@ export default function Home() {
                     Product code: <span className='code'>{item.name}</span>
                   </p>
                   <h4 className='north-america'>GLOBAL</h4>
-                  <a href='' target='_blank' className='custom-button weightloss'>
+                  <a
+                    href='https://www.alenascarlets.com/collections/technology-1'
+                    target='_blank'
+                    className='custom-button weightloss'
+                  >
                     Unique Products Best Seller
                   </a>
                   <a href={item.usalink} target='_blank' className='custom-button'>
@@ -167,7 +171,11 @@ export default function Home() {
                       Product code: <span className='code'>{item.name}</span>
                     </p>
                     <h4 className='north-america'>GLOBAL</h4>
-                    <a href='' target='_blank' className='custom-button weightloss'>
+                    <a
+                      href='https://www.alenascarlets.com/collections/technology-1'
+                      target='_blank'
+                      className='custom-button weightloss'
+                    >
                       Unique Products Best Seller
                     </a>
                     <a href={item.usalink} target='_blank' className='custom-button'>
