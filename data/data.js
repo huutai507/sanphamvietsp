@@ -1,30 +1,30 @@
 export const data = [
-  // {
-  //   name: '31',
-  //   usalink:
-  //     'https://www.amazon.com/Desong-1-28inch-Bluetooth-Recording-Thermometer/dp/B09536VY13?crid=17BAAMH2ZUYJV&keywords=watch+with+headphones&qid=1659103070&sprefix=watch+and+airpod+charger%2Caps%2C364&sr=8-3&linkCode=ll1&tag=naturalhuta-20&linkId=a48a67470f782545b150a08e34bc2a1b&language=en_US&ref_=as_li_ss_tl',
-  //   // aliexpress:'',
-  //   imglink: 'https://m.media-amazon.com/images/I/51gCFmZt8SS._SL350_.jpg'
-  // },
+  {
+    name: '31',
+    usalink:
+      'https://www.amazon.com/Desong-1-28inch-Bluetooth-Recording-Thermometer/dp/B09536VY13?crid=17BAAMH2ZUYJV&keywords=watch+with+headphones&qid=1659103070&sprefix=watch+and+airpod+charger%2Caps%2C364&sr=8-3&linkCode=ll1&tag=naturalhuta-20&linkId=a48a67470f782545b150a08e34bc2a1b&language=en_US&ref_=as_li_ss_tl',
+    // aliexpress:'',
+    imglink: 'https://m.media-amazon.com/images/I/51gCFmZt8SS._SL350_.jpg'
+  },
   {
     name: '30',
     usalink:
       'https://www.amazon.com/s?k=body+measure+tape&sprefix=body+measu+tape%2Caps%2C372&linkCode=ll2&tag=naturalhuta-20&linkId=d17d32ea05f224e456933d9eff50479a&language=en_US&ref_=as_li_ss_tl',
-    // aliexpress: 'https://s.click.aliexpress.com/e/_DkPLB8L',
+    aliexpress: 'https://s.click.aliexpress.com/e/_DkPLB8L',
     imglink: 'https://m.media-amazon.com/images/I/4106iSsv20L._SL350_.jpg'
   },
   {
     name: '29',
     usalink:
       'https://www.amazon.com/s?k=toothpaste+squeezer&sprefix=toothpaste+%2Caps%2C368&linkCode=ll2&tag=naturalhuta-20&linkId=4171c478b993b2d288de5c097e4cdc32&language=en_US&ref_=as_li_ss_tl',
-    // aliexpress: 'https://s.click.aliexpress.com/e/_DEX8CVp',
+    aliexpress: 'https://s.click.aliexpress.com/e/_DEX8CVp',
     imglink: 'https://m.media-amazon.com/images/I/41eKrN0n6aL._SL350_.jpg'
   },
   {
     name: '28',
     usalink:
       'https://www.amazon.com/Hidden-Camera-Detector-Security-Wireless/dp/B0B79QM376?crid=288PNSVIZPH94&keywords=mini+surveillance+camera+wifi&qid=1659004389&sprefix=mini+surveliance+cam%2Caps%2C337&sr=8-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUFPTjg3Qzk0VDBQOUwmZW5jcnlwdGVkSWQ9QTA5MjA5MzYxMTdYTjBBMlpXQUhTJmVuY3J5cHRlZEFkSWQ9QTAwODAxMzNDMVRXTDAxMFRJMVkmd2lkZ2V0TmFtZT1zcF9hdGYmYWN0aW9uPWNsaWNrUmVkaXJlY3QmZG9Ob3RMb2dDbGljaz10cnVl&linkCode=ll1&tag=naturalhuta-20&linkId=1c8d98fb9088b3b4d5ca1a7b42194361&language=en_US&ref_=as_li_ss_tl',
-    // aliexpress: 'https://s.click.aliexpress.com/e/_DCIlEJd',
+    aliexpress: 'https://s.click.aliexpress.com/e/_DCIlEJd',
     imglink: 'https://m.media-amazon.com/images/I/41eNN-1pFNL._SL350_.jpg'
   },
   {
