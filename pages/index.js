@@ -103,7 +103,7 @@ export default function Home() {
                   </a>
                   {item.aliexpress && (
                     <a href={item.aliexpress} target='_blank' className='custom-button aliexpress'>
-                      View Prices on Aliexpress
+                      View Cheap Prices on Aliexpress
                     </a>
                   )}
 
