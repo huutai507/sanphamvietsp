@@ -3,7 +3,7 @@ export const data = [
     name: '31',
     usalink:
       'https://www.amazon.com/Desong-1-28inch-Bluetooth-Recording-Thermometer/dp/B09536VY13?crid=17BAAMH2ZUYJV&keywords=watch+with+headphones&qid=1659103070&sprefix=watch+and+airpod+charger%2Caps%2C364&sr=8-3&linkCode=ll1&tag=naturalhuta-20&linkId=a48a67470f782545b150a08e34bc2a1b&language=en_US&ref_=as_li_ss_tl',
-    // aliexpress:'',
+    aliexpress: 'https://s.click.aliexpress.com/e/_DlVZSYf',
     imglink: 'https://m.media-amazon.com/images/I/51gCFmZt8SS._SL350_.jpg'
   },
   {
