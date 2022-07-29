@@ -178,10 +178,9 @@ input {
 }
 
 .custom-button {
-  background-color: #cf404d;
+  background-color: #ffc848;
   text-align: center;
-  color: #fff;
-  font-weight: 500;
+  font-weight: 400;
   width: 100%;
   padding: 12px 0;
   border-radius: 5px;
@@ -203,6 +202,11 @@ input {
 
 .custom-button.plushies {
   background-color: #2196f3;
+}
+
+.custom-button.aliexpress {
+  background-color: #ff4747;
+  color: #fff;
 }
 
 .code {
