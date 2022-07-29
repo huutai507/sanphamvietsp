@@ -99,7 +99,7 @@ export default function Home() {
                   </p>
                   <h4 className='north-america'>GLOBAL</h4>
                   <a href={item.usalink} target='_blank' className='custom-button'>
-                    View Cheap Prices on Amazon
+                    View Prices on Amazon
                   </a>
                   {item.aliexpress && (
                     <a href={item.aliexpress} target='_blank' className='custom-button aliexpress'>
