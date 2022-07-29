@@ -117,6 +117,10 @@ export default function Home() {
                   <a href={replaceArea(item.usalink, 'amazon.com.br')} target='_blank' className='custom-button'>
                     Brazil ‣ View Prices on Amazon
                   </a>
+                  <h4 className='europe'>ASIA</h4>
+                  <a href={replaceArea(item.usalink, 'amazon.in')} target='_blank' className='custom-button'>
+                    INDIA ‣ अमेज़न पर कीमतें देखें
+                  </a>
                   <h4 className='europe'>EUROPE</h4>
                   <a href={replaceArea(item.usalink, 'amazon.co.uk')} target='_blank' className='custom-button'>
                     UK ‣ View Prices on Amazon
@@ -178,6 +182,10 @@ export default function Home() {
                     <a href={replaceArea(item.usalink, 'amazon.com.br')} target='_blank' className='custom-button'>
                       Brazil ‣ View Prices on Amazon
                     </a>
+                    <h4 className='europe'>ASIA</h4>
+                    <a href={replaceArea(item.usalink, 'amazon.in')} target='_blank' className='custom-button'>
+                      INDIA ‣ अमेज़न पर कीमतें देखें
+                    </a>
                     <h4 className='europe'>EUROPE</h4>
                     <a href={replaceArea(item.usalink, 'amazon.co.uk')} target='_blank' className='custom-button'>
                       UK ‣ View Prices on Amazon
@@ -193,10 +201,6 @@ export default function Home() {
                     </a>
                     <a href={replaceArea(item.usalink, 'amazon.es')} target='_blank' className='custom-button'>
                       ESPAÑA ‣ Ver Precios en Amazon
-                    </a>
-                    <h4 className='europe'>ASIA</h4>
-                    <a href={replaceArea(item.usalink, 'amazon.in')} target='_blank' className='custom-button'>
-                      INDIA ‣ अमेज़न पर कीमतें देखें
                     </a>
                   </div>
                 </div>
