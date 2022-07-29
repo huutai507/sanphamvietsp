@@ -104,8 +104,8 @@ input {
 
 .input-content {
   position: relative;
-  margin: 0 auto;
   text-align: center;
+  margin-left: 44px;
 }
 .content-title {
   font-size: 18px;
