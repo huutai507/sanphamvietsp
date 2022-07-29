@@ -100,6 +100,13 @@ export default function Home() {
                   <a href={item.usalink} target='_blank' className='custom-button'>
                     USA ‣ View Prices on Amazon
                   </a>
+                  <a
+                    href='https://www.alenascarlets.com/collections/phonecase'
+                    target='_blank'
+                    className='custom-button plushies'
+                  >
+                    TOP 10 Best Seller iPhone Case
+                  </a>
                   <a href={replaceArea(item.usalink, 'amazon.ca')} target='_blank' className='custom-button'>
                     Canada ‣ View Prices on Amazon
                   </a>
@@ -155,6 +162,13 @@ export default function Home() {
                     <h4 className='north-america'>AMERICA</h4>
                     <a href={item.usalink} target='_blank' className='custom-button'>
                       USA ‣ View Prices on Amazon
+                    </a>
+                    <a
+                      href='https://www.alenascarlets.com/collections/phonecase'
+                      target='_blank'
+                      className='custom-button plushies'
+                    >
+                      TOP 10 Best Seller iPhone Case
                     </a>
                     <a href={replaceArea(item.usalink, 'amazon.ca')} target='_blank' className='custom-button'>
                       Canada ‣ View Prices on Amazon
