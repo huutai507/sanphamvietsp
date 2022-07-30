@@ -103,7 +103,7 @@ export default function Home() {
                   </a>
                   {item.aliexpress && (
                     <a href={item.aliexpress} target='_blank' className='custom-button aliexpress'>
-                      View Good Prices on Aliexpress
+                      View Cheap Prices on Aliexpress
                     </a>
                   )}
 
@@ -169,7 +169,7 @@ export default function Home() {
                     </a>
                     {item.aliexpress && (
                       <a href={item.aliexpress} target='_blank' className='custom-button aliexpress'>
-                        View Good Prices on Aliexpress
+                        View Cheap Prices on Aliexpress
                       </a>
                     )}
                     <h4 className='north-america'>AMERICA</h4>
