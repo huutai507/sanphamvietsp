@@ -1,4 +1,155 @@
+// {
+//   name: '',
+//   usalink: '',
+//   aliexpress: '',
+//   imglink: ''
+// },
+
 export const data = [
+  {
+    name: '51',
+    usalink:
+      'https://www.amazon.com/s?k=front+mirror+rain+protector&sprefix=front+mirror+rain+pro%2Caps%2C339&linkCode=ll2&tag=naturalhuta-20&linkId=5c1f809b935ffdbc6d01b75d8992a4e6&language=en_US&ref_=as_li_ss_tl',
+    aliexpress: 'https://s.click.aliexpress.com/e/_Dm1OD83',
+    imglink: 'https://m.media-amazon.com/images/I/51SuM9hAXYL._SL350_.jpg'
+  },
+  {
+    name: '50',
+    usalink:
+      'https://www.amazon.com/XERGUR-Headrest-Pillow-Passenger-Adjustable/dp/B07ZYJ33K3?crid=2BVAVHI530UOC&keywords=car+neck+headset+pillow&qid=1659151043&sprefix=car+neck+headset+pillow%2Caps%2C332&sr=8-5&linkCode=ll1&tag=naturalhuta-20&linkId=70039eb86f28ee035d25dbecde5e5969&language=en_US&ref_=as_li_ss_tl',
+    aliexpress: 'https://s.click.aliexpress.com/e/_DBD3Mj9',
+    imglink: 'https://m.media-amazon.com/images/I/51o1nSAOiIL._SL350_.jpg'
+  },
+  {
+    name: '49',
+    usalink:
+      'https://www.amazon.com/Graco-Tranzitions-Harness-Booster-Proof/dp/B07C2RNRCJ?crid=11O75RELHRWXH&keywords=volvo+car+baby+seat&qid=1659150600&sprefix=volvo+car+baby+seat%2Caps%2C442&sr=8-8&linkCode=ll1&tag=naturalhuta-20&linkId=fb6ed145b61d9fc5dc9f1f7abb4433a9&language=en_US&ref_=as_li_ss_tl',
+    aliexpress: 'https://s.click.aliexpress.com/e/_Dm0iknz',
+    imglink: 'https://m.media-amazon.com/images/I/3144YNWXN4L._SL350_.jpg',
+    sameproduct: true
+  },
+  {
+    name: '48',
+    usalink:
+      'https://www.amazon.com/s?k=epoxy+glueUmbrella+with+built+in+fan+and+water&crid=381XOPQS1YY8V&sprefix=epoxy+glueumbrella+with+built+in+fan+and+water%2Caps%2C311&linkCode=ll2&tag=naturalhuta-20&linkId=8ffcf03e2158d3384e03dea7bf19531d&language=en_US&ref_=as_li_ss_tl',
+    aliexpress: 'https://s.click.aliexpress.com/e/_DBqeOqj',
+    imglink: '//ae01.alicdn.com/kf/HTB1tM_XaHj1gK0jSZFOq6A7GpXas.jpg_350x350.jpg'
+  },
+  {
+    name: '47',
+    usalink:
+      'https://www.amazon.com/J-B-Weld-ClearWeld-Syringe-25mL/dp/B09C6R4VSQ?crid=GZK1RCWNZMVS&keywords=epoxy+glue&qid=1659150230&sprefix=epoxy+glu%2Caps%2C486&sr=8-2-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUExNk1HSkVEVlBZQUVPJmVuY3J5cHRlZElkPUEwNTM2NTMwMVZRM0pJMVhVUTNTSCZlbmNyeXB0ZWRBZElkPUEwNzM1NjczMzVHOVYwMk1ONEU5RyZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU%3D&linkCode=ll1&tag=naturalhuta-20&linkId=58104c2e3a094a09c691c76ded38dcdd&language=en_US&ref_=as_li_ss_tl',
+    aliexpress: 'https://s.click.aliexpress.com/e/_DDDuTY3',
+    imglink: 'https://m.media-amazon.com/images/I/513glBTltjL._SL350_.jpg'
+  },
+  {
+    name: '46',
+    usalink:
+      'https://www.amazon.com/s?k=paper+soap&crid=3UALQT9RFGCMK&sprefix=paper+soa%2Caps%2C344&linkCode=ll2&tag=naturalhuta-20&linkId=617ec726e6c8eb6211abdd3b4259dd05&language=en_US&ref_=as_li_ss_tl',
+    aliexpress: 'https://s.click.aliexpress.com/e/_DlNSJk7',
+    imglink: '//ae01.alicdn.com/kf/Hbfea34a5b1b442ec81af42c3636c649aA.jpg_350x350.jpg'
+  },
+  {
+    name: '45',
+    usalink:
+      'https://www.amazon.com/s?k=Cooskin+small+18+cm&crid=1PJQLXXSKKJ49&sprefix=cooskin+small+18+%2Caps%2C354&linkCode=ll2&tag=naturalhuta-20&linkId=2ad1c8d61f3a43b41c5ad5fa27bcbeb2&language=en_US&ref_=as_li_ss_tl',
+    aliexpress: 'https://s.click.aliexpress.com/e/_DeNfFrv',
+    imglink: '//ae01.alicdn.com/kf/H789cee17e12f4772b9198a695a6d24dfY.jpg_350x350.jpg'
+  },
+  {
+    name: '44',
+    usalink:
+      'https://www.amazon.com/s?k=projection+alarm+clock+digital&crid=3OGASLKIOBIMW&sprefix=projection+alarm+clock+digital%2Caps%2C323&linkCode=ll2&tag=naturalhuta-20&linkId=dd71c695d5bc802177b715087c758cfd&language=en_US&ref_=as_li_ss_tl',
+    aliexpress: 'https://s.click.aliexpress.com/e/_DCXjnyj',
+    imglink: '//ae01.alicdn.com/kf/S7b7da4573bde48b48973cbe7fef37419X.jpg_80x80.jpg'
+  },
+  {
+    name: '43',
+    usalink:
+      'https://www.amazon.com/s?k=Galaxy+Projector+7+in+1+Planetarium+Projector&crid=2MRMP1LT4ZBAJ&sprefix=gun+lighter%2Caps%2C351&linkCode=ll2&tag=naturalhuta-20&linkId=33f72fe324d0645df7dc310a88ae8707&language=en_US&ref_=as_li_ss_tl',
+    aliexpress: 'https://s.click.aliexpress.com/e/_DC2G0ij',
+    imglink: '//ae01.alicdn.com/kf/Sbbe9b5019347437d9ee7c4478a45e579j.jpg_350x350.jpg'
+  },
+  {
+    name: '42',
+    usalink:
+      'https://www.amazon.com/s?k=gun+lighter&crid=1L65AXQ8O7Z2B&sprefix=gun+light%2Caps%2C361&linkCode=ll2&tag=naturalhuta-20&linkId=4726638a4099d05bd940dbe9734bbe49&language=en_US&ref_=as_li_ss_tl',
+    aliexpress: 'https://s.click.aliexpress.com/e/_DmXu2wF',
+    imglink: '//ae01.alicdn.com/kf/S4f252a8004c94e1f9d4ae2b27c77c5f49.jpg_350x350.jpg',
+    sameproduct: true
+  },
+  {
+    name: '41',
+    usalink:
+      'https://www.amazon.com/s?k=Kids+Automatic+Rocket+Bubble+Machine&crid=1TX3FXVH6ST1O&sprefix=auto+labor-saving+jack+ratchet%2Caps%2C328&linkCode=ll2&tag=naturalhuta-20&linkId=10cf6b71365e1d2d13bd0b2e25a61ac7&language=en_US&ref_=as_li_ss_tl',
+    aliexpress: 'https://s.click.aliexpress.com/e/_DdNy4rN',
+    imglink: '//ae01.alicdn.com/kf/S0f3d0dac852b477a8a4c924b8b60e477l.jpg_350x350.jpg'
+  },
+  {
+    name: '40',
+    usalink:
+      'https://www.amazon.com/s?k=Auto+Labor-Saving+Jack+Ratchet&crid=17Q4TUURYD9LB&sprefix=auto+labor-saving+jack+ratchet%2Caps%2C295&linkCode=ll2&tag=naturalhuta-20&linkId=03b9fb6b17773765b29dfeae8816b83d&language=en_US&ref_=as_li_ss_tl',
+    aliexpress: 'https://s.click.aliexpress.com/e/_DkZROTd',
+    imglink: '//ae01.alicdn.com/kf/Hda27989552fd418082f7fcd3243f4ccb8.jpg_350x350.jpg'
+  },
+  {
+    name: '39',
+    usalink:
+      'https://www.amazon.com/s?k=3+in+1+Magnetic+USB+Cable+Type+C&crid=3BQY3YVV6Q1PA&sprefix=3+in+1+magnetic+usb+cable+type+c+%2Caps%2C397&linkCode=ll2&tag=naturalhuta-20&linkId=f0cab9caa46fbdb3d8110502f773dbc8&language=en_US&ref_=as_li_ss_tl',
+    aliexpress: 'https://s.click.aliexpress.com/e/_DDP7FwP',
+    imglink: '//ae01.alicdn.com/kf/Hd95172e74e514ef1bd3f431f131f06e8u.jpg_350x350.jpg'
+  },
+  {
+    name: '38',
+    usalink:
+      'https://www.amazon.com/s?k=Rc+Airplanes%2C+Remote+Control+Airplanes+Glider&crid=2PR07V37DOM5B&sprefix=remote+control+fighter+aircraft%2Caps%2C321&linkCode=ll2&tag=naturalhuta-20&linkId=d2e65c9ee52c6067b10bc01753d3e6a4&language=en_US&ref_=as_li_ss_tl',
+    aliexpress: '',
+    imglink: 'https://m.media-amazon.com/images/I/413ASOVs8+L._SL350_.jpg'
+  },
+  {
+    name: '37',
+    usalink:
+      'https://www.amazon.com/s?k=Retractable+Stool+Chairs&crid=2LKOXQN3DQM4C&sprefix=ae01.alicdn.com%2Fkf%2Fsf30e1b6063254a4882703ebf30ae2842n.jpg_350x350.jpg%2Caps%2C286&linkCode=ll2&tag=naturalhuta-20&linkId=c5b67c67686f75c17ec9e0f9e750502c&language=en_US&ref_=as_li_ss_tl',
+    aliexpress: 'https://s.click.aliexpress.com/e/_DkW221t',
+    imglink: '//ae01.alicdn.com/kf/Sf30e1b6063254a4882703ebf30ae2842N.jpg_350x350.jpg'
+  },
+  {
+    name: '36',
+    usalink:
+      'https://www.amazon.com/s?k=collapsible+charcoal+stove&crid=1QBS8YVYS5CUD&sprefix=lighter%2Caps%2C347&linkCode=ll2&tag=naturalhuta-20&linkId=9829354e2847b4025c268602e1ec93f1&language=en_US&ref_=as_li_ss_tl',
+    aliexpress: 'https://s.click.aliexpress.com/e/_DDQD5OR',
+    imglink: '//ae01.alicdn.com/kf/Hcbdf149ef5484c67af9dc93a575f2bdcn.jpg_350x350.jpg',
+    sameproduct: true
+  },
+  {
+    name: '35',
+    usalink:
+      'https://www.amazon.com/s?k=lighter&crid=31380I7GQSR8N&sprefix=lig%2Caps%2C460&linkCode=ll2&tag=naturalhuta-20&linkId=2ad0ff9d78dc0afa74bd3d28bc9de083&language=en_US&ref_=as_li_ss_tl',
+    aliexpress: 'https://s.click.aliexpress.com/e/_DEQxC6x',
+    imglink: '//ae01.alicdn.com/kf/Sf349327a29af47f28dee1ee2858740d7O.jpg_350x350.jpg',
+    sameproduct: true
+  },
+  {
+    name: '34',
+    usalink:
+      'https://www.amazon.com/s?k=watermelon+cutter&crid=AD5ECYAM4QCW&sprefix=watermelon+cutt%2Caps%2C341&linkCode=ll2&tag=naturalhuta-20&linkId=84bda6a87cd2a90a8aa989493c7f7cb0&language=en_US&ref_=as_li_ss_tl',
+    aliexpress: 'https://s.click.aliexpress.com/e/_DnKDShp',
+    imglink: 'https://m.media-amazon.com/images/I/41cZbeRuOHS._SL350_.jpg'
+  },
+  {
+    name: '33',
+    usalink:
+      'https://www.amazon.com/s?k=spiral+hanger&crid=37N9D4A2O4BQ3&sprefix=spiral+hange%2Caps%2C407&linkCode=ll2&tag=naturalhuta-20&linkId=e97cbf6f3873b8b992b0efe0fc626b53&language=en_US&ref_=as_li_ss_tl',
+    aliexpress: 'https://s.click.aliexpress.com/e/_Dnoi06j',
+    imglink: 'https://m.media-amazon.com/images/I/314CjzyYs-L._SL350_.jpg'
+  },
+  {
+    name: '32',
+    usalink:
+      'https://www.amazon.com/s?k=flexible+mirror+sheet&crid=3GPJT0N6DWIKO&sprefix=flexible+mirror+sheet+r%2Caps%2C329&linkCode=ll2&tag=naturalhuta-20&linkId=4ef49fa06fd41afc2b487b5c95545ccb&language=en_US&ref_=as_li_ss_tl',
+    aliexpress: 'https://s.click.aliexpress.com/e/_DB28pc3',
+    imglink: 'https://m.media-amazon.com/images/I/411rWtqvMGL._SL350_.jpg'
+  },
   {
     name: '31',
     usalink:
