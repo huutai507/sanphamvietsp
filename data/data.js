@@ -7,6 +7,27 @@
 
 export const data = [
   {
+    name: '54',
+    usalink:
+      'https://www.amazon.com/s?k=Mister+Breeze+UPF+50%2B+Sun+Umbrella&crid=6R0T0XHZYE9O&sprefix=mister+breeze+upf+50%2B+sun+umbrella+%2Caps%2C311&linkCode=ll2&tag=naturalhuta-20&linkId=72b13e4f752d85a2516d32cba93f2902&language=en_US&ref_=as_li_ss_tl',
+    aliexpress: 'https://s.click.aliexpress.com/e/_DENqZgx',
+    imglink: 'https://m.media-amazon.com/images/I/31Ucd03YXqL._SL350_.jpg'
+  },
+  {
+    name: '53',
+    usalink:
+      'https://www.amazon.com/s?k=Nail+Wall+Fastening+Tool+Nails+Guns&crid=3TQC225IO87V5&sprefix=low+noise+nail+gun%2Caps%2C282&linkCode=ll2&tag=naturalhuta-20&linkId=d28a7c00b7a69a5a371d039f82f25b53&language=en_US&ref_=as_li_ss_tl',
+    aliexpress: 'https://s.click.aliexpress.com/e/_DkKP4S7',
+    imglink: 'https://m.media-amazon.com/images/I/41TqKJB8J1L._SL350_.jpg'
+  },
+  {
+    name: '52',
+    usalink:
+      'https://www.amazon.com/s?k=auto+labor+saving+jack&crid=EN1R7SFQVATY&sprefix=auto+labor%2Caps%2C434&linkCode=ll2&tag=naturalhuta-20&linkId=348a4d12da35151c151ba60304e5c2ef&language=en_US&ref_=as_li_ss_tl',
+    aliexpress: 'https://s.click.aliexpress.com/e/_DlCyaoJ',
+    imglink: 'https://m.media-amazon.com/images/I/31eUDRXhWHS._SL350_.jpg'
+  },
+  {
     name: '51',
     usalink:
       'https://www.amazon.com/s?k=front+mirror+rain+protector&sprefix=front+mirror+rain+pro%2Caps%2C339&linkCode=ll2&tag=naturalhuta-20&linkId=5c1f809b935ffdbc6d01b75d8992a4e6&language=en_US&ref_=as_li_ss_tl',
