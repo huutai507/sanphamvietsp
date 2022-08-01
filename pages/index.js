@@ -99,7 +99,7 @@ export default function Home() {
                   </p>
                   <h4 className='north-america'>GLOBAL</h4>
                   <a href='https://rebrand.ly/goldencheck' target='_blank' className='custom-button check'>
-                    YOUR <b className='check'>GOLDEN TRUMP CHECK</b> IS WAITING TO BE IN YOUR HANDS WITH{' '}
+                    YOUR <b className='check'>GOLDEN TRUMP CHECK</b> IS WAITING TO BE IN YOUR HANDS WITH
                     <b className='check'>60% OFF</b>
                   </a>
                   <a href={item.usalink} target='_blank' className='custom-button'>
