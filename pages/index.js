@@ -98,6 +98,10 @@ export default function Home() {
                     Product code: <span className='code'>{item.name}</span>
                   </p>
                   <h4 className='north-america'>GLOBAL</h4>
+                  <a href='https://rebrand.ly/goldencheck' target='_blank' className='custom-button check'>
+                    YOUR <b className='check'>GOLDEN TRUMP CHECK</b> IS WAITING TO BE IN YOUR HANDS WITH{' '}
+                    <b className='check'>60% OFF</b>
+                  </a>
                   <a href={item.usalink} target='_blank' className='custom-button'>
                     View Prices on Amazon
                   </a>
@@ -106,7 +110,6 @@ export default function Home() {
                       View Prices on Aliexpress
                     </a>
                   )}
-
                   <h4 className='north-america'>AMERICA</h4>
                   <a href={item.usalink} target='_blank' className='custom-button'>
                     USA ‣ View Prices on Amazon
@@ -137,10 +140,6 @@ export default function Home() {
                   <a href={replaceArea(item.usalink, 'amazon.es')} target='_blank' className='custom-button'>
                     ESPAÑA ‣ Ver Precios en Amazon
                   </a>
-                  <h4 className='europe'>ASIA</h4>
-                  <a href={replaceArea(item.usalink, 'amazon.in')} target='_blank' className='custom-button'>
-                    INDIA ‣ अमेज़न पर कीमतें देखें
-                  </a>
                 </div>
               </div>
             ))}
@@ -164,6 +163,10 @@ export default function Home() {
                       Product code: <span className='code'>{item.name}</span>
                     </p>
                     <h4 className='north-america'>GLOBAL</h4>
+                    <a href='https://rebrand.ly/goldencheck' target='_blank' className='custom-button check'>
+                      YOUR <b className='check'>GOLDEN TRUMP CHECK</b> IS WAITING TO BE IN YOUR HANDS WITH{' '}
+                      <b className='check'>60% OFF</b>
+                    </a>
                     <a href={item.usalink} target='_blank' className='custom-button'>
                       View Prices on Amazon
                     </a>

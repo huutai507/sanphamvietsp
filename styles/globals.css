@@ -210,10 +210,16 @@ input {
 .custom-button:hover {
   opacity: 0.8;
 }
+.check {
+  color: rgb(255, 226, 102);
+}
 
 .custom-button.check {
-  background-color: #ff9800e3;
+  background-image: url('https://www.patriotgoldenfoundation.com/hosted/images/65/6128d07b7f43c1bdd7ac9307fbcb13/BG-3.jpg');
+  color: #fff;
+  font-weight: 400;
 }
+
 .custom-button.weightloss {
   background-color: #4caf50;
   color: #fff;
