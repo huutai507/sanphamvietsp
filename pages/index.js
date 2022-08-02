@@ -98,10 +98,10 @@ export default function Home() {
                     Product code: <span className='code'>{item.name}</span>
                   </p>
                   {/* {item.aliexpress && (
-                    <a href={item.aliexpress} target='_blank' className='custom-button aliexpress'>
-                      View Prices on Aliexpress
-                    </a>
-                  )} */}
+                      <a href={item.aliexpress} target='_blank' className='custom-button aliexpress'>
+                        View Prices on Aliexpress
+                      </a>
+                    )} */}
                   <h4 className='north-america'>AMERICA</h4>
                   <a href={item.usalink} target='_blank' className='custom-button'>
                     USA ‣ View Prices on Amazon
@@ -110,14 +110,12 @@ export default function Home() {
                     Canada ‣ View Prices on Amazon
                   </a>
                   <a href={replaceArea(item.usalink, 'amazon.com.br')} target='_blank' className='custom-button'>
-                    Brazil ‣ View Prices on Amazon
+                    Brazil ‣ Veja os preços na Amazon
                   </a>
                   <a href='https://rebrand.ly/goldencheck' target='_blank' className='custom-button check'>
-                    <b className='check'>Donald J. Trump Golden Checks</b>
-                    <br />
+                    <b className='check'>Donald J. Trump Golden Checks</b> <br />
                     <b className='check'>Best Gift For a Patriot!</b>
                   </a>
-
                   <h4 className='europe'>ASIA</h4>
                   <a href={replaceArea(item.usalink, 'amazon.in')} target='_blank' className='custom-button'>
                     INDIA ‣ अमेज़न पर कीमतें देखें
@@ -137,6 +135,15 @@ export default function Home() {
                   </a>
                   <a href={replaceArea(item.usalink, 'amazon.es')} target='_blank' className='custom-button'>
                     ESPAÑA ‣ Ver Precios en Amazon
+                  </a>
+                  <a href={replaceArea(item.usalink, 'amazon.se')} target='_blank' className='custom-button'>
+                    Sweden ‣ Se priser på Amazon
+                  </a>
+                  <a href={replaceArea(item.usalink, 'amazon.tr')} target='_blank' className='custom-button'>
+                    Turkey ‣ Amazon'da Fiyatları Görüntüle
+                  </a>
+                  <a href={replaceArea(item.usalink, 'amazon.tr')} target='_blank' className='custom-button'>
+                    Netherlands ‣ Bekijk prijzen op Amazon
                   </a>
                 </div>
               </div>
@@ -173,7 +180,7 @@ export default function Home() {
                       Canada ‣ View Prices on Amazon
                     </a>
                     <a href={replaceArea(item.usalink, 'amazon.com.br')} target='_blank' className='custom-button'>
-                      Brazil ‣ View Prices on Amazon
+                      Brazil ‣ Veja os preços na Amazon
                     </a>
                     <a href='https://rebrand.ly/goldencheck' target='_blank' className='custom-button check'>
                       <b className='check'>Donald J. Trump Golden Checks</b> <br />
@@ -198,6 +205,15 @@ export default function Home() {
                     </a>
                     <a href={replaceArea(item.usalink, 'amazon.es')} target='_blank' className='custom-button'>
                       ESPAÑA ‣ Ver Precios en Amazon
+                    </a>
+                    <a href={replaceArea(item.usalink, 'amazon.se')} target='_blank' className='custom-button'>
+                      Sweden ‣ Se priser på Amazon
+                    </a>
+                    <a href={replaceArea(item.usalink, 'amazon.tr')} target='_blank' className='custom-button'>
+                      Turkey ‣ Amazon'da Fiyatları Görüntüle
+                    </a>
+                    <a href={replaceArea(item.usalink, 'amazon.tr')} target='_blank' className='custom-button'>
+                      Netherlands ‣ Bekijk prijzen op Amazon
                     </a>
                   </div>
                 </div>
