@@ -97,11 +97,11 @@ export default function Home() {
                   <p>
                     Product code: <span className='code'>{item.name}</span>
                   </p>
-                  {/* {item.aliexpress && (
-                      <a href={item.aliexpress} target='_blank' className='custom-button aliexpress'>
-                        View Prices on Aliexpress
-                      </a>
-                    )} */}
+                  {item.aliexpress && (
+                    <a href={item.aliexpress} target='_blank' className='custom-button aliexpress'>
+                      View Prices on Aliexpress
+                    </a>
+                  )}
                   <h4 className='north-america'>AMERICA</h4>
                   <a href={item.usalink} target='_blank' className='custom-button'>
                     USA ‣ View Prices on Amazon
@@ -167,11 +167,11 @@ export default function Home() {
                     <p>
                       Product code: <span className='code'>{item.name}</span>
                     </p>
-                    {/* {item.aliexpress && (
+                    {item.aliexpress && (
                       <a href={item.aliexpress} target='_blank' className='custom-button aliexpress'>
                         View Prices on Aliexpress
                       </a>
-                    )} */}
+                    )}
                     <h4 className='north-america'>AMERICA</h4>
                     <a href={item.usalink} target='_blank' className='custom-button'>
                       USA ‣ View Prices on Amazon
