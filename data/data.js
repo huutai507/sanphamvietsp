@@ -7,6 +7,13 @@
 
 export const data = [
   {
+    name: '55',
+    usalink:
+      'https://www.amazon.com/s?k=Outdoor+Camping+Multi-Purpose+Axe&crid=MTSE7UD2PU11&sprefix=multifunctional+outdoor+survival+axe%2Caps%2C427&linkCode=ll2&tag=naturalhuta-20&linkId=2fffb3beeb6623859e280c81b743988e&language=en_US&ref_=as_li_ss_tl',
+    aliexpress: '',
+    imglink: 'https://m.media-amazon.com/images/I/41XqhznGfaL._SL350_.jpg'
+  },
+  {
     name: '54',
     usalink:
       'https://www.amazon.com/s?k=Mister+Breeze+UPF+50%2B+Sun+Umbrella&crid=6R0T0XHZYE9O&sprefix=mister+breeze+upf+50%2B+sun+umbrella+%2Caps%2C311&linkCode=ll2&tag=naturalhuta-20&linkId=72b13e4f752d85a2516d32cba93f2902&language=en_US&ref_=as_li_ss_tl',

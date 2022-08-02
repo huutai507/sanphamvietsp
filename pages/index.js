@@ -108,11 +108,11 @@ export default function Home() {
                     </a>
                   )}
                   <a href='https://rebrand.ly/designtshirt' target='_blank' className='custom-button weightloss'>
-                    MY DESIGN T-SHIRT
+                    T-SHIRT FOR YOUR TRIPS
                   </a>
                   <a href='https://rebrand.ly/goldencheck' target='_blank' className='custom-button check'>
                     YOUR <b className='check'>GOLDEN TRUMP CHECK</b> IS WAITING TO BE IN YOUR HANDS WITH
-                    <b className='check'>60% OFF</b>
+                    <b className='check'> 60% OFF</b>
                   </a>
                   <h4 className='north-america'>AMERICA</h4>
                   <a href={item.usalink} target='_blank' className='custom-button'>
@@ -177,11 +177,11 @@ export default function Home() {
                       </a>
                     )}
                     <a href='https://rebrand.ly/designtshirt' target='_blank' className='custom-button weightloss'>
-                      MY DESIGN T-SHIRT
+                      T-SHIRT FOR YOUR TRIPS
                     </a>
                     <a href='https://rebrand.ly/goldencheck' target='_blank' className='custom-button check'>
                       YOUR <b className='check'>GOLDEN TRUMP CHECK</b> IS WAITING TO BE IN YOUR HANDS WITH
-                      <b className='check'>60% OFF</b>
+                      <b className='check'> 60% OFF</b>
                     </a>
                     <h4 className='north-america'>AMERICA</h4>
                     <a href={item.usalink} target='_blank' className='custom-button'>
