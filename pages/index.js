@@ -97,23 +97,11 @@ export default function Home() {
                   <p>
                     Product code: <span className='code'>{item.name}</span>
                   </p>
-                  <h4 className='north-america'>GLOBAL</h4>
-
-                  <a href={item.usalink} target='_blank' className='custom-button'>
-                    View Prices on Amazon
-                  </a>
                   {item.aliexpress && (
                     <a href={item.aliexpress} target='_blank' className='custom-button aliexpress'>
                       View Prices on Aliexpress
                     </a>
                   )}
-                  <a href='https://rebrand.ly/designtshirt' target='_blank' className='custom-button weightloss'>
-                    T-SHIRT FOR YOUR TRIPS
-                  </a>
-                  <a href='https://rebrand.ly/goldencheck' target='_blank' className='custom-button check'>
-                    YOUR <b className='check'>GOLDEN TRUMP CHECK</b> IS WAITING TO BE IN YOUR HANDS WITH
-                    <b className='check'> 60% OFF</b>
-                  </a>
                   <h4 className='north-america'>AMERICA</h4>
                   <a href={item.usalink} target='_blank' className='custom-button'>
                     USA ‣ View Prices on Amazon
@@ -124,6 +112,14 @@ export default function Home() {
                   <a href={replaceArea(item.usalink, 'amazon.com.br')} target='_blank' className='custom-button'>
                     Brazil ‣ View Prices on Amazon
                   </a>
+                  <a href='https://rebrand.ly/designtshirt' target='_blank' className='custom-button weightloss'>
+                    T-SHIRT FOR YOUR TRIPS
+                  </a>
+                  <a href='https://rebrand.ly/goldencheck' target='_blank' className='custom-button check'>
+                    YOUR <b className='check'>GOLDEN TRUMP CHECK</b> IS WAITING TO BE IN YOUR HANDS WITH
+                    <b className='check'> 60% OFF</b>
+                  </a>
+
                   <h4 className='europe'>ASIA</h4>
                   <a href={replaceArea(item.usalink, 'amazon.in')} target='_blank' className='custom-button'>
                     INDIA ‣ अमेज़न पर कीमतें देखें
@@ -166,23 +162,11 @@ export default function Home() {
                     <p>
                       Product code: <span className='code'>{item.name}</span>
                     </p>
-                    <h4 className='north-america'>GLOBAL</h4>
-
-                    <a href={item.usalink} target='_blank' className='custom-button'>
-                      View Prices on Amazon
-                    </a>
                     {item.aliexpress && (
                       <a href={item.aliexpress} target='_blank' className='custom-button aliexpress'>
                         View Prices on Aliexpress
                       </a>
                     )}
-                    <a href='https://rebrand.ly/designtshirt' target='_blank' className='custom-button weightloss'>
-                      T-SHIRT FOR YOUR TRIPS
-                    </a>
-                    <a href='https://rebrand.ly/goldencheck' target='_blank' className='custom-button check'>
-                      YOUR <b className='check'>GOLDEN TRUMP CHECK</b> IS WAITING TO BE IN YOUR HANDS WITH
-                      <b className='check'> 60% OFF</b>
-                    </a>
                     <h4 className='north-america'>AMERICA</h4>
                     <a href={item.usalink} target='_blank' className='custom-button'>
                       USA ‣ View Prices on Amazon
@@ -193,10 +177,18 @@ export default function Home() {
                     <a href={replaceArea(item.usalink, 'amazon.com.br')} target='_blank' className='custom-button'>
                       Brazil ‣ View Prices on Amazon
                     </a>
+                    <a href='https://rebrand.ly/designtshirt' target='_blank' className='custom-button weightloss'>
+                      T-SHIRT FOR YOUR TRIPS
+                    </a>
+                    <a href='https://rebrand.ly/goldencheck' target='_blank' className='custom-button check'>
+                      YOUR <b className='check'>GOLDEN TRUMP CHECK</b> IS WAITING TO BE IN YOUR HANDS WITH
+                      <b className='check'> 60% OFF</b>
+                    </a>
                     <h4 className='europe'>ASIA</h4>
                     <a href={replaceArea(item.usalink, 'amazon.in')} target='_blank' className='custom-button'>
                       INDIA ‣ अमेज़न पर कीमतें देखें
                     </a>
+
                     <h4 className='europe'>EUROPE</h4>
                     <a href={replaceArea(item.usalink, 'amazon.co.uk')} target='_blank' className='custom-button'>
                       UK ‣ View Prices on Amazon
