@@ -161,7 +161,7 @@ export default function Home() {
                   <a href={replaceArea(item.usalink, 'amazon.tr')} target='_blank' className='custom-button'>
                     Turkey ‣ Amazon'da Fiyatları Görüntüle
                   </a>
-                  <a href={replaceArea(item.usalink, 'amazon.tr')} target='_blank' className='custom-button'>
+                  <a href={replaceArea(item.usalink, 'amazon.nl')} target='_blank' className='custom-button'>
                     Netherlands ‣ Bekijk prijzen op Amazon
                   </a>
                 </div>
@@ -257,7 +257,7 @@ export default function Home() {
                     <a href={replaceArea(item.usalink, 'amazon.tr')} target='_blank' className='custom-button'>
                       Turkey ‣ Amazon'da Fiyatları Görüntüle
                     </a>
-                    <a href={replaceArea(item.usalink, 'amazon.tr')} target='_blank' className='custom-button'>
+                    <a href={replaceArea(item.usalink, 'amazon.nl')} target='_blank' className='custom-button'>
                       Netherlands ‣ Bekijk prijzen op Amazon
                     </a>
                   </div>
