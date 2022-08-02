@@ -102,6 +102,13 @@ export default function Home() {
                       View Prices on Aliexpress
                     </a>
                   )} */}
+                  <a
+                    href='https://www.amazon.com/tryprimefree?ref_=assoc_tag_ph_1524238741396&_encoding=UTF8&camp=1789&creative=9325&linkCode=pf4&tag=naturalhuta-20&linkId=69b69f38c59313489c69b260889d3f79'
+                    target='_blank'
+                    className='custom-button'
+                  >
+                    Try Amazon Prime 30-Day Free Trial
+                  </a>
                   <h4 className='north-america'>AMERICA</h4>
                   <a href={item.usalink} target='_blank' className='custom-button'>
                     USA ‣ View Prices on Amazon
@@ -112,10 +119,10 @@ export default function Home() {
                   <a href={replaceArea(item.usalink, 'amazon.com.br')} target='_blank' className='custom-button'>
                     Brazil ‣ Veja os preços na Amazon
                   </a>
-                  <a href='https://rebrand.ly/goldencheck' target='_blank' className='custom-button check'>
+                  {/* <a href='https://rebrand.ly/goldencheck' target='_blank' className='custom-button check'>
                     <b className='check'>Donald J. Trump Golden Checks</b> <br />
                     <b className='check'>Best Gift For a Patriot!</b>
-                  </a>
+                  </a> */}
                   <h4 className='europe'>ASIA</h4>
                   <a href={replaceArea(item.usalink, 'amazon.in')} target='_blank' className='custom-button'>
                     INDIA ‣ अमेज़न पर कीमतें देखें
@@ -179,6 +186,13 @@ export default function Home() {
                         View Prices on Aliexpress
                       </a>
                     )} */}
+                    <a
+                      href='https://www.amazon.com/tryprimefree?ref_=assoc_tag_ph_1524238741396&_encoding=UTF8&camp=1789&creative=9325&linkCode=pf4&tag=naturalhuta-20&linkId=69b69f38c59313489c69b260889d3f79'
+                      target='_blank'
+                      className='custom-button'
+                    >
+                      Try Amazon Prime 30-Day Free Trial
+                    </a>
                     <h4 className='north-america'>AMERICA</h4>
                     <a href={item.usalink} target='_blank' className='custom-button'>
                       USA ‣ View Prices on Amazon
@@ -189,10 +203,10 @@ export default function Home() {
                     <a href={replaceArea(item.usalink, 'amazon.com.br')} target='_blank' className='custom-button'>
                       Brazil ‣ Veja os preços na Amazon
                     </a>
-                    <a href='https://rebrand.ly/goldencheck' target='_blank' className='custom-button check'>
+                    {/* <a href='https://rebrand.ly/goldencheck' target='_blank' className='custom-button check'>
                       <b className='check'>Donald J. Trump Golden Checks</b> <br />
                       <b className='check'>Best Gift For a Patriot!</b>
-                    </a>
+                    </a> */}
                     <h4 className='europe'>ASIA</h4>
                     <a href={replaceArea(item.usalink, 'amazon.in')} target='_blank' className='custom-button'>
                       INDIA ‣ अमेज़न पर कीमतें देखें
