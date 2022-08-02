@@ -132,6 +132,11 @@ input {
   cursor: pointer;
 }
 
+.custom-img {
+  width: 100%;
+  margin: 0;
+}
+
 .invite-friends {
   padding-left: 1rem;
   padding-right: 1rem;
