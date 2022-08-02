@@ -159,18 +159,9 @@ export default function Home() {
               loader={<div className='dashed-loading'></div>}
               className='product-list'
             >
-              {/* <div>
+              <a href='https://www.alenascarlets.com/collections/all' target='_blank'>
                 <img src='/pet.jpg' alt='' className='imglink custom-img' />
-              </div> */}
-
-              {/* <div className='product-item'>
-                <img src='/pet.jpg' alt='' styles={'width: 100%; height: 100%;'} className='imglink' />
-                <div className='product-text'>
-                  <p>
-                    Product code: <span className='code'>999</span>
-                  </p>
-                </div>
-              </div> */}
+              </a>
               {listProduct.map((item, index) => (
                 <div className='product-item' key={index}>
                   <img src={item.imglink} className='imglink' />
