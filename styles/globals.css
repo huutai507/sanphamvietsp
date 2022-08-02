@@ -132,9 +132,12 @@ input {
   cursor: pointer;
 }
 
+.shop-link {
+  margin: 0 auto;
+}
+
 .custom-img {
-  width: 100%;
-  margin: 0;
+  width: 355px;
   height: auto;
 }
 
