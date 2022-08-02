@@ -109,9 +109,9 @@ export default function Home() {
                   >
                     Try Amazon Prime 30-Day Free Trial
                   </a>
-                  <h4 className='north-america'>AMERICA</h4>
+                  <h4 className='north-america'>AMERICAS</h4>
                   <a href={item.usalink} target='_blank' className='custom-button'>
-                    USA ‣ View Prices on Amazon
+                    United States ‣ View Prices on Amazon
                   </a>
                   <a href={replaceArea(item.usalink, 'amazon.ca')} target='_blank' className='custom-button'>
                     Canada ‣ View Prices on Amazon
@@ -119,26 +119,38 @@ export default function Home() {
                   <a href={replaceArea(item.usalink, 'amazon.com.br')} target='_blank' className='custom-button'>
                     Brazil ‣ Veja os preços na Amazon
                   </a>
+                  <a href={replaceArea(item.usalink, 'amazon.com.mx')} target='_blank' className='custom-button'>
+                    Mexico ‣ Ver precios en Amazon
+                  </a>
                   {/* <a href='https://rebrand.ly/goldencheck' target='_blank' className='custom-button check'>
                     <b className='check'>Donald J. Trump Golden Checks</b> <br />
                     <b className='check'>Best Gift For a Patriot!</b>
                   </a> */}
                   <h4 className='europe'>ASIA</h4>
                   <a href={replaceArea(item.usalink, 'amazon.in')} target='_blank' className='custom-button'>
-                    INDIA ‣ अमेज़न पर कीमतें देखें
+                    India ‣ अमेज़न पर कीमतें देखें
+                  </a>
+                  <a href={replaceArea(item.usalink, 'amazon.co.jp')} target='_blank' className='custom-button'>
+                    Japan ‣ Amazonで価格を見る
+                  </a>
+                  <a href={replaceArea(item.usalink, 'amazon.sg')} target='_blank' className='custom-button'>
+                    Singapore ‣ View Prices on Amazon
+                  </a>
+                  <a href={replaceArea(item.usalink, 'amazon.com.au')} target='_blank' className='custom-button'>
+                    Australia ‣ View Prices on Amazon
                   </a>
                   <h4 className='europe'>EUROPE</h4>
                   <a href={replaceArea(item.usalink, 'amazon.co.uk')} target='_blank' className='custom-button'>
-                    UK ‣ View Prices on Amazon
+                    United Kingdom ‣ View Prices on Amazon
                   </a>
                   <a href={replaceArea(item.usalink, 'amazon.de')} target='_blank' className='custom-button'>
-                    DE ‣ Preise auf Amazon Ansehen
+                    Germany ‣ Preise auf Amazon Ansehen
                   </a>
                   <a href={replaceArea(item.usalink, 'amazon.it')} target='_blank' className='custom-button'>
-                    ITALIA ‣ Visualizza i Prezzi su Amazon
+                    Italia ‣ Visualizza i Prezzi su Amazon
                   </a>
                   <a href={replaceArea(item.usalink, 'amazon.fr')} target='_blank' className='custom-button'>
-                    FRANCE ‣ Voir Les Prix sur Amazon
+                    France ‣ Voir Les Prix sur Amazon
                   </a>
                   <a href={replaceArea(item.usalink, 'amazon.es')} target='_blank' className='custom-button'>
                     Spain ‣ Ver Precios en Amazon
@@ -182,10 +194,10 @@ export default function Home() {
                       Product code: <span className='code'>{item.name}</span>
                     </p>
                     {/* {item.aliexpress && (
-                      <a href={item.aliexpress} target='_blank' className='custom-button aliexpress'>
-                        View Prices on Aliexpress
-                      </a>
-                    )} */}
+                    <a href={item.aliexpress} target='_blank' className='custom-button aliexpress'>
+                      View Prices on Aliexpress
+                    </a>
+                  )} */}
                     <a
                       href='https://www.amazon.com/tryprimefree?ref_=assoc_tag_ph_1524238741396&_encoding=UTF8&camp=1789&creative=9325&linkCode=pf4&tag=naturalhuta-20&linkId=69b69f38c59313489c69b260889d3f79'
                       target='_blank'
@@ -193,9 +205,9 @@ export default function Home() {
                     >
                       Try Amazon Prime 30-Day Free Trial
                     </a>
-                    <h4 className='north-america'>AMERICA</h4>
+                    <h4 className='north-america'>AMERICAS</h4>
                     <a href={item.usalink} target='_blank' className='custom-button'>
-                      USA ‣ View Prices on Amazon
+                      United States ‣ View Prices on Amazon
                     </a>
                     <a href={replaceArea(item.usalink, 'amazon.ca')} target='_blank' className='custom-button'>
                       Canada ‣ View Prices on Amazon
@@ -203,26 +215,38 @@ export default function Home() {
                     <a href={replaceArea(item.usalink, 'amazon.com.br')} target='_blank' className='custom-button'>
                       Brazil ‣ Veja os preços na Amazon
                     </a>
+                    <a href={replaceArea(item.usalink, 'amazon.com.mx')} target='_blank' className='custom-button'>
+                      Mexico ‣ Ver precios en Amazon
+                    </a>
                     {/* <a href='https://rebrand.ly/goldencheck' target='_blank' className='custom-button check'>
-                      <b className='check'>Donald J. Trump Golden Checks</b> <br />
-                      <b className='check'>Best Gift For a Patriot!</b>
-                    </a> */}
+                    <b className='check'>Donald J. Trump Golden Checks</b> <br />
+                    <b className='check'>Best Gift For a Patriot!</b>
+                  </a> */}
                     <h4 className='europe'>ASIA</h4>
                     <a href={replaceArea(item.usalink, 'amazon.in')} target='_blank' className='custom-button'>
-                      INDIA ‣ अमेज़न पर कीमतें देखें
+                      India ‣ अमेज़न पर कीमतें देखें
+                    </a>
+                    <a href={replaceArea(item.usalink, 'amazon.co.jp')} target='_blank' className='custom-button'>
+                      Japan ‣ Amazonで価格を見る
+                    </a>
+                    <a href={replaceArea(item.usalink, 'amazon.sg')} target='_blank' className='custom-button'>
+                      Singapore ‣ View Prices on Amazon
+                    </a>
+                    <a href={replaceArea(item.usalink, 'amazon.com.au')} target='_blank' className='custom-button'>
+                      Australia ‣ View Prices on Amazon
                     </a>
                     <h4 className='europe'>EUROPE</h4>
                     <a href={replaceArea(item.usalink, 'amazon.co.uk')} target='_blank' className='custom-button'>
-                      UK ‣ View Prices on Amazon
+                      United Kingdom ‣ View Prices on Amazon
                     </a>
                     <a href={replaceArea(item.usalink, 'amazon.de')} target='_blank' className='custom-button'>
-                      DE ‣ Preise auf Amazon Ansehen
+                      Germany ‣ Preise auf Amazon Ansehen
                     </a>
                     <a href={replaceArea(item.usalink, 'amazon.it')} target='_blank' className='custom-button'>
-                      ITALIA ‣ Visualizza i Prezzi su Amazon
+                      Italia ‣ Visualizza i Prezzi su Amazon
                     </a>
                     <a href={replaceArea(item.usalink, 'amazon.fr')} target='_blank' className='custom-button'>
-                      FRANCE ‣ Voir Les Prix sur Amazon
+                      France ‣ Voir Les Prix sur Amazon
                     </a>
                     <a href={replaceArea(item.usalink, 'amazon.es')} target='_blank' className='custom-button'>
                       Spain ‣ Ver Precios en Amazon
