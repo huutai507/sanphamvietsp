@@ -159,9 +159,9 @@ export default function Home() {
               loader={<div className='dashed-loading'></div>}
               className='product-list'
             >
-              <div>
+              {/* <div>
                 <img src='/pet.jpg' alt='' className='imglink custom-img' />
-              </div>
+              </div> */}
 
               {/* <div className='product-item'>
                 <img src='/pet.jpg' alt='' styles={'width: 100%; height: 100%;'} className='imglink' />
