@@ -112,12 +112,10 @@ export default function Home() {
                   <a href={replaceArea(item.usalink, 'amazon.com.br')} target='_blank' className='custom-button'>
                     Brazil ‣ View Prices on Amazon
                   </a>
-                  <a href='https://rebrand.ly/designtshirt' target='_blank' className='custom-button weightloss'>
-                    T-SHIRT FOR YOUR TRIPS
-                  </a>
                   <a href='https://rebrand.ly/goldencheck' target='_blank' className='custom-button check'>
-                    YOUR <b className='check'>GOLDEN TRUMP CHECK</b> IS WAITING TO BE IN YOUR HANDS WITH
-                    <b className='check'> 60% OFF</b>
+                    <b className='check'>Donald J. Trump Golden Checks</b>
+                    <br />
+                    <b className='check'>Best Gift For a Patriot!</b>
                   </a>
 
                   <h4 className='europe'>ASIA</h4>
@@ -177,12 +175,9 @@ export default function Home() {
                     <a href={replaceArea(item.usalink, 'amazon.com.br')} target='_blank' className='custom-button'>
                       Brazil ‣ View Prices on Amazon
                     </a>
-                    <a href='https://rebrand.ly/designtshirt' target='_blank' className='custom-button weightloss'>
-                      T-SHIRT FOR YOUR TRIPS
-                    </a>
                     <a href='https://rebrand.ly/goldencheck' target='_blank' className='custom-button check'>
-                      YOUR <b className='check'>GOLDEN TRUMP CHECK</b> IS WAITING TO BE IN YOUR HANDS WITH
-                      <b className='check'> 60% OFF</b>
+                      <b className='check'>Donald J. Trump Golden Checks</b> <br />
+                      <b className='check'>Best Gift For a Patriot!</b>
                     </a>
                     <h4 className='europe'>ASIA</h4>
                     <a href={replaceArea(item.usalink, 'amazon.in')} target='_blank' className='custom-button'>
