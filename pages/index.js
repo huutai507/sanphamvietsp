@@ -134,7 +134,7 @@ export default function Home() {
                     FRANCE ‣ Voir Les Prix sur Amazon
                   </a>
                   <a href={replaceArea(item.usalink, 'amazon.es')} target='_blank' className='custom-button'>
-                    ESPAÑA ‣ Ver Precios en Amazon
+                    Spain ‣ Ver Precios en Amazon
                   </a>
                   <a href={replaceArea(item.usalink, 'amazon.se')} target='_blank' className='custom-button'>
                     Sweden ‣ Se priser på Amazon
@@ -204,7 +204,7 @@ export default function Home() {
                       FRANCE ‣ Voir Les Prix sur Amazon
                     </a>
                     <a href={replaceArea(item.usalink, 'amazon.es')} target='_blank' className='custom-button'>
-                      ESPAÑA ‣ Ver Precios en Amazon
+                      Spain ‣ Ver Precios en Amazon
                     </a>
                     <a href={replaceArea(item.usalink, 'amazon.se')} target='_blank' className='custom-button'>
                       Sweden ‣ Se priser på Amazon
