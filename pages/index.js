@@ -97,6 +97,7 @@ export default function Home() {
                   <p>
                     Product code: <span className='code'>{item.name}</span>
                   </p>
+                  <h4 className='north-america'>GLOBAL</h4>
                   {item.aliexpress && (
                     <a href={item.aliexpress} target='_blank' className='custom-button aliexpress'>
                       View Prices on Aliexpress
@@ -189,6 +190,7 @@ export default function Home() {
                     <p>
                       Product code: <span className='code'>{item.name}</span>
                     </p>
+                    <h4 className='north-america'>GLOBAL</h4>
                     {item.aliexpress && (
                       <a href={item.aliexpress} target='_blank' className='custom-button aliexpress'>
                         View Prices on Aliexpress
