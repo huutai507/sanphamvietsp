@@ -7,6 +7,13 @@
 
 export const data = [
   {
+    name: '58',
+    usalink:
+      'https://www.amazon.com/Flashlight-Boyfriend-Mechanics-Electrician-Christmas/dp/B08CC36KCM?crid=IJGJ8F5NQVUB&keywords=gloves+light&qid=1659619749&sprefix=gloves+light%2Caps%2C592&sr=8-5&linkCode=ll1&tag=naturalhuta-20&linkId=9fb9af73709a9196398e3415ea20c30f&language=en_US&ref_=as_li_ss_tl',
+    aliexpress: 'https://s.click.aliexpress.com/e/_DcYT8YJ',
+    imglink: 'https://m.media-amazon.com/images/I/51Jsm8coRZL._SL350_.jpg'
+  },
+  {
     name: '57',
     usalink:
       'https://www.amazon.com/s?k=JFFFFWI+Folding+Walking+Cane+Seat+Crutches+Folding+Chair&crid=MNNM9CW0A7CC&sprefix=jffffwi+folding+walking+cane+seat+crutches+folding+chair%2Caps%2C338&linkCode=ll2&tag=naturalhuta-20&linkId=56ebdf99a3bd7303874441820dcb4476&language=en_US&ref_=as_li_ss_tl',
