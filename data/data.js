@@ -310,6 +310,7 @@ export const data = [
     name: '13',
     usalink:
       'https://www.amazon.com/s?k=usb+rechargeable+aa+batteries&linkCode=ll2&tag=naturalhuta-20&linkId=67fd8c219da50633f2023efdb9c942ce&language=en_US&ref_=as_li_ss_tl',
+    aliexpress: 'https://s.click.aliexpress.com/e/_Dm0y9AB',
     imglink: 'https://m.media-amazon.com/images/I/41+i6VEpd7L._SL350_.jpg'
   },
   {
