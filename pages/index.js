@@ -99,7 +99,7 @@ export default function Home() {
                   </p>
                   {item.aliexpress && (
                     <a href={item.aliexpress} target='_blank' className='custom-button aliexpress'>
-                      View Prices on Aliexpress
+                      View Prices on Aliexpress ( Good Price )
                     </a>
                   )}
                   <a
@@ -191,7 +191,7 @@ export default function Home() {
                     </p>
                     {item.aliexpress && (
                       <a href={item.aliexpress} target='_blank' className='custom-button aliexpress'>
-                        View Prices on Aliexpress
+                        View Prices on Aliexpress ( Good Price )
                       </a>
                     )}
                     <a
