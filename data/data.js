@@ -7,6 +7,13 @@
 
 export const data = [
   {
+    name: '57',
+    usalink:
+      'https://www.amazon.com/s?k=JFFFFWI+Folding+Walking+Cane+Seat+Crutches+Folding+Chair&crid=MNNM9CW0A7CC&sprefix=jffffwi+folding+walking+cane+seat+crutches+folding+chair%2Caps%2C338&linkCode=ll2&tag=naturalhuta-20&linkId=56ebdf99a3bd7303874441820dcb4476&language=en_US&ref_=as_li_ss_tl',
+    aliexpress: 'https://s.click.aliexpress.com/e/_DFJMRfp',
+    imglink: '//ae01.alicdn.com/kf/H46387d2c1aca44dea187e15a37aed012C.jpg_350x350.jpg'
+  },
+  {
     name: '56',
     usalink:
       'https://www.amazon.com/s?k=dog+charging+cable+funny&sprefix=dog+charging+%2Caps%2C356&linkCode=ll2&tag=naturalhuta-20&linkId=35baac886792c6312589cc988a170c96&language=en_US&ref_=as_li_ss_tl',
