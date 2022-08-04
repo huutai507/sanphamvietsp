@@ -51,7 +51,7 @@ export default function Home() {
       </Head>
       <div className='search-bar'>
         <div className='content-title'>
-          <p>Enter product code in the search box</p>
+          <p>Please enter product code in the search box</p>
         </div>
         <div className='input-content'>
           <input
@@ -180,7 +180,7 @@ export default function Home() {
               className='product-list'
             >
               {/* <a href='https://www.alenascarlets.com/collections/all' target='_blank' className='shop-link'>
-                <img src='/pet.jpg' alt='' className='imglink custom-img' />
+                <img src='/guide.gif' alt='' className='imglink custom-img' />
               </a> */}
               {listProduct.map((item, index) => (
                 <div className='product-item' key={index}>

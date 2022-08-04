@@ -52,7 +52,7 @@ input {
   height: 1.5rem;
 }
 .container-list {
-  padding-top: 7.5rem;
+  padding-top: 8.5rem;
 }
 
 .product-list {
@@ -112,6 +112,7 @@ input {
   margin-bottom: 0.5rem;
   font-weight: 400;
   color: rgb(255, 46, 46);
+  text-align: center;
 }
 
 .afflink {
