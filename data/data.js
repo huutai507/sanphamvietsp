@@ -7,6 +7,13 @@
 
 export const data = [
   {
+    name: '59',
+    usalink:
+      'https://www.amazon.com/s?k=sofa+covers&crid=1LSFSQW5PH594&sprefix=sofa+covers+for+3+cushion+couch%2Caps%2C319&linkCode=ll2&tag=naturalhuta-20&linkId=7811d720e798f50de1411c4c3833c199&language=en_US&ref_=as_li_ss_tl',
+    aliexpress: 'https://s.click.aliexpress.com/e/_DdkA9Kf',
+    imglink: '//ae01.alicdn.com/kf/H7626a621e85a46daafde514edf2c079eM.jpg_350x350.jpg'
+  },
+  {
     name: '58',
     usalink:
       'https://www.amazon.com/Flashlight-Boyfriend-Mechanics-Electrician-Christmas/dp/B08CC36KCM?crid=IJGJ8F5NQVUB&keywords=gloves+light&qid=1659619749&sprefix=gloves+light%2Caps%2C592&sr=8-5&linkCode=ll1&tag=naturalhuta-20&linkId=9fb9af73709a9196398e3415ea20c30f&language=en_US&ref_=as_li_ss_tl',
