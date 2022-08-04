@@ -7,6 +7,13 @@
 
 export const data = [
   {
+    name: '56',
+    usalink:
+      'https://www.amazon.com/s?k=dog+charging+cable+funny&sprefix=dog+charging+%2Caps%2C356&linkCode=ll2&tag=naturalhuta-20&linkId=35baac886792c6312589cc988a170c96&language=en_US&ref_=as_li_ss_tl',
+    aliexpress: 'https://s.click.aliexpress.com/e/_DCaKpF1',
+    imglink: 'https://m.media-amazon.com/images/I/41DIoJ9D4PS._SL350_.jpg'
+  },
+  {
     name: '55',
     usalink:
       'https://www.amazon.com/s?k=Outdoor+Camping+Multi-Purpose+Axe&crid=MTSE7UD2PU11&sprefix=multifunctional+outdoor+survival+axe%2Caps%2C427&linkCode=ll2&tag=naturalhuta-20&linkId=2fffb3beeb6623859e280c81b743988e&language=en_US&ref_=as_li_ss_tl',
