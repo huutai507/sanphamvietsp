@@ -97,11 +97,11 @@ export default function Home() {
                   <p>
                     Product code: <span className='code'>{item.name}</span>
                   </p>
-                  {/* {item.aliexpress && (
+                  {item.aliexpress && (
                     <a href={item.aliexpress} target='_blank' className='custom-button aliexpress'>
                       View Prices on Aliexpress
                     </a>
-                  )} */}
+                  )}
                   <a
                     href='https://www.amazon.com/tryprimefree?ref_=assoc_tag_ph_1524238741396&_encoding=UTF8&camp=1789&creative=9325&linkCode=pf4&tag=naturalhuta-20&linkId=69b69f38c59313489c69b260889d3f79'
                     target='_blank'
@@ -189,11 +189,11 @@ export default function Home() {
                     <p>
                       Product code: <span className='code'>{item.name}</span>
                     </p>
-                    {/* {item.aliexpress && (
-                    <a href={item.aliexpress} target='_blank' className='custom-button aliexpress'>
-                      View Prices on Aliexpress
-                    </a>
-                  )} */}
+                    {item.aliexpress && (
+                      <a href={item.aliexpress} target='_blank' className='custom-button aliexpress'>
+                        View Prices on Aliexpress
+                      </a>
+                    )}
                     <a
                       href='https://www.amazon.com/tryprimefree?ref_=assoc_tag_ph_1524238741396&_encoding=UTF8&camp=1789&creative=9325&linkCode=pf4&tag=naturalhuta-20&linkId=69b69f38c59313489c69b260889d3f79'
                       target='_blank'
