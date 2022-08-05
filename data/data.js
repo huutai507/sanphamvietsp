@@ -7,6 +7,34 @@
 
 export const data = [
   {
+    name: '65',
+    usalink:
+      'https://www.amazon.com/gp/product/B096WP8C8N?smid=A1QJLRZ6JFYMP&psc=1&linkCode=ll1&tag=naturalhuta-20&linkId=72c9cc2126dda42040ffbd5f71f6a223&language=en_US&ref_=as_li_ss_tl',
+    aliexpress: 'https://s.click.aliexpress.com/e/_DcQG8tp',
+    imglink: '//ae01.alicdn.com/kf/Sd3ca0f9da6194a05ad1669a38b1098b1h.jpg_350x350.jpg'
+  },
+  {
+    name: '64',
+    usalink:
+      'https://www.amazon.com/Mtverver-Anti-Skid-Segmented-Protector-Accessory/dp/B09PV272BL?crid=3JM8DOS259JEV&keywords=car%2Bsteering%2Bwheel%2Bcover&qid=1659685694&s=automotive&sprefix=car%2Bhandle%2Bcover%2Bprotector%2Cautomotive%2C282&sr=1-3-spons&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEzOEFLVTk1VUdTMDY2JmVuY3J5cHRlZElkPUEwMjUwODQ0VkdLUFRFV1MzWjgyJmVuY3J5cHRlZEFkSWQ9QTAyNTM3MDYxQ00yMFlLUDY2Mk43JndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ&th=1&linkCode=ll1&tag=naturalhuta-20&linkId=6b818fa0ac532ff20757b26c13a92857&language=en_US&ref_=as_li_ss_tl',
+    aliexpress: 'https://s.click.aliexpress.com/e/_DnsGM75',
+    imglink: 'https://m.media-amazon.com/images/I/41d4Gnp7vhL._SL350_.jpg'
+  },
+  {
+    name: '63',
+    usalink:
+      'https://www.amazon.com/s?k=Linen+Car+Seat+Cover+Protector+Summer&i=automotive&linkCode=ll2&tag=naturalhuta-20&linkId=38e4d9c0426fd08f61a00eecd072ff4f&language=en_US&ref_=as_li_ss_tl',
+    aliexpress: 'https://s.click.aliexpress.com/e/_DkYqT8F',
+    imglink: '//ae01.alicdn.com/kf/Hce4f0c41d84e44f9a2722843d801cb9cg.jpg_350x350.jpg'
+  },
+  {
+    name: '62',
+    usalink:
+      'https://www.amazon.com/Safety-Hammer-Window-Breaker-Emergency/dp/B08L7RSBMX?crid=1AVE0XM3U12Z3&keywords=Safety%2BHammer%2BEmergency%2BEscape%2BTool&qid=1659683542&s=automotive&sprefix=car%2Bescape%2Btool%2Cautomotive%2C496&sr=1-10&th=1&linkCode=ll1&tag=naturalhuta-20&linkId=b05baaf6fad5a5f1f67ee857e5462416&language=en_US&ref_=as_li_ss_tl',
+    aliexpress: 'https://s.click.aliexpress.com/e/_DnmpNxt',
+    imglink: 'https://m.media-amazon.com/images/I/417j8UhQBEL._SL350_.jpg'
+  },
+  {
     name: '61',
     usalink:
       'https://www.amazon.com/Rindor-Compressor-Rechargeable-Emergency-Motorcycle/dp/B09ZQBKLHR?crid=6AP8BSILJ586&keywords=electric+car+pump+for+tires&qid=1659677920&sprefix=electric+car+pump%2Caps%2C329&sr=8-2-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEzQUFBUFo2M1YyRlhZJmVuY3J5cHRlZElkPUEwODAxOTQ2MkpWN1JZU1Y1TDZMWCZlbmNyeXB0ZWRBZElkPUEwNjU5OTcyM1ZCSUNKM1cyOTc3OSZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU%3D&linkCode=ll1&tag=naturalhuta-20&linkId=fe83a1f38eade67325d91539362e3f34&language=en_US&ref_=as_li_ss_tl',

@@ -182,9 +182,9 @@ export default function Home() {
               loader={<div className='dashed-loading'></div>}
               className='product-list'
             >
-              <a href='https://www.alenascarlets.com/collections/all' target='_blank' className='shop-link'>
+              {/* <a href='https://www.alenascarlets.com/collections/all' target='_blank' className='shop-link'>
                 <img src='/pet.jpg' alt='' className='imglink custom-img' />
-              </a>
+              </a> */}
               {listProduct.map((item, index) => (
                 <div className='product-item' key={index}>
                   <img src={item.imglink} className='imglink' />
