@@ -265,6 +265,7 @@ export default function Home() {
                 </div>
               ))}
             </InfiniteScroll>} */}
+            <img src='/gifne.gif' alt='' className='tip-search' />
           </div>
         )}
       </div>
