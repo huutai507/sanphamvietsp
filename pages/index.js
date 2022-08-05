@@ -98,6 +98,9 @@ export default function Home() {
                     Product code: <span className='code'>{item.name}</span>
                   </p>
                   <h4 className='north-america'>GLOBAL</h4>
+                  <a href={item.usalink} target='_blank' className='custom-button'>
+                    View Prices on Amazon
+                  </a>
                   {item.aliexpress && (
                     <a href={item.aliexpress} target='_blank' className='custom-button aliexpress'>
                       View Prices on Aliexpress
@@ -179,9 +182,9 @@ export default function Home() {
               loader={<div className='dashed-loading'></div>}
               className='product-list'
             >
-              {/* <a href='https://www.alenascarlets.com/collections/all' target='_blank' className='shop-link'>
-                <img src='/guide.gif' alt='' className='imglink custom-img' />
-              </a> */}
+              <a href='https://www.alenascarlets.com/collections/all' target='_blank' className='shop-link'>
+                <img src='/pet.jpg' alt='' className='imglink custom-img' />
+              </a>
               {listProduct.map((item, index) => (
                 <div className='product-item' key={index}>
                   <img src={item.imglink} className='imglink' />
@@ -191,6 +194,9 @@ export default function Home() {
                       Product code: <span className='code'>{item.name}</span>
                     </p>
                     <h4 className='north-america'>GLOBAL</h4>
+                    <a href={item.usalink} target='_blank' className='custom-button'>
+                      View Prices on Amazon
+                    </a>
                     {item.aliexpress && (
                       <a href={item.aliexpress} target='_blank' className='custom-button aliexpress'>
                         View Prices on Aliexpress

@@ -7,6 +7,20 @@
 
 export const data = [
   {
+    name: '61',
+    usalink:
+      'https://www.amazon.com/Rindor-Compressor-Rechargeable-Emergency-Motorcycle/dp/B09ZQBKLHR?crid=6AP8BSILJ586&keywords=electric+car+pump+for+tires&qid=1659677920&sprefix=electric+car+pump%2Caps%2C329&sr=8-2-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEzQUFBUFo2M1YyRlhZJmVuY3J5cHRlZElkPUEwODAxOTQ2MkpWN1JZU1Y1TDZMWCZlbmNyeXB0ZWRBZElkPUEwNjU5OTcyM1ZCSUNKM1cyOTc3OSZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU%3D&linkCode=ll1&tag=naturalhuta-20&linkId=fe83a1f38eade67325d91539362e3f34&language=en_US&ref_=as_li_ss_tl',
+    aliexpress: 'https://s.click.aliexpress.com/e/_DcvCEeb',
+    imglink: 'https://m.media-amazon.com/images/I/41Gm30L14sL._SL350_.jpg'
+  },
+  {
+    name: '60',
+    usalink:
+      'https://www.amazon.com/ikuby-Super-Sturdy-Carport-Large-Car-Shelter-Size/dp/B078V22Q1M?crid=15KYQNGYRB0B4&keywords=windproof+carport+for&qid=1658794628&s=hi&sprefix=windproof+carport+%2Ctools%2C642&sr=1-6&linkCode=ll1&tag=naturalhuta-20&linkId=df6c47d3edb896d139101b545d943839&language=en_US&ref_=as_li_ss_tl',
+    aliexpress: 'https://s.click.aliexpress.com/e/_DdBMmWj',
+    imglink: 'https://m.media-amazon.com/images/I/51OdXqwyv9L._SL350_.jpg'
+  },
+  {
     name: '59',
     usalink:
       'https://www.amazon.com/s?k=sofa+covers&crid=1LSFSQW5PH594&sprefix=sofa+covers+for+3+cushion+couch%2Caps%2C319&linkCode=ll2&tag=naturalhuta-20&linkId=7811d720e798f50de1411c4c3833c199&language=en_US&ref_=as_li_ss_tl',
