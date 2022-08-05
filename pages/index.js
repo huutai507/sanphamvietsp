@@ -175,16 +175,16 @@ export default function Home() {
           </div>
         ) : (
           <div>
-            <InfiniteScroll
+            {/* {<InfiniteScroll
               dataLength={listProduct.length}
               next={fetchMoreData}
               hasMore={listProduct.length == data.length ? false : true}
               loader={<div className='dashed-loading'></div>}
               className='product-list'
             >
-              {/* <a href='https://www.alenascarlets.com/collections/all' target='_blank' className='shop-link'>
+              <a href='https://www.alenascarlets.com/collections/all' target='_blank' className='shop-link'>
                 <img src='/pet.jpg' alt='' className='imglink custom-img' />
-              </a> */}
+              </a>
               {listProduct.map((item, index) => (
                 <div className='product-item' key={index}>
                   <img src={item.imglink} className='imglink' />
@@ -222,10 +222,7 @@ export default function Home() {
                     <a href={replaceArea(item.usalink, 'amazon.com.mx')} target='_blank' className='custom-button'>
                       Mexico ‣ Ver precios en Amazon
                     </a>
-                    {/* <a href='https://rebrand.ly/goldencheck' target='_blank' className='custom-button check'>
-                    <b className='check'>Donald J. Trump Golden Checks</b> <br />
-                    <b className='check'>Best Gift For a Patriot!</b>
-                  </a> */}
+                   
                     <h4 className='europe'>ASIA</h4>
                     <a href={replaceArea(item.usalink, 'amazon.in')} target='_blank' className='custom-button'>
                       India ‣ अमेज़न पर कीमतें देखें
@@ -267,7 +264,7 @@ export default function Home() {
                   </div>
                 </div>
               ))}
-            </InfiniteScroll>
+            </InfiniteScroll>} */}
           </div>
         )}
       </div>
