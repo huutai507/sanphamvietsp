@@ -7,6 +7,54 @@
 
 export const data = [
   {
+    name: '73',
+    usalink: '',
+    aliexpress: 'https://s.click.aliexpress.com/e/_Dk6yAVt',
+    imglink: '//ae01.alicdn.com/kf/S6bb657f97e5e4290ad4f83663ee20a760.jpg_350x350.jpg'
+  },
+  {
+    name: '72',
+    usalink: '',
+    aliexpress: 'https://s.click.aliexpress.com/e/_Dl4u4SL',
+    imglink: '//ae01.alicdn.com/kf/H4f812d56d6e04f3abe75bc96b57c75a6G.jpg_350x350.jpg'
+  },
+  {
+    name: '71',
+    usalink: '',
+    aliexpress: 'https://s.click.aliexpress.com/e/_DeZtsL5',
+    imglink: '//ae01.alicdn.com/kf/H9ab71bfac0454df3bc2f2e79003312f5W.jpg_350x350.jpg'
+  },
+  {
+    name: '70',
+    usalink: '',
+    aliexpress: 'https://s.click.aliexpress.com/e/_Dd8sTtl',
+    imglink: '//ae01.alicdn.com/kf/H11a10071f7aa48ff9bc6a4f560744388p.jpg_350x350.jpg'
+  },
+  {
+    name: '69',
+    usalink: '',
+    aliexpress: 'https://s.click.aliexpress.com/e/_DEpRTxt',
+    imglink: '//ae01.alicdn.com/kf/U35310c4c522b4613a817f11f6afbf48ad.jpg_350x350.jpg'
+  },
+  {
+    name: '68',
+    usalink: '',
+    aliexpress: 'https://s.click.aliexpress.com/e/_DdOBmZt',
+    imglink: '//ae01.alicdn.com/kf/Se700ba6ed16347c7ab6fbd273cb74c0bw.jpg_350x350.jpg'
+  },
+  {
+    name: '67',
+    usalink: '',
+    aliexpress: 'https://s.click.aliexpress.com/e/_Dka8Fvl',
+    imglink: '//ae01.alicdn.com/kf/S88499470d92342ff97398b7dbb6454524.jpg_350x350.jpg'
+  },
+  {
+    name: '66',
+    usalink: '',
+    aliexpress: 'https://s.click.aliexpress.com/e/_Ddm6TMb',
+    imglink: '//ae01.alicdn.com/kf/S788b2de7bf9046f9b647a302d4442c685.jpg_350x350.jpg'
+  },
+  {
     name: '65',
     usalink:
       'https://www.amazon.com/gp/product/B096WP8C8N?smid=A1QJLRZ6JFYMP&psc=1&linkCode=ll1&tag=naturalhuta-20&linkId=72c9cc2126dda42040ffbd5f71f6a223&language=en_US&ref_=as_li_ss_tl',
