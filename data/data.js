@@ -80,7 +80,7 @@ export const data = [
     name: '55',
     usalink:
       'https://www.amazon.com/s?k=Outdoor+Camping+Multi-Purpose+Axe&crid=MTSE7UD2PU11&sprefix=multifunctional+outdoor+survival+axe%2Caps%2C427&linkCode=ll2&tag=naturalhuta-20&linkId=2fffb3beeb6623859e280c81b743988e&language=en_US&ref_=as_li_ss_tl',
-    aliexpress: '',
+    aliexpress: 'https://s.click.aliexpress.com/e/_DDGVq4n',
     imglink: 'https://m.media-amazon.com/images/I/41XqhznGfaL._SL350_.jpg'
   },
   {
@@ -201,7 +201,7 @@ export const data = [
     name: '38',
     usalink:
       'https://www.amazon.com/s?k=Rc+Airplanes%2C+Remote+Control+Airplanes+Glider&crid=2PR07V37DOM5B&sprefix=remote+control+fighter+aircraft%2Caps%2C321&linkCode=ll2&tag=naturalhuta-20&linkId=d2e65c9ee52c6067b10bc01753d3e6a4&language=en_US&ref_=as_li_ss_tl',
-    aliexpress: '',
+    aliexpress: 'https://s.click.aliexpress.com/e/_DeuOk2L',
     imglink: 'https://m.media-amazon.com/images/I/413ASOVs8+L._SL350_.jpg'
   },
   {
@@ -280,49 +280,57 @@ export const data = [
     name: '27',
     usalink:
       'https://www.amazon.com/Touchscreen-Cleaner-Versatile-Cleaners-Microfiber/dp/B07MB8P28S?crid=256C15KSN2Q02&keywords=screen%2Bcleaner&qid=1659004254&sprefix=screen%2Bclea%2Caps%2C334&sr=8-5&th=1&linkCode=ll1&tag=naturalhuta-20&linkId=99da7753675eba293791b01d0202f8ab&language=en_US&ref_=as_li_ss_tl',
+    aliexpress: 'https://s.click.aliexpress.com/e/_DDfBO0X',
     imglink: 'https://m.media-amazon.com/images/I/21TDeMnBGhL._SL350_.jpg'
   },
   {
     name: '26',
     usalink:
       'https://www.amazon.com/s?k=5+blades+scissors&crid=1XQDA5H9EW4VY&sprefix=5+blades+scissors%2Caps%2C331&linkCode=ll2&tag=naturalhuta-20&linkId=24cc608867c9ff2069ed145dd6c09228&language=en_US&ref_=as_li_ss_tl',
+    aliexpress: 'https://s.click.aliexpress.com/e/_DkNd8e7',
     imglink: 'https://m.media-amazon.com/images/I/415t1kf4QEL._SL350_.jpg'
   },
   {
     name: '25',
     usalink:
       'https://www.amazon.com/gp/product/B0B1HVF9ZH?smid=A1LWXNNBSRXZAG&psc=1&linkCode=ll1&tag=naturalhuta-20&linkId=e864017d57d4b2c39865dd9c94889f14&language=en_US&ref_=as_li_ss_tl',
+    aliexpress: 'https://s.click.aliexpress.com/e/_DEPxb4x',
     imglink: 'https://m.media-amazon.com/images/I/41FqzeGidqL._SL350_.jpg'
   },
   {
     name: '24',
     usalink:
       'https://www.amazon.com/HengTianMei-Precision-Screwdriver-Professional-Magnetic/dp/B0921NTGDJ?crid=3E102O7B1UY6C&keywords=128+in+1+Precision+Screwdriver&qid=1658970236&sprefix=128+in+1+precision+screwdriver%2Caps%2C342&sr=8-5&linkCode=ll1&tag=naturalhuta-20&linkId=26f78505159bd23c67c0c4a733d48903&language=en_US&ref_=as_li_ss_tl',
+    aliexpress: 'https://s.click.aliexpress.com/e/_DElwwUr',
     imglink: 'https://m.media-amazon.com/images/I/51IRfAgQ2GL._SL350_.jpg'
   },
   {
     name: '23',
     usalink:
       'https://www.amazon.com/gp/product/B07P9Q2821?smid=A14LJJP4CRQWYW&psc=1&linkCode=ll1&tag=naturalhuta-20&linkId=8325139c5a67de6d04c6a5d6a8418ae0&language=en_US&ref_=as_li_ss_tl',
+    aliexpress: 'https://s.click.aliexpress.com/e/_Dl8PifV',
     imglink: 'https://m.media-amazon.com/images/I/41mR0kmYytL._SL350_.jpg'
   },
   {
     name: '22',
     usalink:
       'https://www.amazon.com/gp/product/B09MVZSBB7?smid=ATVPDKIKX0DER&th=1&linkCode=ll1&tag=naturalhuta-20&linkId=45b75db4809b8c889f683c1849abf5d5&language=en_US&ref_=as_li_ss_tl',
+    aliexpress: 'https://s.click.aliexpress.com/e/_DBewner',
     imglink: 'https://m.media-amazon.com/images/I/31NTE+hhduL._SL350_.jpg'
   },
   {
     name: '21',
     usalink:
       'https://www.amazon.com/gp/product/B0828GJM2M?smid=A3BNRR8IVXVM5M&th=1&linkCode=ll1&tag=naturalhuta-20&linkId=c623bd482fe956ec6f16aa6e37bffb26&language=en_US&ref_=as_li_ss_tl',
+    aliexpress: 'https://s.click.aliexpress.com/e/_DDuvJY3',
     imglink: 'https://m.media-amazon.com/images/I/51oB7C85PpL._SL350_.jpg'
   },
   {
     name: '20',
     usalink:
       'https://www.amazon.com/dp/B07T4JPRGD?pd_rd_i=B07T4JPRGD&pf_rd_p=0e085ce4-a814-4f4b-b24c-1b9dbfa919e0&pf_rd_r=PVSXYMTZ2N0G95ZMAG2V&pd_rd_wg=dIldx&pd_rd_w=q9CaB&pd_rd_r=4031889f-9e45-43b2-95f4-4b56571d2a1d&linkCode=ll1&tag=naturalhuta-20&linkId=b69bd0cddada24bd082329f3c4b8fa7f&language=en_US&ref_=as_li_ss_tl',
-    imglink: 'https://m.media-amazon.com/images/I/31pjxVxs-YL._SL350_.jpg'
+    aliexpress: 'https://s.click.aliexpress.com/e/_DDI7KGn',
+    imglink: '//ae01.alicdn.com/kf/S6bbc296edc6e4746aabffd3172d086efn.jpg_350x350.jpg'
   },
   {
     name: '19',
@@ -341,6 +349,7 @@ export const data = [
     name: '17',
     usalink:
       'https://www.amazon.com/ikuby-Super-Sturdy-Carport-Large-Car-Shelter-Size/dp/B078V22Q1M?crid=15KYQNGYRB0B4&keywords=windproof+carport+for&qid=1658794628&s=hi&sprefix=windproof+carport+%2Ctools%2C642&sr=1-6&linkCode=ll1&tag=naturalhuta-20&linkId=df6c47d3edb896d139101b545d943839&language=en_US&ref_=as_li_ss_tl',
+    aliexpress: 'https://s.click.aliexpress.com/e/_DdBMmWj',
     imglink: 'https://m.media-amazon.com/images/I/51OdXqwyv9L._SL350_.jpg'
   },
   {
@@ -353,8 +362,8 @@ export const data = [
     name: '15',
     usalink:
       'https://www.amazon.com/s?k=multi-function+kitchen+sink+faucet&s=review-rank&crid=3A2IKXBZHFJZG&qid=1658760473&sprefix=multi-function+kitchen+sink+faucet%2Caps%2C300&ds=v1%3AqpGSyf00Yntdbh0VI8pTgOd3C%2B%2BPVGXsyqzVeT0wLSE&linkCode=ll2&tag=naturalhuta-20&linkId=c141d3a5dff15ed58f9179f93c963b0b&language=en_US&ref_=as_li_ss_tl',
-    imglink: 'https://m.media-amazon.com/images/I/31qSRLyT7VL._SL350_.jpg',
-    sameproduct: true
+    aliexpress: 'https://s.click.aliexpress.com/e/_DmbWwlZ',
+    imglink: '//ae01.alicdn.com/kf/H4c2587d7c6914854929dd48ec4e775dfj.jpg_350x350.jpg'
   },
   {
     name: '14',
@@ -409,6 +418,7 @@ export const data = [
     name: '6',
     usalink:
       'https://www.amazon.com/Upgraded-Security-Portable-Entrance-Apartment/dp/B07WNCVJD8?crid=2GOW39OKRAQ4O&keywords=door%2Bresistance%2Balarm&qid=1658279858&sprefix=door%2Bresistance%2Bal%2Caps%2C323&sr=8-3&th=1&linkCode=ll1&tag=naturalhuta-20&linkId=e082339a3338e863473aebafc5b5632f&language=en_US&ref_=as_li_ss_tl',
+    aliexpress: 'https://s.click.aliexpress.com/e/_DkfDQQ3',
     imglink: 'https://m.media-amazon.com/images/I/51jzsDyqrfL._SL350_.jpg'
   },
   {
