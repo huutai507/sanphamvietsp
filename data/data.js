@@ -85,8 +85,8 @@ export const data = [
     name: '62',
     usalink:
       'https://www.amazon.com/Safety-Hammer-Window-Breaker-Emergency/dp/B08L7RSBMX?crid=1AVE0XM3U12Z3&keywords=Safety%2BHammer%2BEmergency%2BEscape%2BTool&qid=1659683542&s=automotive&sprefix=car%2Bescape%2Btool%2Cautomotive%2C496&sr=1-10&th=1&linkCode=ll1&tag=naturalhuta-20&linkId=b05baaf6fad5a5f1f67ee857e5462416&language=en_US&ref_=as_li_ss_tl',
-    aliexpress: 'https://s.click.aliexpress.com/e/_DnmpNxt',
-    imglink: 'https://m.media-amazon.com/images/I/417j8UhQBEL._SL350_.jpg'
+    aliexpress: 'https://s.click.aliexpress.com/e/_DlaSHZd',
+    imglink: '//ae01.alicdn.com/kf/Sda83aef7e6734d65ad5df4822fa012a4Z.jpg_350x350.jpg'
   },
   {
     name: '61',
