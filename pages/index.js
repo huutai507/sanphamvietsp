@@ -91,22 +91,24 @@ export default function Home() {
           <div className='product-list'>
             {filterData.reverse().map((item, index) => (
               <div className='product-item' key={index}>
-                <img src={item.imglink} className='imglink' />
-                <div className='product-text'>
-                  {item.sameproduct && <h6 className='mt-5'>Same Products</h6>}
-                  <p>
-                    Product code: <span className='code'>{item.name}</span>
-                  </p>
-                  {/* <h4 className='north-america'>GLOBAL</h4> */}
-                  {/* <a href={item.usalink} target='_blank' className='custom-button'>
-                        View Prices on Amazon
-                      </a> */}
-                  {item.aliexpress && (
-                    <a href={item.aliexpress} target='_blank' className='custom-button aliexpress'>
-                      Buy it on Aliexpress
-                    </a>
-                  )}
-                  {/* <a
+                <a href={item.aliexpress} alt='' target='_blank'>
+                  <img src={item.imglink} className='imglink' />
+                  <div className='product-text'>
+                    {item.sameproduct && <h6 className='mt-5'>Same Products</h6>}
+                    <p>
+                      Product code: <span className='code'>{item.name}</span>
+                    </p>
+                    {/* <h4 className='north-america'>GLOBAL</h4> */}
+                    {/* <a href={item.usalink} target='_blank' className='custom-button'>
+                          View Prices on Amazon
+                        </a> */}
+                    {/* <p className='custom-button aliexpress'>Buy it on Aliexpress</p> */}
+                    {item.aliexpress && (
+                      <a href={item.aliexpress} target='_blank' className='custom-button aliexpress'>
+                        Buy it on Aliexpress
+                      </a>
+                    )}
+                    {/* <a
                         href='https://www.amazon.com/tryprimefree?ref_=assoc_tag_ph_1524238741396&_encoding=UTF8&camp=1789&creative=9325&linkCode=pf4&tag=naturalhuta-20&linkId=69b69f38c59313489c69b260889d3f79'
                         target='_blank'
                         className='custom-button'
@@ -165,7 +167,8 @@ export default function Home() {
                       <a href={replaceArea(item.usalink, 'amazon.nl')} target='_blank' className='custom-button'>
                         Netherlands ‣ Bekijk prijzen op Amazon
                       </a> */}
-                </div>
+                  </div>
+                </a>
               </div>
             ))}
             <div>{!filterData.length ? <p>No matching results. Please search again</p> : <p></p>}</div>
@@ -182,22 +185,24 @@ export default function Home() {
               >
                 {listProduct.map((item, index) => (
                   <div className='product-item' key={index}>
-                    <img src={item.imglink} className='imglink' />
-                    <div className='product-text'>
-                      {item.sameproduct && <h6 className='mt-5'>Same Products</h6>}
-                      <p>
-                        Product code: <span className='code'>{item.name}</span>
-                      </p>
-                      {/* <h4 className='north-america'>GLOBAL</h4> */}
-                      {/* <a href={item.usalink} target='_blank' className='custom-button'>
-                        View Prices on Amazon
-                      </a> */}
-                      {item.aliexpress && (
-                        <a href={item.aliexpress} target='_blank' className='custom-button aliexpress'>
-                          Buy it on Aliexpress
-                        </a>
-                      )}
-                      {/* <a
+                    <a href={item.aliexpress} alt='' target='_blank'>
+                      <img src={item.imglink} className='imglink' />
+                      <div className='product-text'>
+                        {item.sameproduct && <h6 className='mt-5'>Same Products</h6>}
+                        <p>
+                          Product code: <span className='code'>{item.name}</span>
+                        </p>
+                        {/* <h4 className='north-america'>GLOBAL</h4> */}
+                        {/* <a href={item.usalink} target='_blank' className='custom-button'>
+                          View Prices on Amazon
+                        </a> */}
+                        {/* <p className='custom-button aliexpress'>Buy it on Aliexpress</p> */}
+                        {item.aliexpress && (
+                          <a href={item.aliexpress} target='_blank' className='custom-button aliexpress'>
+                            Buy it on Aliexpress
+                          </a>
+                        )}
+                        {/* <a
                         href='https://www.amazon.com/tryprimefree?ref_=assoc_tag_ph_1524238741396&_encoding=UTF8&camp=1789&creative=9325&linkCode=pf4&tag=naturalhuta-20&linkId=69b69f38c59313489c69b260889d3f79'
                         target='_blank'
                         className='custom-button'
@@ -256,7 +261,8 @@ export default function Home() {
                       <a href={replaceArea(item.usalink, 'amazon.nl')} target='_blank' className='custom-button'>
                         Netherlands ‣ Bekijk prijzen op Amazon
                       </a> */}
-                    </div>
+                      </div>
+                    </a>
                   </div>
                 ))}
               </InfiniteScroll>
