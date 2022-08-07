@@ -99,9 +99,9 @@ export default function Home() {
                       Product code: <span className='code'>{item.name}</span>
                     </p>
                     {/* <h4 className='north-america'>GLOBAL</h4> */}
-                    {/* <a href={item.usalink} target='_blank' className='custom-button'>
-                          View Prices on Amazon
-                        </a> */}
+                    <a href={item.usalink} target='_blank' className='custom-button'>
+                      View Prices on Amazon
+                    </a>
                     {/* <p className='custom-button aliexpress'>Buy it on Aliexpress</p> */}
                     {item.aliexpress && (
                       <a href={item.aliexpress} target='_blank' className='custom-button aliexpress'>
@@ -193,9 +193,9 @@ export default function Home() {
                           Product code: <span className='code'>{item.name}</span>
                         </p>
                         {/* <h4 className='north-america'>GLOBAL</h4> */}
-                        {/* <a href={item.usalink} target='_blank' className='custom-button'>
+                        <a href={item.usalink} target='_blank' className='custom-button'>
                           View Prices on Amazon
-                        </a> */}
+                        </a>
                         {/* <p className='custom-button aliexpress'>Buy it on Aliexpress</p> */}
                         {item.aliexpress && (
                           <a href={item.aliexpress} target='_blank' className='custom-button aliexpress'>
