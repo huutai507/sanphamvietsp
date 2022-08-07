@@ -98,8 +98,8 @@ export const data = [
     name: '61',
     usalink:
       'https://www.amazon.com/Rindor-Compressor-Rechargeable-Emergency-Motorcycle/dp/B09ZQBKLHR?crid=6AP8BSILJ586&keywords=electric+car+pump+for+tires&qid=1659677920&sprefix=electric+car+pump%2Caps%2C329&sr=8-2-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEzQUFBUFo2M1YyRlhZJmVuY3J5cHRlZElkPUEwODAxOTQ2MkpWN1JZU1Y1TDZMWCZlbmNyeXB0ZWRBZElkPUEwNjU5OTcyM1ZCSUNKM1cyOTc3OSZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU%3D&linkCode=ll1&tag=naturalhuta-20&linkId=fe83a1f38eade67325d91539362e3f34&language=en_US&ref_=as_li_ss_tl',
-    aliexpress: 'https://s.click.aliexpress.com/e/_DcvCEeb',
-    imglink: 'https://m.media-amazon.com/images/I/41Gm30L14sL._SL350_.jpg'
+    aliexpress: 'https://s.click.aliexpress.com/e/_DlUNJp5',
+    imglink: '//ae01.alicdn.com/kf/Sce0e0ffa77064ad68c79093f9b2c1d32g.jpg_350x350.jpg'
   },
   {
     name: '60',
