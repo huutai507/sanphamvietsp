@@ -6,6 +6,89 @@ import InfiniteScroll from 'react-infinite-scroll-component';
 import axios from 'axios';
 import { data } from '../data/data';
 
+const COUNTRIES = [
+  {
+    area: 'amazon.com',
+    name: 'USA',
+    checked: true
+  },
+  {
+    area: 'amazon.ca',
+    name: 'Canada',
+    checked: false
+  },
+  {
+    area: 'amazon.com.br',
+    name: 'Brazil',
+    checked: false
+  },
+  {
+    area: 'amazon.com.mx',
+    name: 'Mexico',
+    checked: false
+  },
+  {
+    area: 'amazon.in',
+    name: 'India',
+    checked: false
+  },
+  {
+    area: 'amazon.co.jp',
+    name: 'Japan',
+    checked: false
+  },
+  {
+    area: 'amazon.sg',
+    name: 'Singapore',
+    checked: false
+  },
+  {
+    area: 'amazon.com.au',
+    name: 'Australia',
+    checked: false
+  },
+  {
+    area: 'amazon.co.uk',
+    name: 'UK',
+    checked: false
+  },
+  {
+    area: 'amazon.de',
+    name: 'Germany',
+    checked: false
+  },
+  {
+    area: 'amazon.it',
+    name: 'Italia',
+    checked: false
+  },
+  {
+    area: 'amazon.fr',
+    name: 'France',
+    checked: false
+  },
+  {
+    area: 'amazon.es',
+    name: 'Spain',
+    checked: false
+  },
+  {
+    area: 'amazon.se',
+    name: 'Sweden',
+    checked: false
+  },
+  {
+    area: 'amazon.tr',
+    name: 'Turkey',
+    checked: false
+  },
+  {
+    area: 'amazon.nl',
+    name: 'Netherlands',
+    checked: false
+  }
+];
+
 export default function Home() {
   const [inputSearch, setInputSearch] = useState('');
   const [listProduct, setListProduct] = useState(data);
@@ -36,8 +119,10 @@ export default function Home() {
   };
 
   const handleChangeSelected = (e) => {
+    const prevCountry = 'amazon.com';
     let index = e.nativeEvent.target.selectedIndex;
-    setNameCountry(e.nativeEvent.target[index].text);
+    const currentCountry = e.nativeEvent.target[index].text;
+    setNameCountry(currentCountry);
     setCountry(e.target.value);
   };
 
@@ -110,23 +195,18 @@ export default function Home() {
                   </a>
                   <h5 className='north-america'> SELECT YOUR COUNTRY</h5>
                   <div className='selected-country'>
-                    <select name='' className='custom-selected' id='countries' onChange={handleChangeSelected}>
-                      <option value='amazon.com'>USA</option>
-                      <option value='amazon.ca'>Canada</option>
-                      <option value='amazon.com.br'>Brazil</option>
-                      <option value='amazon.com.mx'>Mexico</option>
-                      <option value='amazon.in'>India</option>
-                      <option value='amazon.co.jp'>Japan</option>
-                      <option value='amazon.sg'>Singapore</option>
-                      <option value='amazon.com.au'>Australia</option>
-                      <option value='amazon.co.uk'>UK</option>
-                      <option value='amazon.de'>Germany</option>
-                      <option value='amazon.it'>Italia</option>
-                      <option value='amazon.fr'>France</option>
-                      <option value='amazon.es'>Spain</option>
-                      <option value='amazon.se'>Sweden</option>
-                      <option value='amazon.tr'>Turkey</option>
-                      <option value='amazon.nl'>Netherlands</option>
+                    <select
+                      name=''
+                      className='custom-selected'
+                      value={country}
+                      id='countries'
+                      onChange={handleChangeSelected}
+                    >
+                      {COUNTRIES.map((item, index) => (
+                        <option value={item.area} key={index}>
+                          {item.name}
+                        </option>
+                      ))}
                     </select>
                   </div>
                   <a href={replaceArea(item.usalink, country)} target='_blank' className='custom-button'>
@@ -168,23 +248,18 @@ export default function Home() {
                       </a>
                       <h5 className='north-america'> SELECT YOUR COUNTRY</h5>
                       <div className='selected-country'>
-                        <select name='' className='custom-selected' id='countries' onChange={handleChangeSelected}>
-                          <option value='amazon.com'>USA</option>
-                          <option value='amazon.ca'>Canada</option>
-                          <option value='amazon.com.br'>Brazil</option>
-                          <option value='amazon.com.mx'>Mexico</option>
-                          <option value='amazon.in'>India</option>
-                          <option value='amazon.co.jp'>Japan</option>
-                          <option value='amazon.sg'>Singapore</option>
-                          <option value='amazon.com.au'>Australia</option>
-                          <option value='amazon.co.uk'>UK</option>
-                          <option value='amazon.de'>Germany</option>
-                          <option value='amazon.it'>Italia</option>
-                          <option value='amazon.fr'>France</option>
-                          <option value='amazon.es'>Spain</option>
-                          <option value='amazon.se'>Sweden</option>
-                          <option value='amazon.tr'>Turkey</option>
-                          <option value='amazon.nl'>Netherlands</option>
+                        <select
+                          name=''
+                          className='custom-selected'
+                          value={country}
+                          id='countries'
+                          onChange={handleChangeSelected}
+                        >
+                          {COUNTRIES.map((item, index) => (
+                            <option value={item.area} key={index}>
+                              {item.name}
+                            </option>
+                          ))}
                         </select>
                       </div>
                       <a href={replaceArea(item.usalink, country)} target='_blank' className='custom-button'>
