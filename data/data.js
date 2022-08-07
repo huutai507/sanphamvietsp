@@ -8,67 +8,78 @@
 export const data = [
   {
     name: '76',
-    usalink: '',
+    usalink:
+      'https://www.amazon.com/s?k=Joyroom+15W+Qi+Magnetic+Car+Phone&crid=QWUZRQRZ4LEP&sprefix=joyroom+15w+qi+magnetic+car+phone%2Caps%2C797&linkCode=ll2&tag=naturalhuta-20&linkId=36bcc4603a9b12ffaf1a24f36f151a0a&language=en_US&ref_=as_li_ss_tl',
     aliexpress: 'https://s.click.aliexpress.com/e/_DmdqNAf',
     imglink: '//ae01.alicdn.com/kf/Sf2f25ecfea294db4a30058996467837e0.jpg_350x350.jpg'
   },
   {
     name: '75',
-    usalink: '',
+    usalink:
+      'https://www.amazon.com/s?k=Portable+Mini+Folding+Clothes+Washing+Machine&crid=3W13JJCP00BV8&sprefix=washing+machine+mini%2Caps%2C528&linkCode=ll2&tag=naturalhuta-20&linkId=5dd6c1e916bea0da5820901128b85fc2&language=en_US&ref_=as_li_ss_tl',
     aliexpress: 'https://s.click.aliexpress.com/e/_DcxlYMB',
     imglink: '//ae01.alicdn.com/kf/Sb1ab1c471a9b416cbb774efc2bbecb9bW.jpg_350x350.jpg'
   },
   {
     name: '74',
-    usalink: '',
+    usalink:
+      'https://www.amazon.com/s?k=%5B5-Pack%2C+36+oz%5DGlass+Meal+Prep+Containers+3+Compartment+with+Lids&crid=2YDW57LPQNFB&sprefix=5-pack%2C+36+oz+glass+meal+prep+containers+3+compartment+with+lids%2Caps%2C322&linkCode=ll2&tag=naturalhuta-20&linkId=f9cc24b29dd58430d97af9765eafe260&language=en_US&ref_=as_li_ss_tl',
     aliexpress: 'https://s.click.aliexpress.com/e/_DC6VhwR',
     imglink: '//ae01.alicdn.com/kf/H02e87e487b754a1199ab475ca1c0668fM.jpg_350x350.jpg'
   },
   {
     name: '73',
-    usalink: '',
+    usalink:
+      'https://www.amazon.com/s?k=Summer+Toddler+Sandals+Baby+Girl+Shoes&linkCode=ll2&tag=naturalhuta-20&linkId=80347ba5d728f729da17643f2c5cdcdd&language=en_US&ref_=as_li_ss_tl',
     aliexpress: 'https://s.click.aliexpress.com/e/_Dk6yAVt',
     imglink: '//ae01.alicdn.com/kf/S6bb657f97e5e4290ad4f83663ee20a760.jpg_350x350.jpg'
   },
   {
     name: '72',
-    usalink: '',
+    usalink:
+      'https://www.amazon.com/s?k=Large+Small+Lazy+BeanBag&crid=29AYAGHD0GQG3&sprefix=large+small+lazy+beanbag%2Caps%2C338&linkCode=ll2&tag=naturalhuta-20&linkId=920f1c2df998eeef7628016e0c197b5a&language=en_US&ref_=as_li_ss_tl',
     aliexpress: 'https://s.click.aliexpress.com/e/_Dl4u4SL',
     imglink: '//ae01.alicdn.com/kf/H4f812d56d6e04f3abe75bc96b57c75a6G.jpg_350x350.jpg'
   },
   {
     name: '71',
-    usalink: '',
+    usalink:
+      'https://www.amazon.com/s?k=Headboard+Stoppers&crid=30E3PGJ0RPCWT&sprefix=headboard+stoppers%2Caps%2C300&linkCode=ll2&tag=naturalhuta-20&linkId=67bb8f4977dd6c347e54fbc08578cee9&language=en_US&ref_=as_li_ss_tl',
     aliexpress: 'https://s.click.aliexpress.com/e/_DeZtsL5',
     imglink: '//ae01.alicdn.com/kf/H9ab71bfac0454df3bc2f2e79003312f5W.jpg_350x350.jpg'
   },
   {
     name: '70',
-    usalink: '',
+    usalink:
+      'https://www.amazon.com/s?k=Hicon+Ice+maker+Electric&crid=3GUX8UQNSUY74&sprefix=headboard+stoppers%2Caps%2C332&linkCode=ll2&tag=naturalhuta-20&linkId=43faa813f94ea317bf7d2f26c083dc84&language=en_US&ref_=as_li_ss_tl',
     aliexpress: 'https://s.click.aliexpress.com/e/_Dd8sTtl',
     imglink: '//ae01.alicdn.com/kf/H11a10071f7aa48ff9bc6a4f560744388p.jpg_350x350.jpg'
   },
   {
     name: '69',
-    usalink: '',
+    usalink:
+      'https://www.amazon.com/s?k=Moving+Sand+Art+Picture+Round+Glass+3D&crid=31P2CPCWKYFKY&sprefix=hicon+ice+maker+electric%2Caps%2C291&linkCode=ll2&tag=naturalhuta-20&linkId=6cfa0b2f13fdc022872282db06f256f0&language=en_US&ref_=as_li_ss_tl',
     aliexpress: 'https://s.click.aliexpress.com/e/_DEpRTxt',
     imglink: '//ae01.alicdn.com/kf/U35310c4c522b4613a817f11f6afbf48ad.jpg_350x350.jpg'
   },
   {
     name: '68',
-    usalink: '',
+    usalink:
+      'https://www.amazon.com/s?k=Gun+gray+sink+large+single-slot+kitchen&crid=3CS0Z3FJNQIBV&sprefix=gun+gray+sink+large+single-slot+kitchen%2Caps%2C337&linkCode=ll2&tag=naturalhuta-20&linkId=c42b53b430f7c9650164e25384a38a4f&language=en_US&ref_=as_li_ss_tl',
     aliexpress: 'https://s.click.aliexpress.com/e/_DdOBmZt',
-    imglink: '//ae01.alicdn.com/kf/Se700ba6ed16347c7ab6fbd273cb74c0bw.jpg_350x350.jpg'
+    imglink: 'https://m.media-amazon.com/images/I/41V1nfkhkfL._SL350_.jpg'
   },
   {
     name: '67',
-    usalink: '',
+    usalink:
+      'https://www.amazon.com/s?k=1PC+Sports+Fitness+Knee+Pads&crid=2Y7OK3OEYJG9F&sprefix=1pc+sports+fitness+knee+pads%2Caps%2C299&linkCode=ll2&tag=naturalhuta-20&linkId=631806602dd2d2874542ef8467daf42e&language=en_US&ref_=as_li_ss_tl',
     aliexpress: 'https://s.click.aliexpress.com/e/_Dka8Fvl',
     imglink: '//ae01.alicdn.com/kf/S88499470d92342ff97398b7dbb6454524.jpg_350x350.jpg'
   },
   {
     name: '66',
-    usalink: '',
+    usalink:
+      'https://www.amazon.com/s?k=Travel+Durable+PP+Trolley+Suitcase&crid=12YDPKZG95U74&sprefix=1pc+sports+fitness+knee+pads%2Caps%2C286&linkCode=ll2&tag=naturalhuta-20&linkId=0cd8a659c30bb5c94ba7180a8b16ae3a&language=en_US&ref_=as_li_ss_tl',
     aliexpress: 'https://s.click.aliexpress.com/e/_Ddm6TMb',
     imglink: '//ae01.alicdn.com/kf/S788b2de7bf9046f9b647a302d4442c685.jpg_350x350.jpg'
   },
