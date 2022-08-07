@@ -211,7 +211,7 @@ input {
   text-align: center;
   font-weight: 400;
   width: 100%;
-  padding: 12px 8px;
+  padding: 8px 8px;
   border-radius: 5px;
   line-height: 1.2;
   margin-bottom: 8px;
@@ -221,6 +221,11 @@ input {
 .custom-button:hover {
   opacity: 0.8;
 }
+
+.custom-button.banner {
+  padding: 16px 8px;
+}
+
 .check {
   color: rgb(255, 226, 102);
 }

@@ -175,6 +175,13 @@ export default function Home() {
           </div>
         ) : (
           <div>
+            <a
+              href='https://www.amazon.com/tryprimefree?ref_=assoc_tag_ph_1524238741396&_encoding=UTF8&camp=1789&creative=9325&linkCode=pf4&tag=naturalhuta-20&linkId=69b69f38c59313489c69b260889d3f79'
+              target='_blank'
+              className='custom-button banner'
+            >
+              Try Amazon Prime 30-Day Free Trial
+            </a>
             {
               <InfiniteScroll
                 dataLength={listProduct.length}
@@ -209,7 +216,7 @@ export default function Home() {
                       >
                         Try Amazon Prime 30-Day Free Trial
                       </a>
-                      <h4 className='north-america'>AMERICAS</h4>
+                      {/*  <h4 className='north-america'>AMERICAS</h4>
                       <a href={item.usalink} target='_blank' className='custom-button'>
                         United States ‣ View Prices on Amazon
                       </a>
