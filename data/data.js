@@ -7,6 +7,12 @@
 
 export const data = [
   {
+    name: '76',
+    usalink: '',
+    aliexpress: 'https://s.click.aliexpress.com/e/_DmdqNAf',
+    imglink: '//ae01.alicdn.com/kf/Sf2f25ecfea294db4a30058996467837e0.jpg_350x350.jpg'
+  },
+  {
     name: '75',
     usalink: '',
     aliexpress: 'https://s.click.aliexpress.com/e/_DcxlYMB',
