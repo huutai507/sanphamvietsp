@@ -9,7 +9,8 @@ import { data } from '../data/data';
 export default function Home() {
   const [inputSearch, setInputSearch] = useState('');
   const [listProduct, setListProduct] = useState(data);
-
+  const [country, setCountry] = useState('amazon.com');
+  const [nameCountry, setNameCountry] = useState('USA');
   const inputHandler = (e) => {
     let lowerCase = e.target.value.toLowerCase();
     setInputSearch(lowerCase);
@@ -32,6 +33,12 @@ export default function Home() {
 
   const fetchMoreData = () => {
     setListProduct(data.slice(0, listProduct.length + 10));
+  };
+
+  const handleChangeSelected = (e) => {
+    let index = e.nativeEvent.target.selectedIndex;
+    setNameCountry(e.nativeEvent.target[index].text);
+    setCountry(e.target.value);
   };
 
   useEffect(() => {
@@ -91,84 +98,41 @@ export default function Home() {
           <div className='product-list'>
             {filterData.reverse().map((item, index) => (
               <div className='product-item' key={index}>
-                <a href={item.usalink} alt='' target='_blank'>
-                  <img src={item.imglink} className='imglink' />
-                  <div className='product-text'>
-                    {item.sameproduct && <h6 className='mt-5'>Similar products</h6>}
-                    <p>
-                      Product code: <span className='code'>{item.name}</span>
-                    </p>
-                    {/* <h4 className='north-america'>GLOBAL</h4> */}
-                    <a href={item.usalink} target='_blank' className='custom-button'>
-                      View prices on Amazon
-                    </a>
-                    {/* <p className='custom-button aliexpress'>Buy it on Aliexpress</p> */}
-                    {/* {item.aliexpress && (
-                      <a href={item.aliexpress} target='_blank' className='custom-button aliexpress'>
-                        View Prices on Aliexpress
-                      </a>
-                    )} */}
-                    {/* <a
-                        href='https://www.amazon.com/tryprimefree?ref_=assoc_tag_ph_1524238741396&_encoding=UTF8&camp=1789&creative=9325&linkCode=pf4&tag=naturalhuta-20&linkId=69b69f38c59313489c69b260889d3f79'
-                        target='_blank'
-                        className='custom-button'
-                      >
-                        Try Amazon Prime 30-Day Free Trial
-                      </a>
-                      <h4 className='north-america'>AMERICAS</h4>
-                      <a href={item.usalink} target='_blank' className='custom-button'>
-                        United States ‣ View Prices on Amazon
-                      </a>
-                      <a href={replaceArea(item.usalink, 'amazon.ca')} target='_blank' className='custom-button'>
-                        Canada ‣ View Prices on Amazon
-                      </a>
-                      <a href={replaceArea(item.usalink, 'amazon.com.br')} target='_blank' className='custom-button'>
-                        Brazil ‣ Veja os preços na Amazon
-                      </a>
-                      <a href={replaceArea(item.usalink, 'amazon.com.mx')} target='_blank' className='custom-button'>
-                        Mexico ‣ Ver precios en Amazon
-                      </a>
-
-                      <h4 className='europe'>ASIA</h4>
-                      <a href={replaceArea(item.usalink, 'amazon.in')} target='_blank' className='custom-button'>
-                        India ‣ अमेज़न पर कीमतें देखें
-                      </a>
-                      <a href={replaceArea(item.usalink, 'amazon.co.jp')} target='_blank' className='custom-button'>
-                        Japan ‣ Amazonで価格を見る
-                      </a>
-                      <a href={replaceArea(item.usalink, 'amazon.sg')} target='_blank' className='custom-button'>
-                        Singapore ‣ View Prices on Amazon
-                      </a>
-                      <a href={replaceArea(item.usalink, 'amazon.com.au')} target='_blank' className='custom-button'>
-                        Australia ‣ View Prices on Amazon
-                      </a>
-                      <h4 className='europe'>EUROPE</h4>
-                      <a href={replaceArea(item.usalink, 'amazon.co.uk')} target='_blank' className='custom-button'>
-                        United Kingdom ‣ View Prices on Amazon
-                      </a>
-                      <a href={replaceArea(item.usalink, 'amazon.de')} target='_blank' className='custom-button'>
-                        Germany ‣ Preise auf Amazon Ansehen
-                      </a>
-                      <a href={replaceArea(item.usalink, 'amazon.it')} target='_blank' className='custom-button'>
-                        Italia ‣ Visualizza i Prezzi su Amazon
-                      </a>
-                      <a href={replaceArea(item.usalink, 'amazon.fr')} target='_blank' className='custom-button'>
-                        France ‣ Voir Les Prix sur Amazon
-                      </a>
-                      <a href={replaceArea(item.usalink, 'amazon.es')} target='_blank' className='custom-button'>
-                        Spain ‣ Ver Precios en Amazon
-                      </a>
-                      <a href={replaceArea(item.usalink, 'amazon.se')} target='_blank' className='custom-button'>
-                        Sweden ‣ Se priser på Amazon
-                      </a>
-                      <a href={replaceArea(item.usalink, 'amazon.tr')} target='_blank' className='custom-button'>
-                        Turkey ‣ Amazon'da Fiyatları Görüntüle
-                      </a>
-                      <a href={replaceArea(item.usalink, 'amazon.nl')} target='_blank' className='custom-button'>
-                        Netherlands ‣ Bekijk prijzen op Amazon
-                      </a> */}
+                <img src={item.imglink} className='imglink' />
+                <div className='product-text'>
+                  {item.sameproduct && <h6 className='mt-5'>Similar products</h6>}
+                  <p>
+                    Product code: <span className='code'>{item.name}</span>
+                  </p>
+                  <h5 className='north-america'>GLOBAL</h5>
+                  <a href={item.usalink} target='_blank' className='custom-button'>
+                    View prices on Amazon
+                  </a>
+                  <h5 className='north-america'>YOUR COUNTRY</h5>
+                  <div className='selected-country'>
+                    <select name='' className='custom-selected' id='countries' onChange={handleChangeSelected}>
+                      <option value='amazon.com'>USA</option>
+                      <option value='amazon.ca'>Canada</option>
+                      <option value='amazon.com.br'>Brazil</option>
+                      <option value='amazon.com.mx'>Mexico</option>
+                      <option value='amazon.in'>India</option>
+                      <option value='amazon.co.jp'>Japan</option>
+                      <option value='amazon.sg'>Singapore</option>
+                      <option value='amazon.com.au'>Australia</option>
+                      <option value='amazon.co.uk'>UK</option>
+                      <option value='amazon.de'>Germany</option>
+                      <option value='amazon.it'>Italia</option>
+                      <option value='amazon.fr'>France</option>
+                      <option value='amazon.es'>Spain</option>
+                      <option value='amazon.se'>Sweden</option>
+                      <option value='amazon.tr'>Turkey</option>
+                      <option value='amazon.nl'>Netherlands</option>
+                    </select>
                   </div>
-                </a>
+                  <a href={replaceArea(item.usalink, country)} target='_blank' className='custom-button'>
+                    View Prices on {nameCountry}
+                  </a>
+                </div>
               </div>
             ))}
             <div>{!filterData.length ? <p>No matching results. Please search again</p> : <p></p>}</div>
@@ -192,89 +156,45 @@ export default function Home() {
               >
                 {listProduct.map((item, index) => (
                   <div className='product-item' key={index}>
-                    <a href={item.usalink} alt='' target='_blank'>
-                      <img src={item.imglink} className='imglink' />
-                      <div className='product-text'>
-                        {item.sameproduct && <h6 className='mt-5'>Similar products</h6>}
-                        <p>
-                          Product code: <span className='code'>{item.name}</span>
-                        </p>
-                        {/* <h4 className='north-america'>GLOBAL</h4> */}
-                        <a href={item.usalink} target='_blank' className='custom-button'>
-                          View prices on Amazon
-                        </a>
-                        {/* <p className='custom-button aliexpress'>Buy it on Aliexpress</p> */}
-                        {/* {item.aliexpress && (
-                          <a href={item.aliexpress} target='_blank' className='custom-button aliexpress'>
-                            View Prices on Aliexpress
-                          </a>
-                        )} */}
-                        {/* <a
-                        href='https://www.amazon.com/tryprimefree?ref_=assoc_tag_ph_1524238741396&_encoding=UTF8&camp=1789&creative=9325&linkCode=pf4&tag=naturalhuta-20&linkId=69b69f38c59313489c69b260889d3f79'
-                        target='_blank'
-                        className='custom-button'
-                      >
-                        Try Amazon Prime 30-Day Free Trial
-                      </a>
-                      {/*  <h4 className='north-america'>AMERICAS</h4>
+                    <img src={item.imglink} className='imglink' />
+                    <div className='product-text'>
+                      {item.sameproduct && <h6 className='mt-5'>Similar products</h6>}
+                      <p>
+                        Product code: <span className='code'>{item.name}</span>
+                      </p>
+                      <h5 className='north-america'>GLOBAL</h5>
                       <a href={item.usalink} target='_blank' className='custom-button'>
-                        United States ‣ View Prices on Amazon
+                        View prices on Amazon
                       </a>
-                      <a href={replaceArea(item.usalink, 'amazon.ca')} target='_blank' className='custom-button'>
-                        Canada ‣ View Prices on Amazon
-                      </a>
-                      <a href={replaceArea(item.usalink, 'amazon.com.br')} target='_blank' className='custom-button'>
-                        Brazil ‣ Veja os preços na Amazon
-                      </a>
-                      <a href={replaceArea(item.usalink, 'amazon.com.mx')} target='_blank' className='custom-button'>
-                        Mexico ‣ Ver precios en Amazon
-                      </a>
-
-                      <h4 className='europe'>ASIA</h4>
-                      <a href={replaceArea(item.usalink, 'amazon.in')} target='_blank' className='custom-button'>
-                        India ‣ अमेज़न पर कीमतें देखें
-                      </a>
-                      <a href={replaceArea(item.usalink, 'amazon.co.jp')} target='_blank' className='custom-button'>
-                        Japan ‣ Amazonで価格を見る
-                      </a>
-                      <a href={replaceArea(item.usalink, 'amazon.sg')} target='_blank' className='custom-button'>
-                        Singapore ‣ View Prices on Amazon
-                      </a>
-                      <a href={replaceArea(item.usalink, 'amazon.com.au')} target='_blank' className='custom-button'>
-                        Australia ‣ View Prices on Amazon
-                      </a>
-                      <h4 className='europe'>EUROPE</h4>
-                      <a href={replaceArea(item.usalink, 'amazon.co.uk')} target='_blank' className='custom-button'>
-                        United Kingdom ‣ View Prices on Amazon
-                      </a>
-                      <a href={replaceArea(item.usalink, 'amazon.de')} target='_blank' className='custom-button'>
-                        Germany ‣ Preise auf Amazon Ansehen
-                      </a>
-                      <a href={replaceArea(item.usalink, 'amazon.it')} target='_blank' className='custom-button'>
-                        Italia ‣ Visualizza i Prezzi su Amazon
-                      </a>
-                      <a href={replaceArea(item.usalink, 'amazon.fr')} target='_blank' className='custom-button'>
-                        France ‣ Voir Les Prix sur Amazon
-                      </a>
-                      <a href={replaceArea(item.usalink, 'amazon.es')} target='_blank' className='custom-button'>
-                        Spain ‣ Ver Precios en Amazon
-                      </a>
-                      <a href={replaceArea(item.usalink, 'amazon.se')} target='_blank' className='custom-button'>
-                        Sweden ‣ Se priser på Amazon
-                      </a>
-                      <a href={replaceArea(item.usalink, 'amazon.tr')} target='_blank' className='custom-button'>
-                        Turkey ‣ Amazon'da Fiyatları Görüntüle
-                      </a>
-                      <a href={replaceArea(item.usalink, 'amazon.nl')} target='_blank' className='custom-button'>
-                        Netherlands ‣ Bekijk prijzen op Amazon
-                      </a> */}
+                      <h5 className='north-america'>YOUR COUNTRY</h5>
+                      <div className='selected-country'>
+                        <select name='' className='custom-selected' id='countries' onChange={handleChangeSelected}>
+                          <option value='amazon.com'>USA</option>
+                          <option value='amazon.ca'>Canada</option>
+                          <option value='amazon.com.br'>Brazil</option>
+                          <option value='amazon.com.mx'>Mexico</option>
+                          <option value='amazon.in'>India</option>
+                          <option value='amazon.co.jp'>Japan</option>
+                          <option value='amazon.sg'>Singapore</option>
+                          <option value='amazon.com.au'>Australia</option>
+                          <option value='amazon.co.uk'>UK</option>
+                          <option value='amazon.de'>Germany</option>
+                          <option value='amazon.it'>Italia</option>
+                          <option value='amazon.fr'>France</option>
+                          <option value='amazon.es'>Spain</option>
+                          <option value='amazon.se'>Sweden</option>
+                          <option value='amazon.tr'>Turkey</option>
+                          <option value='amazon.nl'>Netherlands</option>
+                        </select>
                       </div>
-                    </a>
+                      <a href={replaceArea(item.usalink, country)} target='_blank' className='custom-button'>
+                        View Prices on {nameCountry}
+                      </a>
+                    </div>
                   </div>
                 ))}
               </InfiniteScroll>
             }
-            {/* <img src='/gifne.gif' alt='' className='tip-search' /> */}
           </div>
         )}
       </div>

@@ -269,6 +269,16 @@ input {
   opacity: 0.8;
 }
 
+.selected-country {
+  width: 100%;
+}
+
+.custom-selected {
+  width: 100%;
+  padding: 4px 4px;
+  margin: 0 0 8px 0;
+}
+
 .banner {
   width: 100%;
   display: block;
