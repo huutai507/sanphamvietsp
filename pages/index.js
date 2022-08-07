@@ -91,16 +91,16 @@ export default function Home() {
           <div className='product-list'>
             {filterData.reverse().map((item, index) => (
               <div className='product-item' key={index}>
-                <a href={item.aliexpress} alt='' target='_blank'>
+                <a href={item.usalink} alt='' target='_blank'>
                   <img src={item.imglink} className='imglink' />
                   <div className='product-text'>
-                    {item.sameproduct && <h6 className='mt-5'>Same Products</h6>}
+                    {item.sameproduct && <h6 className='mt-5'>Similar products</h6>}
                     <p>
                       Product code: <span className='code'>{item.name}</span>
                     </p>
                     {/* <h4 className='north-america'>GLOBAL</h4> */}
                     <a href={item.usalink} target='_blank' className='custom-button'>
-                      View Prices on Amazon
+                      View prices on Amazon
                     </a>
                     {/* <p className='custom-button aliexpress'>Buy it on Aliexpress</p> */}
                     {/* {item.aliexpress && (
@@ -185,16 +185,16 @@ export default function Home() {
               >
                 {listProduct.map((item, index) => (
                   <div className='product-item' key={index}>
-                    <a href={item.aliexpress} alt='' target='_blank'>
+                    <a href={item.usalink} alt='' target='_blank'>
                       <img src={item.imglink} className='imglink' />
                       <div className='product-text'>
-                        {item.sameproduct && <h6 className='mt-5'>Same Products</h6>}
+                        {item.sameproduct && <h6 className='mt-5'>Similar products</h6>}
                         <p>
                           Product code: <span className='code'>{item.name}</span>
                         </p>
                         {/* <h4 className='north-america'>GLOBAL</h4> */}
                         <a href={item.usalink} target='_blank' className='custom-button'>
-                          View Prices on Amazon
+                          View prices on Amazon
                         </a>
                         {/* <p className='custom-button aliexpress'>Buy it on Aliexpress</p> */}
                         {/* {item.aliexpress && (
