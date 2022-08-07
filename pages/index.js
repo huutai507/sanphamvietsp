@@ -108,7 +108,7 @@ export default function Home() {
                   <a href={item.usalink} target='_blank' className='custom-button'>
                     View prices on Amazon
                   </a>
-                  <h5 className='north-america'>YOUR COUNTRY</h5>
+                  <h5 className='north-america'> SELECT YOUR COUNTRY</h5>
                   <div className='selected-country'>
                     <select name='' className='custom-selected' id='countries' onChange={handleChangeSelected}>
                       <option value='amazon.com'>USA</option>
@@ -130,7 +130,7 @@ export default function Home() {
                     </select>
                   </div>
                   <a href={replaceArea(item.usalink, country)} target='_blank' className='custom-button'>
-                    View Prices on {nameCountry}
+                    {nameCountry} - View Prices on Amazon
                   </a>
                 </div>
               </div>
@@ -162,10 +162,10 @@ export default function Home() {
                       <p>
                         Product code: <span className='code'>{item.name}</span>
                       </p>
-                      {/* <h5 className='north-america'>GLOBAL</h5>
+                      <h5 className='north-america'>GLOBAL</h5>
                       <a href={item.usalink} target='_blank' className='custom-button'>
                         View prices on Amazon
-                      </a> */}
+                      </a>
                       <h5 className='north-america'> SELECT YOUR COUNTRY</h5>
                       <div className='selected-country'>
                         <select name='' className='custom-selected' id='countries' onChange={handleChangeSelected}>
