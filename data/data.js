@@ -219,7 +219,7 @@ export const data = [
     usalink:
       'https://www.amazon.com/s?k=projection+alarm+clock+digital&crid=3OGASLKIOBIMW&sprefix=projection+alarm+clock+digital%2Caps%2C323&linkCode=ll2&tag=naturalhuta-20&linkId=dd71c695d5bc802177b715087c758cfd&language=en_US&ref_=as_li_ss_tl',
     aliexpress: 'https://s.click.aliexpress.com/e/_DCXjnyj',
-    imglink: '//ae01.alicdn.com/kf/S7b7da4573bde48b48973cbe7fef37419X.jpg_80x80.jpg'
+    imglink: '//ae01.alicdn.com/kf/S7b7da4573bde48b48973cbe7fef37419X.jpg_350x350.jpg'
   },
   {
     name: '43',
