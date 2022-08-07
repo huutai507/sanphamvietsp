@@ -202,6 +202,9 @@ export default function Home() {
                       id='countries'
                       onChange={handleChangeSelected}
                     >
+                      <option value='amazon.com' disabled>
+                        Select
+                      </option>
                       {COUNTRIES.map((item, index) => (
                         <option value={item.area} key={index}>
                           {item.name}
@@ -246,7 +249,7 @@ export default function Home() {
                       <a href={item.usalink} target='_blank' className='custom-button'>
                         View prices on Amazon
                       </a>
-                      <h5 className='north-america'> SELECT YOUR COUNTRY</h5>
+                      <h5 className='north-america'> YOUR COUNTRY</h5>
                       <div className='selected-country'>
                         <select
                           name=''
@@ -255,6 +258,10 @@ export default function Home() {
                           id='countries'
                           onChange={handleChangeSelected}
                         >
+                          <option value='amazon.com' disabled>
+                            Select
+                          </option>
+
                           {COUNTRIES.map((item, index) => (
                             <option value={item.area} key={index}>
                               {item.name}
