@@ -1,5 +1,12 @@
 export const data = [
   {
+    name: '77',
+    usalink:
+      'https://www.amazon.com/s?k=dog+rocking+chair&sprefix=Dog+Rocking+C%2Caps%2C438&linkCode=ll2&tag=naturalhuta-20&linkId=056642bd525fd46e9abb0ad7f80eced6&language=en_US&ref_=as_li_ss_tl',
+    aliexpress: 'https://s.click.aliexpress.com/e/_DmdqNAf',
+    imglink: 'https://m.media-amazon.com/images/I/31UPjLnxsjL._SL350_.jpg'
+  },
+  {
     name: '76',
     usalink:
       'https://www.amazon.com/s?k=Joyroom+15W+Qi+Magnetic+Car+Phone&crid=QWUZRQRZ4LEP&sprefix=joyroom+15w+qi+magnetic+car+phone%2Caps%2C797&linkCode=ll2&tag=naturalhuta-20&linkId=36bcc4603a9b12ffaf1a24f36f151a0a&language=en_US&ref_=as_li_ss_tl',

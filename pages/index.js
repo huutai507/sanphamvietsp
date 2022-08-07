@@ -8,11 +8,6 @@ import { data } from '../data/data';
 
 const COUNTRIES = [
   {
-    area: 'amazon.com',
-    name: 'USA',
-    checked: true
-  },
-  {
     area: 'amazon.ca',
     name: 'Canada',
     checked: false
@@ -92,8 +87,8 @@ const COUNTRIES = [
 export default function Home() {
   const [inputSearch, setInputSearch] = useState('');
   const [listProduct, setListProduct] = useState(data);
-  const [country, setCountry] = useState('amazon.com');
-  const [nameCountry, setNameCountry] = useState('USA');
+  const [country, setCountry] = useState('amazon.ca');
+  const [nameCountry, setNameCountry] = useState('Canada');
   const inputHandler = (e) => {
     let lowerCase = e.target.value.toLowerCase();
     setInputSearch(lowerCase);
@@ -191,7 +186,7 @@ export default function Home() {
                   </p>
                   <h5 className='north-america'>GLOBAL</h5>
                   <a href={item.usalink} target='_blank' className='custom-button'>
-                    View prices on Amazon
+                    USA - View prices on Amazon
                   </a>
                   <h5 className='north-america'> YOUR COUNTRY</h5>
                   <div className='selected-country'>
@@ -202,7 +197,7 @@ export default function Home() {
                       id='countries'
                       onChange={handleChangeSelected}
                     >
-                      <option value='amazon.com' disabled>
+                      <option value='amazon.ca' disabled>
                         Select
                       </option>
 
@@ -248,7 +243,7 @@ export default function Home() {
                       </p>
                       <h5 className='north-america'>GLOBAL</h5>
                       <a href={item.usalink} target='_blank' className='custom-button'>
-                        View prices on Amazon
+                        USA - View prices on Amazon
                       </a>
                       <h5 className='north-america'> YOUR COUNTRY</h5>
                       <div className='selected-country'>
@@ -259,7 +254,7 @@ export default function Home() {
                           id='countries'
                           onChange={handleChangeSelected}
                         >
-                          <option value='amazon.com' disabled>
+                          <option value='amazon.ca' disabled>
                             Select
                           </option>
 
