@@ -1,5 +1,19 @@
 export const data = [
   {
+    name: '80',
+    usalink:
+      'https://www.amazon.com/s?k=Hidden+Security+Cameras+HUOMU+Mini+spy+cam+1080P+HD&i=electronics&crid=3JUWGVIWHSBPV&sprefix=hidden+security+cameras+huomu+mini+spy+cam+1080p+hd%2Celectronics%2C295&linkCode=ll2&tag=naturalhuta-20&linkId=b9368d8f0217e7b375c308636c0e9569&language=en_US&ref_=as_li_ss_tl',
+    aliexpress: '',
+    imglink: 'https://m.media-amazon.com/images/I/41RM3chqDZL._SL350_.jpg'
+  },
+  {
+    name: '79',
+    usalink:
+      'https://www.amazon.com/s?k=AFP+Automatic+Dog+Ball+Launcher+Automatic+Ball+Launcher+for+Dogs&crid=1QYE9QZ51O3O4&sprefix=afp+automatic+dog+ball+launcher+automatic+ball+launcher+for+dogs%2Caps%2C308&linkCode=ll2&tag=naturalhuta-20&linkId=4f561e6872ce7b2ec84591f962c1e52d&language=en_US&ref_=as_li_ss_tl',
+    aliexpress: '',
+    imglink: 'https://m.media-amazon.com/images/I/31wjoLfKANL._SL350_.jpg'
+  },
+  {
     name: '78',
     usalink:
       'https://www.amazon.com/s?k=cat+lion&crid=3MR32JZGZAJ8O&sprefix=cat+l%2Caps%2C1063&linkCode=ll2&tag=naturalhuta-20&linkId=6350046713645b738c179a360ca2a3a6&language=en_US&ref_=as_li_ss_tl',
