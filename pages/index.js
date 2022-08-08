@@ -178,7 +178,9 @@ export default function Home() {
           <div className='product-list'>
             {filterData.reverse().map((item, index) => (
               <div className='product-item' key={index}>
-                <img src={item.imglink} className='imglink' />
+                <a href={item.usalink} target='_blank'>
+                  <img src={item.imglink} className='imglink' />
+                </a>
                 <div className='product-text'>
                   {item.sameproduct && <h6 className='mt-5'>Similar products</h6>}
                   <p>
@@ -235,7 +237,9 @@ export default function Home() {
               >
                 {listProduct.map((item, index) => (
                   <div className='product-item' key={index}>
-                    <img src={item.imglink} className='imglink' />
+                    <a href={item.usalink} target='_blank'>
+                      <img src={item.imglink} className='imglink' />
+                    </a>
                     <div className='product-text'>
                       {item.sameproduct && <h6 className='mt-5'>Similar products</h6>}
                       <p>
