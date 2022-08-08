@@ -199,7 +199,7 @@ export default function Home() {
                       id='countries'
                       onChange={handleChangeSelected}
                     >
-                      <option value='amazon.ca' disabled>
+                      <option value='amazon.com' disabled>
                         Select
                       </option>
 
@@ -265,7 +265,7 @@ export default function Home() {
                           id='countries'
                           onChange={handleChangeSelected}
                         >
-                          <option value='amazon.ca' disabled>
+                          <option value='amazon.com' disabled>
                             Select
                           </option>
                           {COUNTRIES.map((item, index) => (
