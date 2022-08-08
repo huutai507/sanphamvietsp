@@ -227,6 +227,13 @@ export default function Home() {
             >
               Try Amazon Prime 30-Day Free Trial
             </a>
+            <a
+              href='https://www.amazon.com/gp/bestsellers?&linkCode=ll2&tag=naturalhuta-20&linkId=a55eeeebe789e034349f5389b87d26f4&language=en_US&ref_=as_li_ss_tl'
+              target='_blank'
+              className='custom-button banner'
+            >
+              Amazon Best Sellers
+            </a>
             {
               <InfiniteScroll
                 dataLength={listProduct.length}
