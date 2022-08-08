@@ -2,6 +2,13 @@ export const data = [
   {
     name: '77',
     usalink:
+      'https://www.amazon.com/s?k=cat+lion&crid=3MR32JZGZAJ8O&sprefix=cat+l%2Caps%2C1063&linkCode=ll2&tag=naturalhuta-20&linkId=6350046713645b738c179a360ca2a3a6&language=en_US&ref_=as_li_ss_tl',
+    aliexpress: '',
+    imglink: 'https://m.media-amazon.com/images/I/61Fkcd+VwFL._SL350_.jpg'
+  },
+  {
+    name: '77',
+    usalink:
       'https://www.amazon.com/s?k=dog+rocking+chair&sprefix=Dog+Rocking+C%2Caps%2C438&linkCode=ll2&tag=naturalhuta-20&linkId=056642bd525fd46e9abb0ad7f80eced6&language=en_US&ref_=as_li_ss_tl',
     aliexpress: 'https://s.click.aliexpress.com/e/_DmdqNAf',
     imglink: 'https://m.media-amazon.com/images/I/31UPjLnxsjL._SL350_.jpg'
