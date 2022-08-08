@@ -87,8 +87,8 @@ const COUNTRIES = [
 export default function Home() {
   const [inputSearch, setInputSearch] = useState('');
   const [listProduct, setListProduct] = useState(data);
-  const [country, setCountry] = useState('amazon.ca');
-  const [nameCountry, setNameCountry] = useState('Canada');
+  const [country, setCountry] = useState('amazon.com.br');
+  const [nameCountry, setNameCountry] = useState('Brazil');
   const inputHandler = (e) => {
     let lowerCase = e.target.value.toLowerCase();
     setInputSearch(lowerCase);
@@ -184,13 +184,13 @@ export default function Home() {
                 <div className='product-text'>
                   {item.sameproduct && <h6 className='mt-5'>Similar products</h6>}
                   <p>
-                    Product code: <span className='code'>{item.name}</span>
+                    Code: <span className='code'>{item.name}</span>
                   </p>
                   <h5 className='north-america'>GLOBAL</h5>
                   <a href={item.usalink} target='_blank' className='custom-button'>
                     USA - Buy Now on Amazon
                   </a>
-                  <h5 className='north-america'> YOUR COUNTRY</h5>
+                  <h5 className='north-america'>SELECT COUNTRY</h5>
                   <div className='selected-country'>
                     <select
                       name=''
@@ -232,7 +232,7 @@ export default function Home() {
               target='_blank'
               className='custom-button banner'
             >
-              Amazon Best Sellers
+              TOP 5 Amazon Best Sellers
             </a>
             {
               <InfiniteScroll
@@ -250,13 +250,13 @@ export default function Home() {
                     <div className='product-text'>
                       {item.sameproduct && <h6 className='mt-5'>Similar products</h6>}
                       <p>
-                        Product code: <span className='code'>{item.name}</span>
+                        Code: <span className='code'>{item.name}</span>
                       </p>
                       <h5 className='north-america'>GLOBAL</h5>
                       <a href={item.usalink} target='_blank' className='custom-button'>
                         USA - Buy Now on Amazon
                       </a>
-                      <h5 className='north-america'> YOUR COUNTRY</h5>
+                      <h5 className='north-america'>SELECT COUNTRY</h5>
                       <div className='selected-country'>
                         <select
                           name=''
@@ -268,7 +268,6 @@ export default function Home() {
                           <option value='amazon.ca' disabled>
                             Select
                           </option>
-
                           {COUNTRIES.map((item, index) => (
                             <option value={item.area} key={index}>
                               {item.name}
