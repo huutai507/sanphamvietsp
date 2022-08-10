@@ -221,14 +221,14 @@ export default function Home() {
         ) : (
           <div>
             <a
-              href='https://www.amazon.com/tryprimefree?ref_=assoc_tag_ph_1524238741396&_encoding=UTF8&camp=1789&creative=9325&linkCode=pf4&tag=naturalhuta-20&linkId=69b69f38c59313489c69b260889d3f79'
+              href='https://www.amazon.com/tryprimefree?ref_=assoc_tag_ph_1524238741396&_encoding=UTF8&camp=1789&creative=9325&linkCode=pf4&tag=taiphantmt-20&linkId=daf18f6ba8ffbdfe5ee9c48dab8cbc91'
               target='_blank'
               className='custom-button banner'
             >
               Try Amazon Prime 30-Day Free Trial
             </a>
             <a
-              href='https://www.amazon.com/gp/bestsellers?&linkCode=ll2&tag=naturalhuta-20&linkId=a55eeeebe789e034349f5389b87d26f4&language=en_US&ref_=as_li_ss_tl'
+              href='https://www.amazon.com/gp/bestsellers?&linkCode=ll2&tag=&linkId=dc0e42c1142900424785f110eed0f86f&language=en_US&ref_=as_li_ss_tl'
               target='_blank'
               className='custom-button banner'
             >
