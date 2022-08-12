@@ -274,10 +274,10 @@ export const data = [
   {
     name: '66',
     usalink:
-      'https://www.amazon.com/s?k=Travel+Durable+PP+Trolley+Suitcase&crid=12YDPKZG95U74&sprefix=1pc+sports+fitness+knee+pads%2Caps%2C286&linkCode=ll2&tag=taiphantmt-20&linkId=f8293d2186e9738c147ea420ba0930ac&language=en_US&ref_=as_li_ss_tl',
+      'https://www.amazon.com/gp/product/B099ZL51WD?smid=A1XOFDTGBV0D6X&th=1&linkCode=ll1&tag=taiphantmt-20&linkId=7d34ee57334c85b57e86fb98cfa83fd1&language=en_US&ref_=as_li_ss_tl',
     aliexpress: 'https://s.click.aliexpress.com/e/_Ddm6TMb',
-    imglink: '//ae01.alicdn.com/kf/S788b2de7bf9046f9b647a302d4442c685.jpg_350x350.jpg',
-    shortlink: 'https://amzn.to/3bHncBY'
+    imglink: 'https://m.media-amazon.com/images/I/415GEfkL0hL._SL350_.jpg',
+    shortlink: 'https://amzn.to/3PleXJI'
   },
   {
     name: '65',
