@@ -188,13 +188,13 @@ export default function Home() {
                   </p>
                   <h5 className='north-america'>GLOBAL</h5>
                   <a href={item.usalink} target='_blank' className='custom-button'>
-                    USA - Buy Now on Amazon
+                    Buy Now on Amazon
                   </a>
-                  {item.aliexpress && (
+                  {/* {item.aliexpress && (
                     <a href={item.aliexpress} target='_blank' className='custom-button aliexpress'>
                       Buy Now on Aliexpress
                     </a>
-                  )}
+                  )} */}
                   <h5 className='north-america'>SELECT COUNTRY</h5>
                   <div className='selected-country'>
                     <select
@@ -225,7 +225,7 @@ export default function Home() {
           </div>
         ) : (
           <div>
-            <a
+            {/* <a
               href='https://www.amazon.com/tryprimefree?ref_=assoc_tag_ph_1524238741396&_encoding=UTF8&camp=1789&creative=9325&linkCode=pf4&tag=taiphantmt-20&linkId=daf18f6ba8ffbdfe5ee9c48dab8cbc91'
               target='_blank'
               className='custom-button banner'
@@ -238,7 +238,7 @@ export default function Home() {
               className='custom-button banner'
             >
               TOP 5 Amazon Best Sellers
-            </a>
+            </a> */}
             {
               <InfiniteScroll
                 dataLength={listProduct.length}
@@ -259,13 +259,13 @@ export default function Home() {
                       </p>
                       <h5 className='north-america'>GLOBAL</h5>
                       <a href={item.usalink} target='_blank' className='custom-button'>
-                        USA - Buy Now on Amazon
+                        Buy Now on Amazon
                       </a>
-                      {item.aliexpress && (
+                      {/* {item.aliexpress && (
                         <a href={item.aliexpress} target='_blank' className='custom-button aliexpress'>
                           Buy Now on Aliexpress
                         </a>
-                      )}
+                      )} */}
                       <h5 className='north-america'>SELECT COUNTRY</h5>
                       <div className='selected-country'>
                         <select
