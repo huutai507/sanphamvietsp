@@ -3,7 +3,7 @@ export const data = [
     name: '100',
     usalink:
       'https://www.amazon.com/s?k=Anti+Vibration+Pad&crid=125O81GCBU4HG&sprefix=anti+vibration+pad%2Caps%2C320&linkCode=ll2&tag=taiphantmt-20&linkId=24cdc5d2e0aee2143b0cee2d9c887cf6&language=en_US&ref_=as_li_ss_tl',
-    aliexpress: '',
+    aliexpress: 'https://s.click.aliexpress.com/e/_DEl40Kj',
     imglink: 'https://m.media-amazon.com/images/I/51CWF9qdSvL._SL350_.jpg',
     shortlink: 'https://amzn.to/3SBM8LU'
   },
@@ -11,7 +11,7 @@ export const data = [
     name: '99',
     usalink:
       'https://www.amazon.com/s?k=CHEPULA+Craftsmanship+DIY+200+Sets+Metal+Snaps+Buttons+with+Fastener+Pliers+Press+Tool+Kit&crid=2VXBFXQYRZA81&sprefix=chepula+craftsmanship+diy+200+sets+metal+snaps+buttons+with+fastener+pliers+press+tool+kit+%2Caps%2C314&linkCode=ll2&tag=taiphantmt-20&linkId=94e934a6f20f79012f214e498e724112&language=en_US&ref_=as_li_ss_tl',
-    aliexpress: '',
+    aliexpress: 'https://s.click.aliexpress.com/e/_DlrYjbt',
     imglink: 'https://m.media-amazon.com/images/I/612nQnPAf2L._SL350_.jpg',
     shortlink: 'https://amzn.to/3p7Yxtv'
   },
@@ -19,7 +19,7 @@ export const data = [
     name: '98',
     usalink:
       'https://www.amazon.com/s?k=Double+Sided+Tape&crid=XBR1GT4TH6KI&sprefix=double+sided+tape%2Caps%2C313&linkCode=ll2&tag=taiphantmt-20&linkId=61c4442ba1fa65b57c4598882b7df2a5&language=en_US&ref_=as_li_ss_tl',
-    aliexpress: '',
+    aliexpress: 'https://s.click.aliexpress.com/e/_DeTTKMB',
     imglink: 'https://m.media-amazon.com/images/I/311G6twboSL._SL350_.jpg',
     shortlink: 'https://amzn.to/3vU3YQC'
   },

@@ -190,6 +190,11 @@ export default function Home() {
                   <a href={item.usalink} target='_blank' className='custom-button'>
                     USA - Buy Now on Amazon
                   </a>
+                  {item.aliexpress && (
+                    <a href={item.aliexpress} target='_blank' className='custom-button aliexpress'>
+                      Buy Now on Aliexpress
+                    </a>
+                  )}
                   <h5 className='north-america'>SELECT COUNTRY</h5>
                   <div className='selected-country'>
                     <select
@@ -256,6 +261,11 @@ export default function Home() {
                       <a href={item.usalink} target='_blank' className='custom-button'>
                         USA - Buy Now on Amazon
                       </a>
+                      {item.aliexpress && (
+                        <a href={item.aliexpress} target='_blank' className='custom-button aliexpress'>
+                          Buy Now on Aliexpress
+                        </a>
+                      )}
                       <h5 className='north-america'>SELECT COUNTRY</h5>
                       <div className='selected-country'>
                         <select
