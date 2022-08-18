@@ -225,20 +225,12 @@ export default function Home() {
           </div>
         ) : (
           <div>
-            {/* <a
-              href='https://www.amazon.com/tryprimefree?ref_=assoc_tag_ph_1524238741396&_encoding=UTF8&camp=1789&creative=9325&linkCode=pf4&tag=taiphantmt-20&linkId=daf18f6ba8ffbdfe5ee9c48dab8cbc91'
-              target='_blank'
-              className='custom-button banner'
-            >
-              Try Amazon Prime 30-Day Free Trial
+            <a href='https://bit.ly/Kawaii-Plushiess' target='_blank' className='banner'>
+              <img src='/plushies.png' alt='' className='custom-img' />
             </a>
-            <a
-              href='https://www.amazon.com/gp/bestsellers?&linkCode=ll2&tag=&linkId=dc0e42c1142900424785f110eed0f86f&language=en_US&ref_=as_li_ss_tl'
-              target='_blank'
-              className='custom-button banner'
-            >
-              TOP 5 Amazon Best Sellers
-            </a> */}
+            <a href='https://bit.ly/Kawaii-Plushiess' target='_blank' className='custom-button banner'>
+              Kawaii Plushies - Free Shipping To USA
+            </a>
             {
               <InfiniteScroll
                 dataLength={listProduct.length}
@@ -260,6 +252,9 @@ export default function Home() {
                       <h5 className='north-america'>GLOBAL</h5>
                       <a href={item.usalink} target='_blank' className='custom-button'>
                         Buy Now on Amazon
+                      </a>
+                      <a href='https://bit.ly/Kawaii-Plushiess' target='_blank' className='custom-button'>
+                        Kawaii Plushies
                       </a>
                       {/* {item.aliexpress && (
                         <a href={item.aliexpress} target='_blank' className='custom-button aliexpress'>

@@ -290,8 +290,10 @@ input {
 }
 
 .banner img {
-  max-width: 435px;
+  display: block;
+  max-width: 375px;
   margin: 0 auto;
+  border-radius: 25px;
 }
 
 .tip-search {
