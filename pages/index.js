@@ -190,6 +190,9 @@ export default function Home() {
                   <a href={item.usalink} target='_blank' className='custom-button'>
                     Buy Now on Amazon
                   </a>
+                  <a href='https://bit.ly/Kawaii-Plushiess' target='_blank' className='custom-button'>
+                    Kawaii Plushies
+                  </a>
                   {/* {item.aliexpress && (
                     <a href={item.aliexpress} target='_blank' className='custom-button aliexpress'>
                       Buy Now on Aliexpress
