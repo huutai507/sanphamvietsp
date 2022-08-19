@@ -87,8 +87,8 @@ const COUNTRIES = [
 export default function Home() {
   const [inputSearch, setInputSearch] = useState('');
   const [listProduct, setListProduct] = useState(data);
-  const [country, setCountry] = useState('amazon.com.br');
-  const [nameCountry, setNameCountry] = useState('Brazil');
+  const [country, setCountry] = useState('amazon.in');
+  const [nameCountry, setNameCountry] = useState('India');
   const inputHandler = (e) => {
     let lowerCase = e.target.value.toLowerCase();
     setInputSearch(lowerCase);
