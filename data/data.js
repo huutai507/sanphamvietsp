@@ -1,5 +1,13 @@
 export const data = [
   {
+    name: '132',
+    usalink:
+      'https://www.amazon.com/gp/product/B08PDH6QJP?smid=A1F7Y3WCJV15Z4&psc=1&linkCode=ll1&tag=taiphantmt-20&linkId=0f2b633397a5c6e89b4d091876cb41c5&language=en_US&ref_=as_li_ss_tl',
+    aliexpress: '',
+    imglink: 'https://m.media-amazon.com/images/I/51ekRGWM97L._SL350_.jpg',
+    shortlink: 'https://amzn.to/3CDEMCc'
+  },
+  {
     name: '131',
     usalink:
       'https://www.amazon.com/s?k=egg+spinner&crid=DTKJMELGMNTA&sprefix=egg+spinn%2Caps%2C426&linkCode=ll2&tag=taiphantmt-20&linkId=9106ad6502163692dccb71aeede4d107&language=en_US&ref_=as_li_ss_tl',
