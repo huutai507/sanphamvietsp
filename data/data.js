@@ -842,10 +842,10 @@ export const data = [
   {
     name: '27',
     usalink:
-      'https://www.amazon.com/s?k=screen%2Bcleaner&linkCode=ll2&tag=taiphantmt-20&linkId=d510cee2ee77a6809f20691b3156def4&language=en_US&ref_=as_li_ss_tl',
+      'https://www.amazon.com/s?k=2+pcs+fingerprint+proof+screen+cleaner&sprefix=2+pc+fingerprint%2Caps%2C670&linkCode=ll2&tag=taiphantmt-20&linkId=68b3248bd36a83066c26c28f5678cb22&language=en_US&ref_=as_li_ss_tl',
     aliexpress: 'https://s.click.aliexpress.com/e/_DDfBO0X',
     imglink: 'https://m.media-amazon.com/images/I/21TDeMnBGhL._SL350_.jpg',
-    shortlink: 'https://amzn.to/3zGoRzM'
+    shortlink: 'https://amzn.to/3QWjhRk'
   },
   {
     name: '26',
