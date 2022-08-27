@@ -228,12 +228,12 @@ export default function Home() {
           </div>
         ) : (
           <div>
-            <a href='https://bit.ly/Kawaii-Plushiess' target='_blank' className='banner'>
+            {/* <a href='https://bit.ly/Kawaii-Plushiess' target='_blank' className='banner'>
               <img src='/plushies.png' alt='' className='custom-img' />
             </a>
             <a href='https://bit.ly/Kawaii-Plushiess' target='_blank' className='custom-button banner'>
               Kawaii Plushies - Free Shipping To USA
-            </a>
+            </a> */}
             {
               <InfiniteScroll
                 dataLength={listProduct.length}
