@@ -230,10 +230,11 @@ export default function Home() {
           <div>
             {/* <a href='https://bit.ly/Kawaii-Plushiess' target='_blank' className='banner'>
               <img src='/plushies.png' alt='' className='custom-img' />
-            </a>
-            <a href='https://bit.ly/Kawaii-Plushiess' target='_blank' className='custom-button banner'>
-              Kawaii Plushies - Free Shipping To USA
             </a> */}
+            <a href='https://amzn.to/3Kqy0Bk' target='_blank' className='custom-button banner'>
+              Try Amazon Prime 30-Day Free Trial
+            </a>
+
             {
               <InfiniteScroll
                 dataLength={listProduct.length}
