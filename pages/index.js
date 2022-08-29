@@ -233,6 +233,8 @@ export default function Home() {
             </a> */}
             <a href='https://amzn.to/3Kqy0Bk' target='_blank' className='custom-button banner'>
               Try Amazon Prime 30-Day Free Trial
+              <br />
+              Free delivery, award-winning TV, exclusive deals, and more
             </a>
 
             {
