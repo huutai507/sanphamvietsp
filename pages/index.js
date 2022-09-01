@@ -188,7 +188,7 @@ export default function Home() {
                   </p>
                   <h5 className='north-america'>GLOBAL</h5>
                   <a href={item.usalink} target='_blank' className='custom-button'>
-                    Buy Now on Amazon
+                    USA - Buy Now on Amazon
                   </a>
                   {/* <a href='https://bit.ly/Kawaii-Plushiess' target='_blank' className='custom-button'>
                     Kawaii Plushies
@@ -256,7 +256,7 @@ export default function Home() {
                       </p>
                       <h5 className='north-america'>GLOBAL</h5>
                       <a href={item.usalink} target='_blank' className='custom-button'>
-                        Buy Now on Amazon
+                        USA - Buy Now on Amazon
                       </a>
                       {/* <a href='https://bit.ly/Kawaii-Plushiess' target='_blank' className='custom-button'>
                         Kawaii Plushies
