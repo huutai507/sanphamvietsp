@@ -236,7 +236,6 @@ export default function Home() {
               <br />
               Free delivery, award-winning TV, exclusive deals, and more
             </a>
-
             {
               <InfiniteScroll
                 dataLength={listProduct.length}

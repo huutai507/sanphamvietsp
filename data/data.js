@@ -706,6 +706,22 @@ export const data = [
   {
     name: '68',
     usalink:
+      'https://www.amazon.com/HGN-Stainless-Rinser-Kitchen-Accessories/dp/B094F43RJ8?crid=3CS0Z3FJNQIBV&keywords=Gun%2Bgray%2Bsink%2Blarge%2Bsingle-slot%2Bkitchen&qid=1662003294&sprefix=gun%2Bgray%2Bsink%2Blarge%2Bsingle-slot%2Bkitchen%2Caps%2C337&sr=8-5&th=1&linkCode=ll1&tag=taiphantmt-20&linkId=800f9dffcec78c29d427657fc0bbf5f1&language=en_US&ref_=as_li_ss_tl',
+    aliexpress: 'https://s.click.aliexpress.com/e/_DdOBmZt',
+    imglink: 'https://m.media-amazon.com/images/I/31ECgVrsNMS._SL350_.jpg',
+    shortlink: 'https://amzn.to/3pZL0EP'
+  },
+  {
+    name: '68',
+    usalink:
+      'https://www.amazon.com/gp/product/B012I44QM8?th=1&linkCode=ll1&tag=taiphantmt-20&linkId=57d7feacc0f6e905c0e331c7fce110b8&language=en_US&ref_=as_li_ss_tl',
+    aliexpress: 'https://s.click.aliexpress.com/e/_DdOBmZt',
+    imglink: 'https://m.media-amazon.com/images/I/31G9zmqSisL._SL350_.jpg',
+    shortlink: 'https://amzn.to/3B14Aqn'
+  },
+  {
+    name: '68',
+    usalink:
       'https://www.amazon.com/s?k=Gun+gray+sink+large+single-slot+kitchen&crid=3CS0Z3FJNQIBV&sprefix=gun+gray+sink+large+single-slot+kitchen%2Caps%2C337&linkCode=ll2&tag=taiphantmt-20&linkId=e2d018503ff07e34afaa68606af28ab8&language=en_US&ref_=as_li_ss_tl',
     aliexpress: 'https://s.click.aliexpress.com/e/_DdOBmZt',
     imglink: 'https://m.media-amazon.com/images/I/41V1nfkhkfL._SL350_.jpg',
