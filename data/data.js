@@ -1,5 +1,21 @@
 export const data = [
   {
+    name: '176',
+    usalink:
+      'https://www.amazon.com/s?k=multi+egg+frying+pan&sprefix=multi+egg+f%2Caps%2C341&linkCode=ll2&tag=taiphantmt-20&linkId=460f5f02ffb75346d67fa0a82461ecc7&language=en_US&ref_=as_li_ss_tl',
+    aliexpress: '',
+    imglink: 'https://m.media-amazon.com/images/I/516LhAOTtUL._SL350_.jpg',
+    shortlink: 'https://amzn.to/3QfHNLW'
+  },
+  {
+    name: '175',
+    usalink:
+      'https://www.amazon.com/s?k=eos+trident+balisong+knife+gray+titanium&crid=EP26Y4PVEKBD&sprefix=eos+trident+balisong+knife+gray+titaniu%2Caps%2C323&linkCode=ll2&tag=taiphantmt-20&linkId=51d0c6aae3817b6383a8a63f48ed0699&language=en_US&ref_=as_li_ss_tl',
+    aliexpress: '',
+    imglink: 'https://m.media-amazon.com/images/I/31UlmMEJTNL._SL350_.jpg',
+    shortlink: 'https://amzn.to/3cGR569'
+  },
+  {
     name: '174',
     usalink:
       'https://www.amazon.com/s?k=pet+blankets+for+cats&sprefix=pet+bl%2Caps%2C334&linkCode=ll2&tag=taiphantmt-20&linkId=1e8dc987f12231a51cba2276f13c0a1b&language=en_US&ref_=as_li_ss_tl',
