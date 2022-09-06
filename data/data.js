@@ -50,10 +50,10 @@ export const data = [
   {
     name: '171',
     usalink:
-      'https://www.amazon.com/Folding-Lounger-Camping-Fishing-Picnics/dp/B08QYMWH7N?crid=2SK90XREZ51EP&keywords=Apollo+Walker+Folding+Camping+Chairs&qid=1662201636&sprefix=nap+folding+chair%2Caps%2C314&sr=8-5&linkCode=ll1&tag=taiphantmt-20&linkId=2ff7291ee33dc7b6d254c18ca739ac69&language=en_US&ref_=as_li_ss_tl',
+      'https://www.amazon.com/gp/product/B08BS1PSWQ?smid=A2HGJW9Y531RI2&psc=1&linkCode=ll1&tag=taiphantmt-20&linkId=644cf03c5444cc605e774eb2e1e8c219&language=en_US&ref_=as_li_ss_tl',
     aliexpress: '',
-    imglink: 'https://m.media-amazon.com/images/I/418kKeboGxL._SL350_.jpg',
-    shortlink: 'https://amzn.to/3eaenl2'
+    imglink: 'https://m.media-amazon.com/images/I/41qEmyYidNL._SL350_.jpg',
+    shortlink: 'https://amzn.to/3CZPSkZ'
   },
   {
     name: '170',
