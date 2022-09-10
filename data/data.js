@@ -1,5 +1,20 @@
 export const data = [
   {
+    name: '206',
+    usalink:
+      'https://www.amazon.com/s?k=collapsible+baby+stroller&crid=3NQV4WDIC8U15&sprefix=folding+chair+for+baby%2Caps%2C393&linkCode=ll2&tag=taiphantmt-20&linkId=27cd5b5ae36b7685dd804c577dd97118&language=en_US&ref_=as_li_ss_tl',
+    aliexpress: '',
+    imglink: 'https://m.media-amazon.com/images/I/41OJn-qZgRL._SL350_.jpg',
+    shortlink: 'https://amzn.to/3CVCP3R'
+  },
+  {
+    name: '205',
+    usalink:
+      'https://www.amazon.com/s?k=table+with+ice+bucket&linkCode=ll2&tag=taiphantmt-20&linkId=848676f2a78c09d1bb9bc7a9a2d5e391&language=en_US&ref_=as_li_ss_tl',
+    imglink: 'https://m.media-amazon.com/images/I/41rZ8-2VX2S._SL350_.jpg',
+    shortlink: 'https://amzn.to/3PiPb8J'
+  },
+  {
     name: '204',
     usalink:
       'https://www.amazon.com/s?k=Electric+Scissor&crid=3TNI7YZG1T6P9&sprefix=electric+scissor%2Caps%2C378&linkCode=ll2&tag=taiphantmt-20&linkId=1b64b3fa7b5869e3447c0b013d0a67ee&language=en_US&ref_=as_li_ss_tl',
