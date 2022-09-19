@@ -339,7 +339,7 @@ export const data = [
     usalink:
       'https://www.amazon.com/gp/product/B098JRXHH2?smid=A3AYESXRT84JV6&psc=1&linkCode=ll1&tag=taiphantmt-20&linkId=9f02c677804afc17232b1058820325a9&language=en_US&ref_=as_li_ss_tl',
     aliexpress: 'https://s.click.aliexpress.com/e/_DeSOR7t',
-    imglink: 'https://m.media-amazon.com/images/I/41LoPIO90sL._SL350_.jpg',
+    imglink: 'https://m.media-amazon.com/images/I/41zbawZTsYS._SL350_.jpg',
     shortlink: 'https://amzn.to/3BrGoOj'
   },
   {
