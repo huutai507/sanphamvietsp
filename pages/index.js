@@ -138,13 +138,13 @@ export default function Home() {
       </Head>
       <div className='search-bar'>
         <div className='content-title'>
-          <p>Insira o código do produto na caixa de pesquisa</p>
+          <p>Please enter the product code in search box</p>
         </div>
         <div className='input-content'>
           <input
             className='input-search'
             type='text'
-            placeholder='Digite o código aqui, exemplo: 3'
+            placeholder='Enter product code here, example: 3'
             onChange={inputHandler}
             value={inputSearch}
             autoFocus
@@ -189,14 +189,14 @@ export default function Home() {
                   {item.usalink && (
                     <>
                       <a href={item.usalink} target='_blank' className='custom-button'>
-                        Compre agora no Amazon
+                        Buy Now on Amazon
                       </a>
                     </>
                   )}
                   {item.aliexpress && (
                     <>
                       <a href={item.aliexpress} target='_blank' className='custom-button aliexpress'>
-                        Compre agora no Aliexpress
+                        Buy Now on Aliexpress
                       </a>
                     </>
                   )}
@@ -237,14 +237,14 @@ export default function Home() {
                       {item.usalink && (
                         <>
                           <a href={item.usalink} target='_blank' className='custom-button'>
-                            Compre agora no Amazon
+                            Buy Now on Amazon
                           </a>
                         </>
                       )}
                       {item.aliexpress && (
                         <>
                           <a href={item.aliexpress} target='_blank' className='custom-button aliexpress'>
-                            Compre agora no Aliexpress
+                            Buy Now on Aliexpress
                           </a>
                         </>
                       )}
