@@ -139,6 +139,10 @@ export default function Home() {
       <div className='search-bar'>
         <div className='content-title'>
           <p>Please enter the product code in the reel in the search box</p>
+          <br />
+          <hr />
+          <br />
+          <p>Пожалуйста, введите код продукта в барабане в поле поиска</p>
         </div>
         <div className='input-content'>
           <input
@@ -200,6 +204,13 @@ export default function Home() {
                       </a>
                     </>
                   )}
+                  {item.aliexpress && (
+                    <>
+                      <a href={item.aliexpress} target='_blank' className='custom-button aliexpress'>
+                        Купить сейчас Aliexpress
+                      </a>
+                    </>
+                  )}
                 </div>
               </div>
             ))}
@@ -245,6 +256,13 @@ export default function Home() {
                         <>
                           <a href={item.aliexpress} target='_blank' className='custom-button aliexpress'>
                             Buy Now on Aliexpress
+                          </a>
+                        </>
+                      )}
+                      {item.aliexpress && (
+                        <>
+                          <a href={item.aliexpress} target='_blank' className='custom-button aliexpress'>
+                            Купить сейчас Aliexpress
                           </a>
                         </>
                       )}
