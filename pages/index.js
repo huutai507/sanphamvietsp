@@ -138,13 +138,13 @@ export default function Home() {
       </Head>
       <div className='search-bar'>
         <div className='content-title'>
-          <p>Por favor, insira o código do produto na caixa de pesquisa</p>
+          <p>Please enter the product code in the reel in the search box</p>
         </div>
         <div className='input-content'>
           <input
             className='input-search'
             type='text'
-            placeholder='Insira o código do produto aqui, exemplo: 3'
+            placeholder='Enter product code here, example: 3'
             onChange={inputHandler}
             value={inputSearch}
             autoFocus
@@ -184,19 +184,19 @@ export default function Home() {
                 <div className='product-text'>
                   {item.sameproduct && <h6 className='mt-5'>Similar products</h6>}
                   <p>
-                    Código: <span className='code'>{item.name}</span>
+                    Code: <span className='code'>{item.name}</span>
                   </p>
                   {item.usalink && (
                     <>
                       <a href={item.usalink} target='_blank' className='custom-button'>
-                        Compre agora na Amazon
+                        Buy Now on Amazon
                       </a>
                     </>
                   )}
                   {item.aliexpress && (
                     <>
                       <a href={item.aliexpress} target='_blank' className='custom-button aliexpress'>
-                        Compre agora na Aliexpress
+                        Buy Now on Aliexpress
                       </a>
                     </>
                   )}
@@ -231,20 +231,20 @@ export default function Home() {
                     <div className='product-text'>
                       {item.sameproduct && <h6 className='mt-5'>Similar products</h6>}
                       <p>
-                        Código: <span className='code'>{item.name}</span>
+                        Code: <span className='code'>{item.name}</span>
                       </p>
                       {/* <h5 className='north-america'>GLOBAL</h5> */}
                       {item.usalink && (
                         <>
                           <a href={item.usalink} target='_blank' className='custom-button'>
-                            Compre agora na Amazon
+                            Buy Now on Amazon
                           </a>
                         </>
                       )}
                       {item.aliexpress && (
                         <>
                           <a href={item.aliexpress} target='_blank' className='custom-button aliexpress'>
-                            Compre agora na Aliexpress
+                            Buy Now on Aliexpress
                           </a>
                         </>
                       )}
