@@ -12,6 +12,10 @@ body {
   margin-top: 5px;
 }
 
+.pb-05 {
+  padding-bottom: 0.5rem;
+}
+
 a {
   color: inherit;
   text-decoration: none;
@@ -52,7 +56,7 @@ input {
   height: 1.5rem;
 }
 .container-list {
-  padding-top: 17rem;
+  padding-top: 14rem;
 }
 
 .product-list {

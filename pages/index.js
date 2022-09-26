@@ -138,10 +138,7 @@ export default function Home() {
       </Head>
       <div className='search-bar'>
         <div className='content-title'>
-          <p>Please enter the product code in the reel in the search box</p>
-          <br />
-          <hr />
-          <br />
+          <p className='pb-05'>Please enter the product code in the reel in the search box</p>
           <p>Пожалуйста, введите код продукта в барабане в поле поиска</p>
         </div>
         <div className='input-content'>
