@@ -50,6 +50,13 @@ export const data = [
   {
     name: '267',
     usalink: '',
+    aliexpress: 'https://s.click.aliexpress.com/e/_DEo03OP',
+    imglink: '//ae01.alicdn.com/kf/S1a4d7b669b4c48b0ba58270751fb49942.jpg_350x350.jpg',
+    shortlink: 'https://s.click.aliexpress.com/e/_DEo03OP'
+  },
+  {
+    name: '267',
+    usalink: '',
     aliexpress: 'https://s.click.aliexpress.com/e/_Dluyk7l',
     imglink: '//ae01.alicdn.com/kf/S1725ec58c79142cf8e7a2aef84385edfw.jpg_350x350.jpg',
     shortlink: 'https://s.click.aliexpress.com/e/_Dluyk7l'
