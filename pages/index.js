@@ -139,13 +139,13 @@ export default function Home() {
       <div className='search-bar'>
         <div className='content-title'>
           <p className='pb-05'>Please enter the product code in the reel in the search box</p>
-          <p>Пожалуйста, введите код продукта в барабане в поле поиска</p>
+          <p>Insira o código do produto no rolo na caixa de pesquisa</p>
         </div>
         <div className='input-content'>
           <input
             className='input-search'
             type='text'
-            placeholder='Enter product code here, example: 3'
+            placeholder='digite o código aqui, exemplo: 3'
             onChange={inputHandler}
             value={inputSearch}
             autoFocus
@@ -197,14 +197,14 @@ export default function Home() {
                   {item.aliexpress && (
                     <>
                       <a href={item.aliexpress} target='_blank' className='custom-button aliexpress'>
-                        Buy Now on Aliexpress
+                        Compre agora em Aliexpress
                       </a>
                     </>
                   )}
                   {item.aliexpress && (
                     <>
                       <a href={item.aliexpress} target='_blank' className='custom-button aliexpress'>
-                        Купить сейчас Aliexpress
+                        Buy Now on Aliexpress
                       </a>
                     </>
                   )}
@@ -252,14 +252,14 @@ export default function Home() {
                       {item.aliexpress && (
                         <>
                           <a href={item.aliexpress} target='_blank' className='custom-button aliexpress'>
-                            Buy Now on Aliexpress
+                            Compre agora em Aliexpress
                           </a>
                         </>
                       )}
                       {item.aliexpress && (
                         <>
                           <a href={item.aliexpress} target='_blank' className='custom-button aliexpress'>
-                            Купить сейчас Aliexpress
+                            Buy Now on Aliexpress
                           </a>
                         </>
                       )}
