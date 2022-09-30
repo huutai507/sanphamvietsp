@@ -196,7 +196,7 @@ export default function Home() {
                   )}
                   {item.aliexpress && (
                     <>
-                      <a href={item.aliexpress} target='_blank' className='custom-button aliexpress'>
+                      <a href={item.aliexpress} target='_blank' className='custom-button'>
                         Compre agora em Aliexpress
                       </a>
                     </>
@@ -251,7 +251,7 @@ export default function Home() {
                       )}
                       {item.aliexpress && (
                         <>
-                          <a href={item.aliexpress} target='_blank' className='custom-button aliexpress'>
+                          <a href={item.aliexpress} target='_blank' className='custom-button'>
                             Compre agora em Aliexpress
                           </a>
                         </>
