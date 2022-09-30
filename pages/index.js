@@ -196,14 +196,14 @@ export default function Home() {
                   )}
                   {item.aliexpress && (
                     <>
-                      <a href={item.aliexpress} target='_blank' className='custom-button'>
+                      <a href={item.aliexpress} target='_blank' className='custom-button aliexpress'>
                         Compre agora em Aliexpress
                       </a>
                     </>
                   )}
                   {item.aliexpress && (
                     <>
-                      <a href={item.aliexpress} target='_blank' className='custom-button aliexpress'>
+                      <a href={item.aliexpress} target='_blank' className='custom-button'>
                         Buy Now on Aliexpress
                       </a>
                     </>
@@ -251,14 +251,14 @@ export default function Home() {
                       )}
                       {item.aliexpress && (
                         <>
-                          <a href={item.aliexpress} target='_blank' className='custom-button'>
+                          <a href={item.aliexpress} target='_blank' className='custom-button aliexpress'>
                             Compre agora em Aliexpress
                           </a>
                         </>
                       )}
                       {item.aliexpress && (
                         <>
-                          <a href={item.aliexpress} target='_blank' className='custom-button aliexpress'>
+                          <a href={item.aliexpress} target='_blank' className='custom-button '>
                             Buy Now on Aliexpress
                           </a>
                         </>
