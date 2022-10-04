@@ -185,7 +185,7 @@ export default function Home() {
                 <div className='product-text'>
                   {item.sameproduct && <h6 className='mt-5'>Similar products</h6>}
                   <p>
-                    Code: <span className='code'>{item.name}</span>
+                    Código: <span className='code'>{item.name}</span>
                   </p>
                   {item.usalink && (
                     <>
@@ -239,7 +239,7 @@ export default function Home() {
                     <div className='product-text'>
                       {item.sameproduct && <h6 className='mt-5'>Similar products</h6>}
                       <p>
-                        Code: <span className='code'>{item.name}</span>
+                        Código: <span className='code'>{item.name}</span>
                       </p>
                       {/* <h5 className='north-america'>GLOBAL</h5> */}
                       {item.usalink && (
