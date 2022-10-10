@@ -218,11 +218,10 @@ export default function Home() {
             {/* <a href='https://bit.ly/Kawaii-Plushiess' target='_blank' className='banner'>
               <img src='/plushies.png' alt='' className='custom-img' />
             </a> */}
-            {/* <a href='https://amzn.to/3Kqy0Bk' target='_blank' className='custom-button banner'>
-              Try Amazon Prime 30-Day Free Trial
-              <br />
-              Free delivery, award-winning TV, exclusive deals, and more
-            </a> */}
+            <a href='https://a.aliexpress.com/_mKaRpgY' target='_blank' className='custom-button banner'>
+              Knock, knock! You have a gift from AliExpress. Use my link to enjoy US $5.00 off the items from all over
+              the world!
+            </a>
             {
               <InfiniteScroll
                 dataLength={listProduct.length}
