@@ -1,5 +1,23 @@
 export const data = [
   {
+    name: '327',
+    usalink: '',
+    aliexpress: 'https://s.click.aliexpress.com/e/_DeIQSox',
+    usalink:
+      'https://www.amazon.com/s?k=cyberpunk+mask&crid=2V3ZQQWNYRRMQ&sprefix=cyber%2Caps%2C384&linkCode=ll2&tag=taiphantmt-20&linkId=1ffd83be6d9d5ac5b4172dd145c0553f&language=en_US&ref_=as_li_ss_tl',
+    imglink: 'https://m.media-amazon.com/images/I/41jKD1TRRyL._SL350_.jpg',
+    shortlink: 'https://amzn.to/3yHlYiz'
+  },
+  {
+    name: '326',
+    usalink: '',
+    aliexpress: 'https://s.click.aliexpress.com/e/_Dd4urtD',
+    usalink:
+      'https://www.amazon.com/s?k=laser+keyboard&crid=1XRNDKWZV2EQA&sprefix=laser%2Caps%2C329&linkCode=ll2&tag=taiphantmt-20&linkId=2a29c861d37ad1bdf5fe317d91963218&language=en_US&ref_=as_li_ss_tl',
+    imglink: 'https://m.media-amazon.com/images/I/41h8VB7pv2L._SL350_.jpg',
+    shortlink: 'https://amzn.to/3rYYnWC'
+  },
+  {
     name: '325',
     usalink: '',
     aliexpress: 'https://s.click.aliexpress.com/e/_Dl6xWQr',

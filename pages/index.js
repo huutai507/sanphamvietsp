@@ -139,13 +139,12 @@ export default function Home() {
       <div className='search-bar'>
         <div className='content-title'>
           <p className='pb-05'>Please enter the product code in the reel in the search box</p>
-          <p>Insira o código do produto no rolo na caixa de pesquisa</p>
         </div>
         <div className='input-content'>
           <input
             className='input-search'
             type='text'
-            placeholder='digite o código aqui, exemplo: 3'
+            placeholder='Please enter code here, example: 3'
             onChange={inputHandler}
             value={inputSearch}
             autoFocus
@@ -197,7 +196,7 @@ export default function Home() {
                   {item.aliexpress && (
                     <>
                       <a href={item.aliexpress} target='_blank' className='custom-button aliexpress'>
-                        Compre agora em Aliexpress
+                        Buy Now on Aliexpress
                       </a>
                     </>
                   )}
@@ -218,10 +217,6 @@ export default function Home() {
             {/* <a href='https://bit.ly/Kawaii-Plushiess' target='_blank' className='banner'>
               <img src='/plushies.png' alt='' className='custom-img' />
             </a> */}
-            <a href='https://a.aliexpress.com/_mKaRpgY' target='_blank' className='custom-button banner'>
-              Knock, knock! You have a gift from AliExpress. Use my link to enjoy US $5.00 off the items from all over
-              the world!
-            </a>
             {
               <InfiniteScroll
                 dataLength={listProduct.length}
@@ -238,7 +233,7 @@ export default function Home() {
                     <div className='product-text'>
                       {item.sameproduct && <h6 className='mt-5'>Similar products</h6>}
                       <p>
-                        Código: <span className='code'>{item.name}</span>
+                        Code: <span className='code'>{item.name}</span>
                       </p>
                       {/* <h5 className='north-america'>GLOBAL</h5> */}
                       {item.usalink && (
@@ -251,14 +246,7 @@ export default function Home() {
                       {item.aliexpress && (
                         <>
                           <a href={item.aliexpress} target='_blank' className='custom-button aliexpress'>
-                            Compre agora em Aliexpress
-                          </a>
-                        </>
-                      )}
-                      {item.aliexpress && (
-                        <>
-                          <a href={item.aliexpress} target='_blank' className='custom-button '>
-                            Buy Now on Aliexpress
+                            Buy Aliexpress ( Global )
                           </a>
                         </>
                       )}
@@ -271,28 +259,32 @@ export default function Home() {
                           Buy Now on Aliexpress
                         </a>
                       )} */}
-                      {/* <h5 className='north-america'>SELECT COUNTRY</h5>
-                      <div className='selected-country'>
-                        <select
-                          name=''
-                          className='custom-selected'
-                          value={country}
-                          id='countries'
-                          onChange={handleChangeSelected}
-                        >
-                          <option value='amazon.com' disabled>
-                            Select
-                          </option>
-                          {COUNTRIES.map((item, index) => (
-                            <option value={item.area} key={index}>
-                              {item.name}
-                            </option>
-                          ))}
-                        </select>
-                      </div>
-                      <a href={replaceArea(item.usalink, country)} target='_blank' className='custom-button'>
-                        {nameCountry} - Buy Now on Amazon
-                      </a> */}
+                      {item.usalink && (
+                        <>
+                          <h5 className='north-america'>SELECT COUNTRY</h5>
+                          <div className='selected-country'>
+                            <select
+                              name=''
+                              className='custom-selected'
+                              value={country}
+                              id='countries'
+                              onChange={handleChangeSelected}
+                            >
+                              <option value='amazon.com' disabled>
+                                Select
+                              </option>
+                              {COUNTRIES.map((item, index) => (
+                                <option value={item.area} key={index}>
+                                  {item.name}
+                                </option>
+                              ))}
+                            </select>
+                          </div>
+                          <a href={replaceArea(item.usalink, country)} target='_blank' className='custom-button'>
+                            {nameCountry} - Buy Now on Amazon
+                          </a>
+                        </>
+                      )}
                     </div>
                   </div>
                 ))}
