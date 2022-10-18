@@ -1,5 +1,14 @@
 export const data = [
   {
+    name: '330',
+    usalink: '',
+    aliexpress: 'https://s.click.aliexpress.com/e/_DBQUT3V',
+    usalink:
+      'https://www.amazon.com/s?k=ZODIFEVI+11+Pcs%2FSet+Brass+Incense+Making+Kit+Incense+Mold+Tool&i=garden&crid=43M3F9J0OKPA&sprefix=zodifevi+11+pcs%2Fset+brass+incense+making+kit+incense+mold+tool%2Cgarden%2C334&linkCode=ll2&tag=taiphantmt-20&linkId=eff91397feae9a1b5eec35c41d12971b&language=en_US&ref_=as_li_ss_tl',
+    imglink: 'https://m.media-amazon.com/images/I/51Zj1Cym-gS._SL350_.jpg',
+    shortlink: 'https://amzn.to/3SpVhWN'
+  },
+  {
     name: '329',
     usalink: '',
     aliexpress: 'https://s.click.aliexpress.com/e/_DFB8qLZ',
