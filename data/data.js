@@ -1,5 +1,23 @@
 export const data = [
   {
+    name: '329',
+    usalink: '',
+    aliexpress: 'https://s.click.aliexpress.com/e/_DFB8qLZ',
+    usalink:
+      'https://www.amazon.com/s?k=ADMLZQQ+Kitchen+Wall+Mount+Spice+Rack+Organizer+With+Push+Tap+Hanging+Spice+Shelf&crid=SJGH8ZMYRP4A&sprefix=admlzqq+kitchen+wall+mount+spice+rack+organizer+with+push+tap+hanging+spice+shelf%2Caps%2C310&linkCode=ll2&tag=taiphantmt-20&linkId=479f62ea77e42c8724001c7ac04830f5&language=en_US&ref_=as_li_ss_tl',
+    imglink: '//ae01.alicdn.com/kf/Sfea82786740e43f6a0626a9ab81bc1d9v.png_350x350.png',
+    shortlink: 'https://amzn.to/3CF8Hby'
+  },
+  {
+    name: '328',
+    usalink: '',
+    aliexpress: 'https://s.click.aliexpress.com/e/_DlSKkHV',
+    usalink:
+      'https://www.amazon.com/s?k=Boxing+Machine+Wall+Mounted&crid=1CWWY76BITOW5&sprefix=boxing+machine+wall+mounted%2Caps%2C379&linkCode=ll2&tag=taiphantmt-20&linkId=c4191140c850f51df1172bc8ff3da22b&language=en_US&ref_=as_li_ss_tl',
+    imglink: '//ae01.alicdn.com/kf/Sfa39a4be8fbe4d1ab0a427d82d11e742x.jpg_350x350.jpg',
+    shortlink: 'https://amzn.to/3TwoRLa'
+  },
+  {
     name: '327',
     usalink: '',
     aliexpress: 'https://s.click.aliexpress.com/e/_DeIQSox',

@@ -184,8 +184,9 @@ export default function Home() {
                 <div className='product-text'>
                   {item.sameproduct && <h6 className='mt-5'>Similar products</h6>}
                   <p>
-                    Código: <span className='code'>{item.name}</span>
+                    Code: <span className='code'>{item.name}</span>
                   </p>
+                  {/* <h5 className='north-america'>GLOBAL</h5> */}
                   {item.usalink && (
                     <>
                       <a href={item.usalink} target='_blank' className='custom-button'>
@@ -200,10 +201,38 @@ export default function Home() {
                       </a>
                     </>
                   )}
-                  {item.aliexpress && (
+
+                  {/* <a href='https://bit.ly/Kawaii-Plushiess' target='_blank' className='custom-button'>
+                        Kawaii Plushies
+                      </a> */}
+                  {/* {item.aliexpress && (
+                        <a href={item.aliexpress} target='_blank' className='custom-button aliexpress'>
+                          Buy Now on Aliexpress
+                        </a>
+                      )} */}
+                  {item.usalink && (
                     <>
-                      <a href={item.aliexpress} target='_blank' className='custom-button'>
-                        Buy Now on Aliexpress
+                      <h5 className='north-america'>SELECT COUNTRY</h5>
+                      <div className='selected-country'>
+                        <select
+                          name=''
+                          className='custom-selected'
+                          value={country}
+                          id='countries'
+                          onChange={handleChangeSelected}
+                        >
+                          <option value='amazon.com' disabled>
+                            Select
+                          </option>
+                          {COUNTRIES.map((item, index) => (
+                            <option value={item.area} key={index}>
+                              {item.name}
+                            </option>
+                          ))}
+                        </select>
+                      </div>
+                      <a href={replaceArea(item.usalink, country)} target='_blank' className='custom-button'>
+                        {nameCountry} - Buy Now on Amazon
                       </a>
                     </>
                   )}
@@ -246,7 +275,7 @@ export default function Home() {
                       {item.aliexpress && (
                         <>
                           <a href={item.aliexpress} target='_blank' className='custom-button aliexpress'>
-                            Buy Aliexpress ( Global )
+                            Buy Now on Aliexpress
                           </a>
                         </>
                       )}
