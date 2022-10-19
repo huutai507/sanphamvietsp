@@ -1,5 +1,23 @@
 export const data = [
   {
+    name: '332',
+    usalink: '',
+    aliexpress: 'https://s.click.aliexpress.com/e/_DdWesnV',
+    usalink:
+      'https://www.amazon.com/s?k=XIGUI+Upgrade+Electric+Shock+Polygraph&crid=2LI14WGDK3FO1&sprefix=xigui+upgrade+electric+shock+polygraph%2Caps%2C503&linkCode=ll2&tag=taiphantmt-20&linkId=bdcc9ad16008dd472954c36de5b06699&language=en_US&ref_=as_li_ss_tl',
+    imglink: 'https://m.media-amazon.com/images/I/51hj6JHSl+L._SL350_.jpg',
+    shortlink: 'https://amzn.to/3gmF6vJ'
+  },
+  {
+    name: '331',
+    usalink: '',
+    aliexpress: 'https://s.click.aliexpress.com/e/_DdWesnV',
+    usalink:
+      'https://www.amazon.com/s?k=BLIOTE+New+Stainless+Steel+Waterfall+Kitchen+Sink&crid=11RMHE3E7ENWP&sprefix=new+stainless+steel+waterfall+kitchen+sink%2Caps%2C338&linkCode=ll2&tag=taiphantmt-20&linkId=d883d7ba7ad3178a039755e7cb655663&language=en_US&ref_=as_li_ss_tl',
+    imglink: 'https://m.media-amazon.com/images/I/61kKs0Z6hGL._SL350_.jpg',
+    shortlink: 'https://amzn.to/3VQpXmW'
+  },
+  {
     name: '330',
     usalink: '',
     aliexpress: 'https://s.click.aliexpress.com/e/_DBQUT3V',
