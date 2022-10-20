@@ -1,5 +1,23 @@
 export const data = [
   {
+    name: '334',
+    usalink: '',
+    aliexpress: 'https://s.click.aliexpress.com/e/_Dc8Dw3t',
+    usalink:
+      'https://www.amazon.com/s?k=Continuous+Water+Gun%2C+Mechanical+Arm+Water+Gun%2C+Battery+Powered+Toy+Water+Gun&crid=3HTFBTZJRZ7PU&sprefix=continuous+water+gun%2Caps%2C379&linkCode=ll2&tag=taiphantmt-20&linkId=7f8a6d0c764ff5d09a6a9d7aa39216b1&language=en_US&ref_=as_li_ss_tl',
+    imglink: 'https://m.media-amazon.com/images/I/41Lkxe-l+tL._SL350_.jpg',
+    shortlink: 'https://amzn.to/3VAHRK6'
+  },
+  {
+    name: '333',
+    usalink: '',
+    aliexpress: 'https://s.click.aliexpress.com/e/_Dmc1x6b',
+    usalink:
+      'https://www.amazon.com/s?k=robot+vector+anki&crid=1BZW9GJXFBTXL&sprefix=robot+vector+%2Caps%2C316&linkCode=ll2&tag=taiphantmt-20&linkId=75f608bfb2e28e063f5994fb13fa35cf&language=en_US&ref_=as_li_ss_tl',
+    imglink: 'https://m.media-amazon.com/images/I/41DfR-l9sHL._SL350_.jpg',
+    shortlink: 'https://amzn.to/3SmuyKu'
+  },
+  {
     name: '332',
     usalink: '',
     aliexpress: 'https://s.click.aliexpress.com/e/_DdWesnV',
