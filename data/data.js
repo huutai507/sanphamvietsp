@@ -5,7 +5,7 @@ export const data = [
     usalink: '',
     shortlink: 'https://amzn.to/3TzQSBe',
     imglink: 'https://m.media-amazon.com/images/I/31yxFZHwITL._SL350_.jpg',
-    shoppelink: 'asdasd'
+    shoppelink: 'asdassdsd'
   },
   {
     name: '340',
