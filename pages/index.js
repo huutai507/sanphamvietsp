@@ -166,7 +166,7 @@ export default function Home() {
       <div className='search-bar'>
         <div className='content-title'>
           <p className='pb-05'>Vui lòng nhập mã sản phẩm ở thước phim vào ô tìm kiếm bên dưới</p>
-          <p className='pb-05-notify'>
+          {/* <p className='pb-05-notify'>
             Hướng dẫn mua hàng chất lượng:
             <ol>
               <li>Chọn sản phẩm có đánh giá từ 4.5 sao trở lên</li>
@@ -179,7 +179,7 @@ export default function Home() {
             >
               Bấm vào đây để xem hướng dẫn mua hàng.
             </a>
-          </p>
+          </p> */}
         </div>
         <div className='input-content'>
           <input
