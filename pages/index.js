@@ -177,7 +177,7 @@ export default function Home() {
               href='https://www.youtube.com/results?search_query=h%C6%B0%E1%BB%9Bng+d%E1%BA%ABn+mua+h%C3%A0ng+tr%C3%AAn+shoppe'
               target='_blank'
             >
-              Bấm vào đây để xem hướng dẫn mua hàng
+              Bấm vào đây để xem hướng dẫn mua hàng.
             </a>
           </p>
         </div>
