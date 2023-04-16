@@ -156,7 +156,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Bấm vào đây để xem giá sản phẩm!</title>
+        <title>Bấm vào đây để xem tất cả sản phẩm! TienIchMoi.Shop </title>
         <meta
           name='description'
           content={`Our mission is to help you find the perfect gift for your loved ones (or yourself) whether it's birthdays, holidays or surprise days in life's moments.`}
