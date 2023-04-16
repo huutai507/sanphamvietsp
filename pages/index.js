@@ -166,20 +166,14 @@ export default function Home() {
       <div className='search-bar'>
         <div className='content-title'>
           <p className='pb-05'>Vui lòng nhập mã sản phẩm ở thước phim vào ô tìm kiếm bên dưới</p>
-          {/* <p className='pb-05-notify'>
-            Hướng dẫn mua hàng chất lượng:
-            <ol>
-              <li>Chọn sản phẩm có đánh giá từ 4.5 sao trở lên</li>
-              <li>Chọn sản phẩm có nhiều lượt mua.</li>
-            </ol>
-            <br />
+          <p className='pb-05-notify'>
             <a
               href='https://www.youtube.com/results?search_query=h%C6%B0%E1%BB%9Bng+d%E1%BA%ABn+mua+h%C3%A0ng+tr%C3%AAn+shoppe'
               target='_blank'
             >
               Bấm vào đây để xem hướng dẫn mua hàng.
             </a>
-          </p> */}
+          </p>
         </div>
         <div className='input-content'>
           <input
