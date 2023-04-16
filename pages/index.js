@@ -167,7 +167,7 @@ export default function Home() {
         <div className='content-title'>
           <p className='pb-05'>Vui lòng nhập mã sản phẩm ở thước phim vào ô tìm kiếm bên dưới</p>
           <p className='pb-05-notify'>
-            Hướng dẫn mua hàng tốt:
+            Hướng dẫn mua hàng chất lượng:
             <ol>
               <li>Chọn sản phẩm có đánh giá từ 4.5 sao trở lên</li>
               <li>Chọn sản phẩm có nhiều lượt mua.</li>
