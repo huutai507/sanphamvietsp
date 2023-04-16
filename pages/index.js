@@ -253,7 +253,7 @@ export default function Home() {
                   {item.customlink && (
                     <>
                       <a href={item.customlink} target='_blank' className='custom-button aliexpress'>
-                        Xem giá trên Shoppe
+                        Xem giá
                       </a>
                     </>
                   )}
@@ -370,7 +370,7 @@ export default function Home() {
                       {item.customlink && (
                         <>
                           <a href={item.customlink} target='_blank' className='custom-button aliexpress'>
-                            Xem giá trên Shoppe
+                            Xem giá
                           </a>
                         </>
                       )}
