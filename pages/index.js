@@ -335,6 +335,23 @@ export default function Home() {
                 loader={<div className='dashed-loading'></div>}
                 className='product-list'
               >
+                <div className='product-item'>
+                  <a href='https://shope.ee/20PYzTNPPM' target='_blank'>
+                    <img
+                      src='https://ae01.alicdn.com/kf/S79895e416c4a4a94b77c405ba33f343dP/Portable-Electric-Juicer-Blender-Usb-Mini-Fruit-Mixers-Juicers-Fruit-Extractors-Food-Milkshake-Multifunction-Juice-Maker.jpg_350x350.jpg_.webp'
+                      className='imglink'
+                    />
+                  </a>
+                  <div className='product-text'>
+                    <p>
+                      <span className='code'></span>
+                    </p>
+
+                    <a href='https://shope.ee/20PYzTNPPM' className='custom-button aliexpress'>
+                      Sản phẩm giá 1.000 Vnđ
+                    </a>
+                  </div>
+                </div>
                 {listProduct.map((item, index) => (
                   <div className='product-item' key={index}>
                     <a href={item.usalink} target='_blank'>
